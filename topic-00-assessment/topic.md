@@ -1,3 +1,3 @@
-# Assignments
+# Assessment
 
-Assignment details for Programming Fundamentals 1. 
+Details of all assessment in this module.
