@@ -1,0 +1,22 @@
+highlightstyle : railscasts
+credits        : Ms. Mairead Meagher and Ms Siobhan Roche SETU.
+# moodle         : https://moodle.wit.ie/course/view.php?id=206826
+# slack          : https://join.slack.com/t/progfund2024-2025/shared_invite/zt-2tcqvru01-nDqkstI3ORh9YZkmLSLcIA
+ignorepin      : 1234
+auth           : 4
+ignore         :
+
+#- topic00-assessment
+- topic01-intro-to-module
+- topic02-variables-and-data-types 
+- topic03-inputs-and-expressions
+- topic04-selection
+- topic05-loops
+- topic06-arrays
+- topic07-methods
+- topic08-testing
+- topic09-introduction-to-classes-and-objects
+- topic10-encapsulation-and-interaction
+- topic11-arrays-of-objects 
+- topic12-assignment-studio
+- topicxx-wip

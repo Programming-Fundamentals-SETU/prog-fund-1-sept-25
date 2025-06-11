@@ -1,0 +1,33 @@
+# Rules for compensation.
+
+## General idea behind compensation
+1. If a student has done well in other modules and has narrowly failed in up to two modules, 
+we see are there enough marks over 40 in the other modules to demonstrate the student has passed the 'strong' modules with more too spare than they were missing in the 'weak' module/s.
+2. 'Pass by compensation' means that you pass the exam session, i.e. even if you have got under 40 (and >=35) in no more than 2 modules and you pass the 'twice more over than under' rule.
+
+**Note:** To be eligible for compensation, you need to be sitting the full 6 modules for the first time (i.e does not apply to repeating modules)
+
+## Compensation Rules
+1. For the purposes of this assignment, you can assume that the set of marks are from a first-time  sitting of all 6 modules.
+
+2. You are allowed to compensate in  at most two modules
+3. An eligible set of modules for compensation must not have any module  below 35 marks. 
+4. The set of marks must obey the 'twice more over than under' rule. 
+
+## The 'twice more over than under rule'
+'The total number by which the aggregate gross marks above 40 must be at least double the defiency (gross amount below 40)'. 
+
+
+## Example 1 sets of marks - when eligible for compensation (no marks below 35, no more than 2 below 40)
+
+| Mod 1 | Mod 2 | Mod 3 | Mod 4 | Mod 5 | Mod 6 | Compensated? | Sum above > sum below* 2? |
+|----------|----------|----------|----------|----------|----------|----------|----------    |
+| 40       |        40|       50 |       50 | 37       | 36       | **Yes**      | (10 + 10) > (4+3)*2|
+| 41       |        41|       40 |       41 | 37       | 36       | **No**      | (1 + 1 + 0 +1) < (4+3)*2|
+
+## Example 2:  sets of marks - when not eligible for compensation (some  marks below 35 or  no more than 2 below 40)
+
+| Mod 1 | Mod 2 | Mod 3 | Mod 4 | Mod 5 | Mod 6 | Compensated? | Reason|
+|----------|----------|----------|----------|----------|----------|----------|----------    |
+| 13      |        100|       100 |       100 | 100     | 100      |**No**      | Mod 1's marks < 35
+|36      |        36|       36 |       41 | 100      | 100      | **No**        | Mod 1,2,3 marks <35 (only 2 allowed <40)

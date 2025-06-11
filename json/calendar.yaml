@@ -1,0 +1,47 @@
+title: Semester 1
+weeks:
+  - 2025-06:
+       title: 0
+       type : Development of the course
+  - 2025-09-08:
+     title: 1
+     type : Topic 01 -  Introduction to the Module, Java and BlueJ
+  - 2025-09-15:
+     title: 2
+     type: Topic 02 - Variables and Data Types
+  - 2025-09-22:
+     title: 3
+     type: Topic 03 - Inputs and Expressions
+  - 2025-09-29:
+     title: 4
+     type: Topic 04 - Selection
+  - 2025-10-06:
+     title: 5
+     type: Topic 05 - Loops 
+  - 2025-10-13:
+     title: 6
+     type: Topic 06 - Arrays  
+  - 2025-10-20:
+     title: 7
+     type: Topic 07 - Methods  
+  - 2025-10-27:
+     title: Reading Week
+     type: Reading
+  - 2025-11-03:
+     title: 8
+     type: In class exam (40%) & Topic 08 - Testing 
+  - 2025-11-10:
+     title: 9
+     type: Topic 09 - Introduction to Classes and Objects
+  - 2025-11-1:
+     title: 10
+     type: Topic 10 - Encapsulation and Interaction
+  - 2025-12-2 :
+     title: 10
+     type: Topic 11 - Arrays of Objects 
+  - 2025-12-02:
+     title: 11
+     type: Assignment Studio - Assignment Studio and Handup
+  - 2025-12-09:
+     title: Study Week
+     type: In class test and Interviews 
