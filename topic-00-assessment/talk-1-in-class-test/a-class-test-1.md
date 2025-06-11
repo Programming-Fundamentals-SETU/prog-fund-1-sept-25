@@ -1,4 +1,4 @@
-Conditional Statements
+In Class Test (40%) 
 
-booleans · rel ops · logical ops 
+Details of in-class test. 
 
