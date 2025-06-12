@@ -1,3 +1,3 @@
 # Assessment
 
-Details of all assessment in this module.
+Details of each assessment in this module.
