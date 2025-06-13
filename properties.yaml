@@ -7,7 +7,7 @@ auth           : 4
 ignore         :
 
 #- topic00-assessment
-- topic01-intro-to-module
+#- topic01-intro-to-module
 - topic02-variables-and-data-types 
 - topic03-inputs-and-expressions
 - topic04-selection
