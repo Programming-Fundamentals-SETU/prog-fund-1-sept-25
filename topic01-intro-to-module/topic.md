@@ -1,3 +1,3 @@
-# 1: Introduction to Processing
+# 1: Introduction to Module and Java
 
-processing · java · drawing shapes · colour · grayscale · RGB · syntax errors · commenting code
+module  - java - bluej - assessment
