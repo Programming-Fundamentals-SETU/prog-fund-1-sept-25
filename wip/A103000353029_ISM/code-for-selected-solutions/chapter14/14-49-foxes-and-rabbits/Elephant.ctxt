@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Elephant
+comment0.text=\n\ A\ simple\ model\ of\ an\ elephant.\n\ Elephants\ move\ and\ trample\ other\ animals.\n\ They\ do\ not\ breed\ within\ the\ timescale\ of\ the\ simulation,\n\ and\ they\ cannot\ die.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\ and\ Poul\ Henricksen\n\ @version\ 7.4\n
+comment1.params=randomAge\ location
+comment1.target=Elephant(boolean,\ Location)
+comment1.text=\n\ Create\ a\ new\ elephant.\ An\ elephant\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ elephant\ will\ have\ a\ random\ age.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=currentField\ nextFieldState
+comment2.target=void\ act(Field,\ Field)
+comment2.text=\n\ This\ is\ what\ the\ elephant\ does\ most\ of\ the\ time\:\ it\ wanders\n\ the\ field\ trampling\ on\ other\ animals.\n\ or\ die\ of\ old\ age.\n\ @param\ currentField\ The\ field\ currently\ occupied.\n\ @param\ nextFieldState\ The\ updated\ field.\n
+comment3.params=currentField
+comment3.target=Location\ trample(Field)
+comment3.text=\n\ Tell\ the\ elephant\ to\ trample\ non-elephants\ adjacent\ to\ its\n\ current\ location.\n\ @return\ One\ of\ the\ locations\ it\ has\ trampled\ into.\n
+comment4.params=
+comment4.target=int\ getBreedingAge()
+comment4.text=\n\ Get\ this\ animal\u2019s\ breeding\ age.\n\ @return\ The\ breeding\ age.\n
+comment5.params=
+comment5.target=int\ getMaxAge()
+comment5.text=\n\ Get\ the\ maximum\ age\ of\ the\ animal.\n\ @return\ The\ maximum\ age.\n
+numComments=6

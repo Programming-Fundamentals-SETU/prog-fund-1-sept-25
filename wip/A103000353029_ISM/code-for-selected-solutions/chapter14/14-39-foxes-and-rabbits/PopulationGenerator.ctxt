@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PopulationGenerator
+comment0.text=\n\ A\ class\ to\ generate\ the\ foxes\ and\ rabbits\ populations\ of\ the\ simulation.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 7.2\n
+comment1.params=view
+comment1.target=PopulationGenerator(SimulatorView)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ PopulationGenerator\n\ @param\ view\ The\ visualization.\n
+comment2.params=field
+comment2.target=void\ populate(Field)
+comment2.text=\n\ Randomly\ populate\ the\ field\ with\ foxes\ and\ rabbits.\n
+numComments=3

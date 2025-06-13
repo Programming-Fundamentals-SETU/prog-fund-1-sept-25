@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Rabbit
+comment0.text=\n\ A\ simple\ model\ of\ a\ rabbit.\n\ Rabbits\ age,\ move,\ breed,\ and\ die.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 7.1\n
+comment1.params=randomAge\ location
+comment1.target=Rabbit(boolean,\ Location)
+comment1.text=\n\ Create\ a\ new\ rabbit.\ A\ rabbit\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ rabbit\ will\ have\ a\ random\ age.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=currentField\ nextFieldState
+comment2.target=void\ act(Field,\ Field)
+comment2.text=\n\ This\ is\ what\ the\ rabbit\ does\ most\ of\ the\ time\ -\ it\ runs\ \n\ around.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\n\ @param\ currentField\ The\ field\ occupied.\n\ @param\ nextFieldState\ The\ updated\ field.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=randomAge\ aLocation
+comment4.target=Animal\ createAnimal(boolean,\ Location)
+comment4.text=\n\ Create\ a\ new\ animal.\n\ @param\ randomAge\ If\ true,\ the\ animal\ will\ have\ a\ random\ age.\n\ @param\ location\ The\ animal's\ location.\n
+comment5.params=
+comment5.target=int\ getBreedingAge()
+comment5.text=\n\ Get\ this\ animal\u2019s\ breeding\ age.\n\ @return\ The\ breeding\ age.\n
+comment6.params=
+comment6.target=int\ getMaxAge()
+comment6.text=\n\ Get\ the\ maximum\ age\ of\ the\ animal.\n\ @return\ The\ maximum\ age.\n
+comment7.params=
+comment7.target=double\ getBreedingProbability()
+comment7.text=\n\ Get\ the\ animal's\ breeding\ probability.\n\ @return\ The\ breeding\ probability.\n
+comment8.params=
+comment8.target=int\ getMaxLitterSize()
+comment8.text=\n\ Get\ the\ animal's\ maximum\ litter\ size.\n\ @return\ The\ maximum\ litter\ size.\n
+numComments=9
