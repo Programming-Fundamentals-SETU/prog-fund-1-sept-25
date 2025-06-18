@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutors</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.1.4/dist/typography.min.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@^4/dist/vime/vime.esm.js"></script>
+  </head>
+
+  <body>
+    <div class="mx-auto px-3 antialiased bg-base-100 min-h-screen w-full 2xl:w-11/12" data-theme="light">
+  
+  <div class="p-3 shadow-lg bg-neutral text-neutral-content rounded-box nav-corner mb-1 justify-end z-40 flex mt-2">
+    
+  <div class="flex-1">
+    <div class="flex-1 px-2 mx-2 lg:block">
+      <p class="text-sm font-bold">Lab-01</p>
+      
+        <p class="text-sm font-bold">Labs </p>
+      
+    </div>
+  </div>
+
+  </div>
+  <div class="flex flex-wrap lg:flex-nowrap mb-2">
+    
+  <div class="shadow-lg bg-neutral rounded-box nav-corner horizontal text-neutral-content text-sm breadcrumbs flex flex-auto content-center h-12">
+    <ul>
+      
+        <li class="ml-2">
+          
+            
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:home-24-filled" data-height="20" style="color:#37919b">
+  </span>
+  </div>
+  
+
+            <a class="font-bold" href="../../index.html"> <span class="hidden text-xs lg:block lg:pl-2"> Home </span>
+            </a>
+          
+        </li>
+        
+          
+            <li class="ml-2">
+              
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:bookmark-24-filled" data-height="20" style="color:#37919b">
+  </span>
+  </div>
+  
+
+              <a class="font-bold" href="../../index.html"> <span
+                    class="hidden text-xs lg:block lg:pl-2">  1: Introduction to Module and Java  </span> </a>
+            </li>
+          
+        
+        <li class="ml-2">
+          
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:beaker-24-filled" data-height="20" style="color:#557927">
+  </span>
+  </div>
+  
+
+          <a class="font-bold" href="#"> <span class="hidden text-xs lg:block lg:pl-2"> Lab-01</span> </a>
+        </li>
+      
+    </ul>
+  </div>
+
+    
+
+  
+
+  </div>
+
+  <div class="flex m-2">
+    <div class="hidden md:block">
+      <ul class="menu py-2 w-72 shadow-lg bg-neutral text-neutral-content rounded-box card-corner sticky top-2 overflow-auto h-auto mr-2">
+        
+          <a id="menu-Lab-01" class="p-4 py-3 text-base" href="javascript:showtab('Lab-01')">  <h1 id="objectives">Objectives</h1> </a>
+        
+          <a id="menu-Advice" class="p-4 py-3 text-base" href="javascript:showtab('Advice')">  <h1 id="labadvice">Lab advice</h1> </a>
+        
+          <a id="menu-01" class="p-4 py-3 text-base" href="javascript:showtab('01')">  <h1 id="installingthepdeprocessingdevelopmentenvironment">Installing the PDE (Processing Development Environment)</h1> </a>
+        
+          <a id="menu-02" class="p-4 py-3 text-base" href="javascript:showtab('02')">  <h1 id="openingthepdeprocessingdevelopmentenvironment">Opening the PDE (Processing Development Environment)</h1> </a>
+        
+          <a id="menu-03" class="p-4 py-3 text-base" href="javascript:showtab('03')">  <h1 id="settingyoursketchbooklocation">Setting your Sketchbook location</h1> </a>
+        
+          <a id="menu-04" class="p-4 py-3 text-base" href="javascript:showtab('04')">  <h1 id="drawingsimpleshapes">Drawing Simple Shapes</h1> </a>
+        
+          <a id="menu-05" class="p-4 py-3 text-base" href="javascript:showtab('05')">  <h1 id="drawingsimpleshapescontd">Drawing Simple Shapes(contd.)</h1> </a>
+        
+          <a id="menu-06" class="p-4 py-3 text-base" href="javascript:showtab('06')">  <h1 id="changingthelookofthedisplaywindow">Changing the look of the display window</h1> </a>
+        
+          <a id="menu-07" class="p-4 py-3 text-base" href="javascript:showtab('07')">  <h1 id="changingthelookoftheshapes">Changing the look of the shapes</h1> </a>
+        
+          <a id="menu-Exercises" class="p-4 py-3 text-base" href="javascript:showtab('Exercises')">  <h1 id="exercises">Exercises</h1> </a>
+        
+          <a id="menu-Challenges" class="p-4 py-3 text-base" href="javascript:showtab('Challenges')">  <h1 id="challenges">Challenges</h1> </a>
+        
+          <a id="menu-Solutions" class="p-4 py-3 text-base" href="javascript:showtab('Solutions')">  <h1 id="solutions">Solutions</h1> </a>
+        
+      </ul>
+    </div>
+    <div class="justify-end w-full bg-base-200 rounded-box rounded-xl py-1 text-base-content">
+      <article id="tab-container" class="prose xl:max-w-3xl 2xl:max-w-5xl mx-auto p-2 m-4">
+      </article>
+    </div>
+  </div>
+  
+    <div id="Lab-01" style="visibility:hidden"> <h1 id="objectives">Objectives</h1>
+<p>Processing · downloading· basics </p></div>
+  
+    <div id="Advice" style="visibility:hidden"> <h1 id="labadvice">Lab advice</h1>
+<ul>
+<li><p>Your labs are not a race to be the first student finished.</p></li>
+<li><p>It is very important that you:</p>
+<ul>
+<li>take your time.</li>
+<li>read the instructions carefully.</li>
+<li>ask your lecturer to explain concepts that you don't understand; that is what we are here for!</li></ul></li>
+<li><p>Where code is given in labs, resist the urge to cut and paste it; maximise your learning by typing the code in.</p></li>
+<li><p>The more mistakes you make when working through these labs, the more you learn.  If you reach the end of the lab and you haven't made any mistakes, a good learning exercise would be to try to produce syntax / logic errors and troubleshoot them. </p></li>
+</ul></div>
+  
+    <div id="01" style="visibility:hidden"> <h1 id="installingthepdeprocessingdevelopmentenvironment">Installing the PDE (Processing Development Environment)</h1>
+<ul>
+<li>If you are using your own laptop and would like to install the PDE on it, please follow the instructions in this step.</li>
+<li>If you are using the WIT computers, you can ignore this step and move onto the next step.</li>
+</ul>
+<h2 id="downloadingthepde">Downloading the PDE</h2>
+<ul>
+<li>The PDE can be downloaded from https://processing.org/.  It is free, but you can choose to make a donation if you wish.</li>
+</ul>
+<p><img src="./img/01.png" alt="The processing website" /></p>
+<ul>
+<li>Choose the version of the </li>
+</ul>
+<p><img src="./img/02.png" alt="You will get a slightly different screen if you are working on a PC" /></p>
+<ul>
+<li>A zip file will start to download.  When this file has downloaded, you will store this differently depending on your operating system.</li>
+</ul>
+<h2 id="windows">Windows</h2>
+<ul>
+<li>Decide where you are going to store your Programming applications on your computer.   It is a good idea to create a folder called <strong>dev</strong> on your <strong>C:</strong> and store all your applications in there.</li>
+<li>Unzip the downloaded processing file to your chosen location.  Note: if you don’t have unzipping software, 7-zip is a good choice and can be downloaded from here: http://www.7-zip.org/.</li>
+<li>You should now have a folder structure resembling this picture:</li>
+</ul>
+<p><img src="./img/03.png" alt="The Processing application (Windows)" /></p>
+<h2 id="mac">Mac</h2>
+<ul>
+<li>Unzip the downloaded .zip file (by double-clicking on the zip file in the downloads folder)</li>
+<li>Drag the resulting folder to the Applications folder (on Mac, this holds all the applications). Note that it is useful/usual to have the Applications Folder in the 'Favourites' section in Finder. 
+<img src="./img/04a.png" alt="The Processing application (Mac)" /></li>
+<li>Your Applications folder should now contain the Processing application. 
+<img src="./img/04b.png" alt="The Processing application in the Applications Folder (Mac)" /></li>
+</ul></div>
+  
+    <div id="02" style="visibility:hidden"> <h1 id="openingthepdeprocessingdevelopmentenvironment">Opening the PDE (Processing Development Environment)</h1>
+<h2 id="ifyouareusingthecollegecomputers">If you are using the College Computers…</h2>
+<p>Go to the search bar at the bottom row of the screen. Type in <strong>Processing</strong>. This should bring up the app for you. Double click on it to open the Processing app. </p>
+<h2 id="ifyouareusingyourowncomputer">If you are using your own computer…</h2>
+<p>Go to the directory/folder where you installed your processing app.  </p>
+<h2 id="openingthepde">Opening the PDE</h2>
+<p>Now that you have nagivated to where Processing is installed, you should see a list of files and folders similiar to the picture below:</p>
+<p><img src="./img/04a.png" alt="Processing Development Environment files" /></p>
+<p>(This is a screen shot using a MacBook - if you are using a labtop move the Processing file/icon to a similar folder e.g. dev if you have not already done so.)</p>
+<p>Double click in the <strong>processing</strong> application (highlighted by the red rectangle).</p>
+<p>The PDE (Processing Development Environment) should launch.</p>
+<p><img src="./img/05.png" alt="The Processing Development Environment" /></p></div>
+  
+    <div id="03" style="visibility:hidden"> <h1 id="settingyoursketchbooklocation">Setting your Sketchbook location</h1>
+<ul>
+<li>As you work through the exercises in this lab, you will create many new files.  These files are called Sketchbooks.</li>
+<li>It is important that you pick a convenient location on your computer to save these sketchbook files to.  The following steps show you how to do this.</li>
+</ul>
+<h2 id="updatingyoursketchbooklocation">Updating your Sketchbook location</h2>
+<ul>
+<li>If you don't have Processing open, launch it (see the previous step for the steps involved).</li>
+<li>From the <strong>File</strong>  menu, select the <strong>Preferences</strong> menu item.</li>
+</ul>
+<p><img src="./img/06.png" alt="Selecting the Preferences menu item" /></p>
+<ul>
+<li>The following window should appear.</li>
+</ul>
+<p><img src="./img/07.png" alt="Enter a new sketchbook location" /></p>
+<ul>
+<li>In the <strong>Sketchbook location</strong>, enter a location that is convenient to you.  If you are using:<ul>
+<li>the college computers, it could be your OneDrive  or a USB drive (remember to back up your work if you are using a portable drive).</li>
+<li>your own laptop, choose a convenient location where you will store all your programming exercises.</li></ul></li>
+<li>Click the OK button.</li>
+</ul>
+<h2 id="thesketchbooklocation">The Sketchbook location</h2>
+<ul>
+<li>All your work can now be accessed easily by selecting the <strong>Sketchbook</strong>  option from the <strong>File</strong> menu. An example of previous Sketchbook work could look like this:</li>
+</ul>
+<p><img src="./img/08.png" alt="Example of a Sketchbook containing previous work" /></p></div>
+  
+    <div id="04" style="visibility:hidden"> <h1 id="drawingsimpleshapes">Drawing Simple Shapes</h1>
+<ul>
+<li>We will use the following built-in functions to draw simple shapes:<ul>
+<li>rect()</li>
+<li>line()</li>
+<li>ellipse()</li></ul></li>
+</ul>
+<h2 id="drawingrectangles">Drawing Rectangles</h2>
+<ul>
+<li>The syntax of the <strong>rect</strong> function is:</li>
+</ul>
+<pre><code class="hljs">    rect(x, y, w, h)
+        x = x-coordinate <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> <span class="hljs-built_in">upper</span> left corner <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        y = y-coordinate <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> <span class="hljs-built_in">upper</span> left corner <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        w = width <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        h = height <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+</code></pre>
+<ul>
+<li>Note that, in computing, the coordinates start in the top left hand corner i.e. (0,0) is in the top left of the screen.  In the following picture, you can see the coordinates of the rectangle (1,2) along with its width (4) and height (3). </li>
+</ul>
+<p><img src="./img/09.png" alt="Rectangle example from www.processing.org" /></p>
+<ul>
+<li>Enter the following code in your sketchbook:</li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-attribute">rect</span>(<span class="hljs-number">20</span>,<span class="hljs-number">30</span>,<span class="hljs-number">50</span>,<span class="hljs-number">30</span>);
+</code></pre>
+<ul>
+<li>Run the code, by clicking on the <strong>play</strong> button (highlighted in red in the screen shot below):</li>
+</ul>
+<p><img src="./img/11.png" alt="Running code - click on the play button" /></p>
+<ul>
+<li>The following window should appear with a rectangle that:<ul>
+<li>starts at the (x,y) coordinates (20,30) [measured in pixels]</li>
+<li>has a width of 50 pixels</li>
+<li>has a height of 30 pixels</li></ul></li>
+</ul>
+<p><img src="./img/12.png" alt="Rectangle" /></p>
+<h2 id="drawingsquares">Drawing Squares</h2>
+<ul>
+<li><p>Using the rect() function, you can draw squares. Just set the width and height to the same number of pixels.</p></li>
+<li><p>Below the code you wrote previously, try drawing a square that has starts at the (x,y) coordinates of (40,5) and has a length of 20.  </p></li>
+<li><p>Run the code.  Did a square appear?</p></li>
+</ul>
+<p><img src="./img/13.png" alt="Rectangle and square" /></p>
+<h2 id="drawinglines">Drawing Lines</h2>
+<ul>
+<li>The syntax of the <strong>line</strong> function is:</li>
+</ul>
+<pre><code class="hljs">    line(x1, y1, x2, y2)
+        x1 = x-coordinate of <span class="hljs-built_in">first</span> <span class="hljs-built_in">point</span>
+        y1 = y-coordinate of <span class="hljs-built_in">first</span> <span class="hljs-built_in">point</span>
+        x2 = x-coordinate of <span class="hljs-built_in">second</span> <span class="hljs-built_in">point</span>
+        y2 = y-coordinate of <span class="hljs-built_in">second</span> <span class="hljs-built_in">point</span>
+</code></pre>
+<ul>
+<li>In the following picture, you can see an example of a line. </li>
+</ul>
+<p><img src="./img/14.png" alt="Line example from www.processing.org" /></p>
+<ul>
+<li>Enter the following code in your open sketchbook:</li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-attribute">line</span>(<span class="hljs-number">5</span>,<span class="hljs-number">30</span>,<span class="hljs-number">20</span>,<span class="hljs-number">90</span>);
+</code></pre>
+<ul>
+<li>When you run the code, you should see the following line that starts at (5,30) and ends at (20,90):</li>
+</ul>
+<p><img src="./img/15.png" alt="Drawing a line" /></p></div>
+  
+    <div id="05" style="visibility:hidden"> <h1 id="drawingsimpleshapescontd">Drawing Simple Shapes(contd.)</h1>
+<h2 id="drawingellipses">Drawing Ellipses</h2>
+<ul>
+<li><p>For our purposes here, we will define an <strong>ellipse</strong> as a basic oval shape. </p></li>
+<li><p>The syntax of the <strong>ellipse</strong> function is:</p></li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-built_in">ellipse</span>(x, y, w, h)
+        x = x-coordinate <span class="hljs-built_in">at</span> the centre of the <span class="hljs-built_in">ellipse</span>
+        y = y-coordinate <span class="hljs-built_in">at</span> the centre of the <span class="hljs-built_in">ellipse</span>
+        w = <span class="hljs-built_in">width</span> of the <span class="hljs-built_in">ellipse</span>
+        h = <span class="hljs-built_in">height</span> of the <span class="hljs-built_in">ellipse</span>
+</code></pre>
+<ul>
+<li>In the following picture, you can see an example of an ellipse. </li>
+</ul>
+<p><img src="./img/16.png" alt="Ellipse example from www.processing.org" /></p>
+<ul>
+<li>Enter the following code in your open sketchbook:</li>
+</ul>
+<pre><code class="hljs java language-java">    ellipse(<span class="hljs-number">85</span>,<span class="hljs-number">50</span>,<span class="hljs-number">20</span>,<span class="hljs-number">60</span>);
+</code></pre>
+<ul>
+<li>When you run the code, you should see the following ellipse whose centre is (85,50) and is 20 pixels wide and 90 high.</li>
+</ul>
+<p><img src="./img/17.png" alt="Drawing an ellipse" /></p>
+<h2 id="drawingcircles">Drawing Circles</h2>
+<ul>
+<li><p>Using the ellipse() function, you can draw circles. Just set the width and height to the same number of pixels.</p></li>
+<li><p>Try drawing a cicle that has the coordinates (50,80) at its centre and has a diameter of 15 pixels.</p></li>
+<li><p>Run the code.  Did a circle appear?</p></li>
+</ul>
+<p><img src="./img/18.png" alt="Drawing a circle" /></p></div>
+  
+    <div id="06" style="visibility:hidden"> <h1 id="changingthelookofthedisplaywindow">Changing the look of the display window</h1>
+<ul>
+<li>You should have the following code in your open sketchbook:</li>
+</ul>
+<pre><code class="hljs java language-java">    rect(<span class="hljs-number">20</span>,<span class="hljs-number">30</span>,<span class="hljs-number">50</span>,<span class="hljs-number">30</span>);
+    rect(<span class="hljs-number">40</span>,<span class="hljs-number">5</span>,<span class="hljs-number">20</span>,<span class="hljs-number">20</span>);
+    line(<span class="hljs-number">5</span>,<span class="hljs-number">30</span>,<span class="hljs-number">20</span>,<span class="hljs-number">90</span>);
+    ellipse(<span class="hljs-number">85</span>,<span class="hljs-number">50</span>,<span class="hljs-number">20</span>,<span class="hljs-number">60</span>);
+    ellipse(<span class="hljs-number">50</span>,<span class="hljs-number">80</span>,<span class="hljs-number">15</span>,<span class="hljs-number">15</span>);
+</code></pre>
+<ul>
+<li>When it runs, you should have something that looks like this:</li>
+</ul>
+<p><img src="./img/18.png" alt="Output so far" /></p>
+<ul>
+<li>We can see that the available space in the window is at a minimum and the window is quite small.  There background is also a default light grey colour.  We will make changes to this code to make the window larger and change the colour.</li>
+</ul>
+<h2 id="sizefunction">size() function</h2>
+<ul>
+<li><p>The size() function sets the size of the display window in pixels.  It has to be the first line of code in your sketchbook (there is an exception to this that we will cover later).  </p></li>
+<li><p>The syntax of the <strong>size</strong> function is:</p></li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-built_in">size</span>(w, h)
+        w = <span class="hljs-built_in">width</span> of the <span class="hljs-built_in">ellipse</span>
+        h = <span class="hljs-built_in">height</span> of the <span class="hljs-built_in">ellipse</span>
+</code></pre>
+<ul>
+<li><p>If the size function is not called, the window will be set to a default size of 100x100 pixels.</p></li>
+<li><p>Enter the following code in your open sketchbook (as the first line of code):</p></li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-attribute">size</span>(<span class="hljs-number">400</span>,<span class="hljs-number">300</span>);
+</code></pre>
+<ul>
+<li>Run your code; your window should now be larger.</li>
+</ul>
+<p><img src="./img/18a.png" alt="Output so far" /></p>
+<h2 id="backgroundfunction">background() function</h2>
+<ul>
+<li><p>The background() function sets the background colour of the display window. </p></li>
+<li><p>The syntax of the Grayscale <strong>background</strong> function is:</p></li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-keyword">background(g)
+</span>        g = gray colour   (a number <span class="hljs-keyword">between </span><span class="hljs-number">0</span> <span class="hljs-keyword">and </span><span class="hljs-number">255</span> inclusive) 
+
+        <span class="hljs-number">0</span> is <span class="hljs-keyword">black </span><span class="hljs-keyword">and </span><span class="hljs-number">255</span> is white.  All numbers in <span class="hljs-keyword">between </span>vary in <span class="hljs-keyword">shades </span>of gray.
+</code></pre>
+<ul>
+<li><p>In your open sketchbook (after the size() function), type in the background() function, passing a value between 0 and 255 as your colour parameter.</p></li>
+<li><p>For example, we chose a dark-ish grey:  </p></li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-attribute">background</span>(<span class="hljs-number">100</span>);
+</code></pre>
+<p><img src="./img/19.png" alt="Setting the size and colour of the display window" /></p>
+<h2 id="savingyourwork">Saving your work</h2>
+<p>It is a good idea to save your work as you progress through your labs.  From the <strong>File</strong> menu (<strong>Processing</strong> on the Mac), select <strong>Save As..</strong>.  The folder location you chose earlier for storing your sketches should be displayed.  Maybe adopt this naming scheme for saving your processing labs for the rest of the semester:</p>
+<ul>
+<li>labXX_stepXX</li>
+<li>labXX_exerciseXX</li>
+<li>labXX_ challengeXX</li>
+</ul>
+<p>where XX is the lab, step exercise, or challenge number.</p></div>
+  
+    <div id="07" style="visibility:hidden"> <h1 id="changingthelookoftheshapes">Changing the look of the shapes</h1>
+<p>In this step, we will look at colouring in the shapes we have just drawn and also changing their outline.</p>
+<h2 id="fillfunction">fill() function</h2>
+<p>The fill() function fills shapes with a chosen colour.  We will use the RGB colours to select a colour.  All shapes that are drawn after the <strong>fill</strong> function is called, will be filled with the chosen colour.  </p>
+<p>The syntax of the RGB <strong>fill</strong> function is similar to the <strong>background</strong> function and is:</p>
+<pre><code class="hljs">    fill(r,g,b)
+        r = red colour (<span class="hljs-keyword">a</span> <span class="hljs-keyword">whole</span> <span class="hljs-built_in">number</span> between <span class="hljs-number">0</span> <span class="hljs-keyword">and</span> <span class="hljs-number">255</span> inclusive)
+        g = green colour (<span class="hljs-keyword">a</span> <span class="hljs-keyword">whole</span> <span class="hljs-built_in">number</span> between <span class="hljs-number">0</span> <span class="hljs-keyword">and</span> <span class="hljs-number">255</span> inclusive)
+        b = blue colour (<span class="hljs-keyword">a</span> <span class="hljs-keyword">whole</span> <span class="hljs-built_in">number</span> between <span class="hljs-number">0</span> <span class="hljs-keyword">and</span> <span class="hljs-number">255</span> inclusive)
+</code></pre>
+<p>In your open sketchbook, enter the following code just before you draw any shapes:</p>
+<pre><code class="hljs">    <span class="hljs-attribute">fill</span>(<span class="hljs-number">100</span>,<span class="hljs-number">150</span>,<span class="hljs-number">70</span>);
+</code></pre>
+<p>Run your code; all your shapes should be coloured dark green.</p>
+<p><img src="./img/20.png" alt="Shapes filled with dark green colours" /></p>
+<p>Now we will set the ellipses to be a different colour i.e. light green.  Enter the following code before your first ellipse() function call.</p>
+<pre><code class="hljs">    <span class="hljs-attribute">fill</span>(<span class="hljs-number">200</span>,<span class="hljs-number">250</span>,<span class="hljs-number">70</span>);
+</code></pre>
+<p><img src="./img/21.png" alt="Shapes filled with light and dark green colours" /></p>
+<h2 id="orderofstatementsmatter">Order of statements matter</h2>
+<p>Note how the order of statements matter.  All shapes drawn after the first fill() function is called are coloured dark green.  All shapes drawn after the second fill() function is called are coloured light green.</p>
+<p>Try moving the first ellipse() function call <strong>before</strong> the second fill() function call.  What happened?  Only the second ellipse is coloured light green.   </p>
+<p>Move the ellipse function back to it's original location so both ellipses are coloured light green.</p>
+<h2 id="nostrokefunction">noStroke() function</h2>
+<p>A <strong>stroke</strong> is the outline of a shape.  The noStroke() function disables the outline on shapes that are drawn after the function is called.  </p>
+<p>In your open sketchbook, enter the following code before your draw any shapes:</p>
+<pre><code class="hljs">    <span class="hljs-built_in">noStroke</span>();
+</code></pre>
+<p>When you run your code, you should have something similar to this:</p>
+<p><img src="./img/22.png" alt="Shapes filled, but with no stroke" /></p>
+<h2 id="strokefunction">stroke() function</h2>
+<p>The stroke() function enables the outline on shapes that are drawn after the function is called.  When you call stroke(), you need to specify a colour.</p>
+<p>The syntax of the <strong>stroke</strong> function is also similar to the <strong>fill</strong> and <strong>background</strong> function and is:</p>
+<pre><code class="hljs">    stroke(r,g,b)
+        r = red colour (<span class="hljs-keyword">a</span> <span class="hljs-keyword">whole</span> <span class="hljs-built_in">number</span> between <span class="hljs-number">0</span> <span class="hljs-keyword">and</span> <span class="hljs-number">255</span> inclusive)
+        g = green colour (<span class="hljs-keyword">a</span> <span class="hljs-keyword">whole</span> <span class="hljs-built_in">number</span> between <span class="hljs-number">0</span> <span class="hljs-keyword">and</span> <span class="hljs-number">255</span> inclusive)
+        b = blue colour (<span class="hljs-keyword">a</span> <span class="hljs-keyword">whole</span> <span class="hljs-built_in">number</span> between <span class="hljs-number">0</span> <span class="hljs-keyword">and</span> <span class="hljs-number">255</span> inclusive)
+</code></pre>
+<p>If we wanted <strong>all</strong> shapes <strong>except</strong> the first ellipse (the oval) to have a stroke, you should make the following changes:</p>
+<ul>
+<li>remove the call to <strong>noStroke()</strong> that you just put into your code.</li>
+<li>call <strong>noStroke()</strong> before the first ellipse is drawn.</li>
+<li>call <strong>stroke(0,0,0)</strong> before the second ellipse is drawn to enable a black stroke on the second ellipse.</li>
+</ul>
+<p>Your output should look similar to this:</p>
+<p><img src="./img/23.png" alt="Shapes filled - noStroke on the oval" /></p>
+<h2 id="strokeweightfunction">strokeWeight() function</h2>
+<p>The strokeWeight() function allows you to choose the thickness of a line/outline on shapes.  The chosen thickness will apply to all lines/shapes that are drawn after the function is called.  The thickness is specified in pixels and the default thickness is 1 pixel.</p>
+<p>If we wanted <strong>all</strong> shapes to have thickness of 3 pixels, enter the following code before you draw any of the shapes:</p>
+<pre><code class="hljs">    <span class="hljs-built_in">strokeWeight</span>(<span class="hljs-number">3</span>);
+</code></pre>
+<p>Your output should look similar to this:</p>
+<p><img src="./img/24.png" alt="Playing with stroke weight" /></p>
+<h2 id="codesofar">Code so far</h2>
+<p>The code that produced the above screen shot is below.  You will be using this as a starting point for Exercise 1:</p>
+<pre><code class="hljs java language-java">size(<span class="hljs-number">400</span>,<span class="hljs-number">300</span>);
+background(<span class="hljs-number">100</span>); 
+
+strokeWeight(<span class="hljs-number">3</span>);
+
+fill(<span class="hljs-number">100</span>,<span class="hljs-number">150</span>,<span class="hljs-number">70</span>);
+rect(<span class="hljs-number">20</span>,<span class="hljs-number">30</span>,<span class="hljs-number">50</span>,<span class="hljs-number">30</span>);
+rect(<span class="hljs-number">40</span>,<span class="hljs-number">5</span>,<span class="hljs-number">20</span>,<span class="hljs-number">20</span>);
+line(<span class="hljs-number">5</span>,<span class="hljs-number">30</span>,<span class="hljs-number">20</span>,<span class="hljs-number">90</span>);
+fill(<span class="hljs-number">200</span>,<span class="hljs-number">250</span>,<span class="hljs-number">70</span>);
+
+noStroke();
+ellipse(<span class="hljs-number">85</span>,<span class="hljs-number">50</span>,<span class="hljs-number">20</span>,<span class="hljs-number">60</span>);
+stroke(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>);
+ellipse(<span class="hljs-number">50</span>,<span class="hljs-number">80</span>,<span class="hljs-number">15</span>,<span class="hljs-number">15</span>);
+</code></pre></div>
+  
+    <div id="Exercises" style="visibility:hidden"> <h1 id="exercises">Exercises</h1>
+<ul>
+<li><p>These exercises are based on the functions we covered in the previous steps in this lab.</p></li>
+<li><p>For each exercise listed below, create a new sketchbook.</p></li>
+</ul>
+<h2 id="exercise1">Exercise 1</h2>
+<p>At the end of the previous step, your animation looked like this:</p>
+<p><img src="./img/24.png" alt="" /></p>
+<p>Make the necessary changes so your animation now looks like this image:</p>
+<p><img src="./img/25.png" alt="" /></p>
+<h2 id="exercise2">Exercise 2</h2>
+<ul>
+<li>Draw a stick man as shown in the picture below:</li>
+</ul>
+<p><img src="./img/26.png" alt="Basic Stick Man" /></p>
+<h2 id="exercise3">Exercise 3</h2>
+<p>Replicate the basic Microsoft logo as shown in the picture below:</p>
+<p><img src="./img/27.png" alt="Basic Microsoft Logo" /></p>
+<p>Hint:  You could use <a href="http://designpieces.com/2014/11/brand-colours/" rel="noopener noreferrer" target="_blank">this website</a> to find the exact Microsoft RGB colours in their logo.</p>
+<h2 id="exercise4">Exercise 4</h2>
+<p>Convert the Microsoft logo into a grayscale logo as shown in the picture below:</p>
+<p><img src="./img/28.png" alt="Greyscale version of the Microsoft logo" /></p>
+<p>Hint: the easiest way to do this is to use the grayscale <strong>fill</strong> function as opposed to the RBG version of it.  The grayscale version of <strong>fill</strong> takes one parameter, a number between 0 and 255 inclusive.  This numver represents a shade of gray between black (0) and white (255) e.g.:</p>
+<pre><code class="hljs">    <span class="hljs-built_in">fill</span>(<span class="hljs-number">150</span>);   <span class="hljs-comment">//sets a medium gray colour for all shapes drawn after it</span>
+    <span class="hljs-built_in">fill</span>(<span class="hljs-number">0</span>);     <span class="hljs-comment">//sets a black colour for all shapes drawn after it</span>
+    <span class="hljs-built_in">fill</span>(<span class="hljs-number">255</span>);   <span class="hljs-comment">//sets a white colour for all shapes drawn after it</span>
+</code></pre></div>
+  
+    <div id="Challenges" style="visibility:hidden"> <h1 id="challenges">Challenges</h1>
+<ul>
+<li><p>For each challenge listed below, create a new sketch.</p></li>
+<li><p>In this module, the <strong>Challenge Exercises</strong> are exactly that…challenges!  So if you can't do them straight away (or at all), don't panic.  In most cases, they require additional thinking and research.  You may need to visit the <a href="https://processing.org/reference/" rel="noopener noreferrer" target="_blank">Processing website</a> for additional information to attempt them.</p></li>
+<li><p>Note that sequence the shapes are drawn in these challenges matters!</p></li>
+</ul>
+<h2 id="challenge1">Challenge 1</h2>
+<p>Replicate the beats (Dr. Dre) logo as shown in the picture below:</p>
+<p><img src="./img/29.png" alt="Dr. Dre logo" /></p>
+<h2 id="challenge2">Challenge 2</h2>
+<p>Write the code that will draw the typical control buttons you would see on a media Student.  An example image would be:</p>
+<p><img src="./img/30.png" alt="Media Student controls" /></p>
+<p>Hint: you will need to read up on the triangle() function on the <a href="https://processing.org/reference/triangle_.html" rel="noopener noreferrer" target="_blank">Processing website</a>.</p>
+<h2 id="challenge3">Challenge 3</h2>
+<p>Design your own picture, making sure to use combinations of Circles, Ovals, Squares, Rectanges and Lines.  </p></div>
+  
+    <div id="Solutions" style="visibility:hidden"> <h1 id="solutions">Solutions</h1>
+<p>The solutions for this lab can be found <a href="archives/lab01_solutions.zip" rel="noopener noreferrer" target="_blank">here</a>. </p>
+<p>If you require unzipping software, 7zip is a good choice: <a href="http://www.7-zip.org/" rel="noopener noreferrer" target="_blank">http://www.7-zip.org/</a> (or Keka for Mac <a href="http://www.kekaosx.com/en/" rel="noopener noreferrer" target="_blank">http://www.kekaosx.com/en/</a>)</p>
+<p>After unzipping the solutions, it might be a good idea to copy the three folders to your <strong>sketchbook</strong> folder.  From Processing, you could then use <strong>File</strong>, followed by <strong>Sketchbook</strong> to easily open them.</p></div>
+  
+  <script>
+    function showtab(tabs) {
+      let menuItem;
+      
+      menuItem = document.getElementById('menu-Lab-01');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-Advice');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-01');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-02');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-03');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-04');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-05');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-06');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-07');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-Exercises');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-Challenges');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-Solutions');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      var tab = tabs;
+      switch (tab)
+      {
+        
+          case "Lab-01":
+            menuItem = document.getElementById('menu-Lab-01');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Lab-01").innerHTML;
+            break;
+        
+          case "Advice":
+            menuItem = document.getElementById('menu-Advice');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Advice").innerHTML;
+            break;
+        
+          case "01":
+            menuItem = document.getElementById('menu-01');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("01").innerHTML;
+            break;
+        
+          case "02":
+            menuItem = document.getElementById('menu-02');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("02").innerHTML;
+            break;
+        
+          case "03":
+            menuItem = document.getElementById('menu-03');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("03").innerHTML;
+            break;
+        
+          case "04":
+            menuItem = document.getElementById('menu-04');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("04").innerHTML;
+            break;
+        
+          case "05":
+            menuItem = document.getElementById('menu-05');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("05").innerHTML;
+            break;
+        
+          case "06":
+            menuItem = document.getElementById('menu-06');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("06").innerHTML;
+            break;
+        
+          case "07":
+            menuItem = document.getElementById('menu-07');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("07").innerHTML;
+            break;
+        
+          case "Exercises":
+            menuItem = document.getElementById('menu-Exercises');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Exercises").innerHTML;
+            break;
+        
+          case "Challenges":
+            menuItem = document.getElementById('menu-Challenges');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Challenges").innerHTML;
+            break;
+        
+          case "Solutions":
+            menuItem = document.getElementById('menu-Solutions');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Solutions").innerHTML;
+            break;
+        
+          default:
+            document.getElementById('tab-container').innerHTML = document.getElementById("00").innerHTML;
+            break;
+      }
+    }
+  </script>
+</div>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  </body>
+</html>
