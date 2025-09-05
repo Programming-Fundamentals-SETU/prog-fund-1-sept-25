@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PrintText
+comment0.text=\n\ Print\ lines\ of\ text\ using\ print\ and\ println\n\ \n\ @author\ John\n\ @version\ 4\ Oct\ 2020\n\ \n\ The\ execution\ of\ a\ Java\ application\ begins\ at\ the\ main\ method\n\ The\ begin\ and\ end\ of\ a\ class\ and\ method\ are\ delimited\ with\ {\ }\n\ \n\ A\ String\ represents\ characters\ strings\ and\ must\ be\ enclosed\ in\ ""\ \n\ print\ \ \ \ print\ and\ remain\ on\ the\ same\ line\n\ println\ \ print\ and\ move\ to\ the\ start\ of\ the\ next\ line\n\ \\n\ \ \ \ \ \ \ is\ an\ escape\ character\ indicating\ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

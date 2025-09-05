@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\n\ Write\ a\ description\ of\ class\ Car\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Car()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Car\n
+comment2.params=newValue
+comment2.target=Car(int)
+comment3.params=newValueCN\ newValueCl
+comment3.target=Car(int,\ int)
+comment4.params=y
+comment4.target=int\ sampleMethod(int)
+comment4.text=\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\n\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\n
+numComments=5

@@ -1,4 +1,4 @@
-Did you manage to install processing successfully? 
+Did you manage to install bluej successfully? 
 Answer 1: Yes
 Answer 2: No
 Answer 3: Still working on it

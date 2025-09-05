@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SlidesExampleMix
+comment0.text=\n\ A\ wild\ mixture\ of\ examples\ from\ Java\ Introduction\ slides\ \ \n\ \n\ There\ is\ no\ need\ to\ review\ this,\ but\ examples\ from\ the\ \n\ slides\ are\ here\ should\ you\ wish\ to\ explore\ them\ further.\n\ \n\ @author\ \ \ John\n\ @version\ \ 6\ Nov\ 2020\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

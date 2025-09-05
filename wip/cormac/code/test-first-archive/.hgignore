@@ -1,0 +1,11 @@
+syntax: glob
+multiproject.ini
+examples/chapter2/ticket-machine-greenfoot-solution
+examples/chapter3/soln/
+*.class
+*.ctxt
+*.lyx~
+*.pkh
+*.pkg
+*.tiff
+.DS_Store
