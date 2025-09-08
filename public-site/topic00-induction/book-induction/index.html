@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutors</title>
+    <link rel="stylesheet" href="/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.1.4/dist/typography.min.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/base16/railscasts.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/default.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vime/core@^4/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@vime/core@^4/dist/vime/vime.esm.js"></script>
+  </head>
+
+  <body>
+    <div class="mx-auto px-3 antialiased bg-base-100 min-h-screen w-full 2xl:w-11/12" data-theme="light">
+  
+  <div class="p-3 shadow-lg bg-neutral text-neutral-content rounded-box nav-corner mb-1 justify-end z-40 flex mt-2">
+    
+  <div class="flex-1">
+    <div class="flex-1 px-2 mx-2 lg:block">
+      <p class="text-sm font-bold">Induction</p>
+      
+        <p class="text-sm font-bold">00: Induction </p>
+      
+    </div>
+  </div>
+
+  </div>
+  <div class="flex flex-wrap lg:flex-nowrap mb-2">
+    
+  <div class="shadow-lg bg-neutral rounded-box nav-corner horizontal text-neutral-content text-sm breadcrumbs flex flex-auto content-center h-12">
+    <ul>
+      
+        <li class="ml-2">
+          
+            
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:home-24-filled" data-height="20" style="color:#37919b">
+  </span>
+  </div>
+  
+
+            <a class="font-bold" href="../index.html"> <span class="hidden text-xs lg:block lg:pl-2"> Home </span> </a>
+          
+        </li>
+        
+          
+            <li class="ml-2">
+              
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:bookmark-24-filled" data-height="20" style="color:#37919b">
+  </span>
+  </div>
+  
+
+              <a class="font-bold" href="../index.html"> <span
+                    class="hidden text-xs lg:block lg:pl-2"> 00: Induction  </span> </a>
+            </li>
+          
+        
+        <li class="ml-2">
+          
+  
+   <div>
+  
+    <span class="mx-2 iconify" data-icon="fluent:beaker-24-filled" data-height="20" style="color:#557927">
+  </span>
+  </div>
+  
+
+          <a class="font-bold" href="#"> <span class="hidden text-xs lg:block lg:pl-2"> Induction</span> </a>
+        </li>
+      
+    </ul>
+  </div>
+
+    
+
+  
+
+  </div>
+
+  <div class="flex m-2">
+    <div class="hidden md:block">
+      <ul class="menu py-2 w-72 shadow-lg bg-neutral text-neutral-content rounded-box card-corner sticky top-2 overflow-auto h-auto mr-2">
+        
+          <a id="menu-Induction" class="p-4 py-3 text-base" href="javascript:showtab('Induction')">  <h1 id="objectives">Objectives</h1> </a>
+        
+          <a id="menu-Advice" class="p-4 py-3 text-base" href="javascript:showtab('Advice')">  <h1 id="labadvice">Lab advice</h1> </a>
+        
+          <a id="menu-WindowsBluej" class="p-4 py-3 text-base" href="javascript:showtab('WindowsBluej')">  <h1 id="installingbluejdevelopmentenvironmentwindows">Installing BlueJ Development Environment - Windows</h1> </a>
+        
+          <a id="menu-1MacBlueJ" class="p-4 py-3 text-base" href="javascript:showtab('1MacBlueJ')">  <h1 id="installingbluejdevelopmentenvironmentmac">Installing BlueJ Development Environment - Mac</h1> </a>
+        
+          <a id="menu-04" class="p-4 py-3 text-base" href="javascript:showtab('04')">  <h1 id="drawingsimpleshapes">Drawing Simple Shapes</h1> </a>
+        
+          <a id="menu-05" class="p-4 py-3 text-base" href="javascript:showtab('05')">  <h1 id="letsgetdrawing">Lets get Drawing</h1> </a>
+        
+          <a id="menu-06" class="p-4 py-3 text-base" href="javascript:showtab('06')">  <h1 id="codingthea">Coding the 'a'</h1> </a>
+        
+          <a id="menu-07" class="p-4 py-3 text-base" href="javascript:showtab('07')">  <h1 id="letstryanotherone">Lets try another one</h1> </a>
+        
+          <a id="menu-08" class="p-4 py-3 text-base" href="javascript:showtab('08')">  <h1 id="isthereanshorterwayofwritingallthecode">Is there an shorter way of writing all the code</h1> </a>
+        
+          <a id="menu-09" class="p-4 py-3 text-base" href="javascript:showtab('09')">  <h1 id="settingupyourfolderstructure">Setting up your folder structure</h1> </a>
+        
+          <a id="menu-10" class="p-4 py-3 text-base" href="javascript:showtab('10')">  <h1 id="exercises">Exercises</h1> </a>
+        
+      </ul>
+    </div>
+    <div class="justify-end w-full bg-base-200 rounded-box rounded-xl py-1 text-base-content">
+      <article id="tab-container" class="prose xl:max-w-3xl 2xl:max-w-5xl mx-auto p-2 m-4">
+      </article>
+    </div>
+  </div>
+  
+    <div id="Induction" style="visibility:hidden"> <h1 id="objectives">Objectives</h1>
+<p>BlueJ · installing  · Setting up your folders</p></div>
+  
+    <div id="Advice" style="visibility:hidden"> <h1 id="labadvice">Lab advice</h1>
+<ul>
+<li><p>Your labs are not a race to be the first student finished.</p></li>
+<li><p>It is very important that you:</p>
+<ul>
+<li>take your time.</li>
+<li>read the instructions carefully.</li>
+<li>ask your lecturer to explain concepts that you don't understand; that is what we are here for!</li></ul></li>
+<li><p>Where code is given in labs, resist the urge to cut and paste it; maximise your learning by typing the code in.</p></li>
+<li><p>The more mistakes you make when working through these labs, the more you learn.  If you reach the end of the lab and you haven't made any mistakes, a good learning exercise would be to try to produce syntax / logic errors and troubleshoot them. </p></li>
+</ul></div>
+  
+    <div id="WindowsBluej" style="visibility:hidden"> <h1 id="installingbluejdevelopmentenvironmentwindows">Installing BlueJ Development Environment - Windows</h1>
+<ul>
+<li>If you are using your own laptop and would like to install Bluej on it, please follow the instructions in this step.</li>
+<li>If you are using the SETU computers, you can ignore this step and move onto the next step.</li>
+</ul>
+<h2 id="downloadingbluejforwindows">Downloading BlueJ for Windows</h2>
+<ul>
+<li>Bluej can be downloaded from 
+https://www.bluej.org/ . It is free.</li>
+</ul>
+<p><img src="./img/01.png" alt="The BlueJ website" /></p>
+<ul>
+<li>Scroll down and you will see the following suite of download options:   </li>
+</ul>
+<p><img src="./img/02.png" alt="Download options" /></p>
+<ul>
+<li><p>Choose the version of BlueJ that you would like to install.</p></li>
+<li><p>For Windows users you can follow the instructions on the screen. If you need more  help, you can watch this video from the BlueJ website: <a href="https://youtu.be/so8_fCKTlFo?si=uVaccVBlzIW6tdk_" rel="noopener noreferrer" target="_blank">here</a>. </p></li>
+</ul>
+<p>Any problems, contact us by Slack or in class. </p></div>
+  
+    <div id="1MacBlueJ" style="visibility:hidden"> <h1 id="installingbluejdevelopmentenvironmentmac">Installing BlueJ Development Environment - Mac</h1>
+<ul>
+<li>If you are using your own laptop and would like to install Bluej on it, please follow the instructions in this step.</li>
+<li>If you are using the SETU computers, you can ignore this step and move onto the next step.</li>
+</ul>
+<h2 id="downloadingbluejformac">Downloading BlueJ for Mac</h2>
+<p>1. Click "Address and search bar"</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/bd9ff2fa-10e5-4058-96fc-51f87bf66a3f/ascreenshot.jpeg?tl_px=109,23&br_px=1486,792&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=174,28" alt="" /></p>
+<p>2. Click here</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/b55804b2-133a-4185-a483-9527873a3bf8/ascreenshot.jpeg?tl_px=55,25&br_px=1432,794&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=226,26" alt="" /></p>
+<p>3. Click on the apple logo.</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/ceae95a7-d151-4691-b767-ef863156a129/ascreenshot.jpeg?tl_px=0,46&br_px=1376,815&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=511,277" alt="" /></p>
+<p>4. Once you have clicked on the download button, you will see the download indicitor on the top right hand corner.</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/6650a47e-f5e7-452e-a8e5-0657df0ee908/ascreenshot.jpeg?tl_px=136,0&br_px=1512,769&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=965,47" alt="" /></p>
+<p>5. Once the download is complete (usually to your downloads folder), you can go directly to that folder by clicking on the 'folder' icon, or go to downloads folder separately.</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/694d4203-de97-4295-b970-234d58f0e468/ascreenshot.jpeg?tl_px=136,0&br_px=1512,769&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=923,117" alt="" /></p>
+<p>6. Double-click "BlueJ-mac-aarch64-5.5.0 (3).dmg"</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/05de86b7-00c5-4c76-9784-c00cce85f749/ascreenshot.jpeg?tl_px=0,0&br_px=1376,769&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=367,83" alt="" /></p>
+<p>7. Next you will be shown this screen. You need to drag the  BlueJ icon and drop it into the Applications Folder as shown.</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/d8fe3283-c205-4200-96d4-76741d3c1652/ascreenshot.jpeg?tl_px=0,211&br_px=1376,981&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=278,313" alt="" /></p>
+<p>8. Click "Finder"</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/ca0cc215-9086-4aa5-9818-da83ab9f08a0/ascreenshot.jpeg?tl_px=0,211&br_px=1376,981&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=-4,565" alt="" /></p>
+<p>9. Click "Applications" in your Finder app</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/502eb0bf-6928-454f-be7d-1fee9dae5762/ascreenshot.jpeg?tl_px=0,211&br_px=1376,981&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=248,322" alt="" /></p>
+<p>10. You should see your BlueJ icon in the Applications folder. You can now double click on this.</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/f9330b76-75cf-40d3-a250-411d8ded081b/ascreenshot.jpeg?tl_px=0,211&br_px=1376,981&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=401,290" alt="" /></p>
+<p>11. This will open BlueJ (more later)</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/99c3927c-a991-424b-88cc-380b8bb37cdf/ascreenshot.jpeg?tl_px=0,211&br_px=1376,981&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=401,289" alt="" /></p>
+<p>12. You'll be asked 'do you trust this'. Yes, you do!</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/d48b8fef-5fc2-4f3c-8b7b-ec54fa9acf39/ascreenshot.jpeg?tl_px=136,50&br_px=1512,819&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=535,277" alt="" /></p>
+<p>13. Your BlueJ icon will appear in the dock (with other running etc. apps). Right click the BlueJ icon</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/ec6b5525-ca70-4ab9-b812-d2e9a965c50a/ascreenshot.jpeg?tl_px=30,211&br_px=1407,981&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=524,573" alt="" /></p>
+<p>14. Click "Keep in Dock". This will ensure that you always have easy access to BlueJ</p>
+<p><img src="https://ajeuwbhvhr.cloudimg.io/https://colony-recorder.s3.amazonaws.com/files/2025-09-04/4911ea0a-e9ff-42af-92bb-98d75a624352/ascreenshot.jpeg?tl_px=136,211&br_px=1512,981&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=715,403" alt="" /></p>
+<p>Any problems, contact us by Slack or in class. </p></div>
+  
+    <div id="04" style="visibility:hidden"> <h1 id="drawingsimpleshapes">Drawing Simple Shapes</h1>
+<ul>
+<li>We will use the following built-in functions to draw simple shapes:<ul>
+<li>rect()</li></ul></li>
+</ul>
+<h2 id="drawingrectangles">Drawing Rectangles</h2>
+<ul>
+<li>The syntax of the <strong>rect</strong> function is:</li>
+</ul>
+<pre><code class="hljs">    rect(x, y, w, h)
+        x = x-coordinate <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> <span class="hljs-built_in">upper</span> left corner <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        y = y-coordinate <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> <span class="hljs-built_in">upper</span> left corner <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        w = width <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        h = height <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+</code></pre>
+<ul>
+<li>Note that, in computing, the coordinates start in the top left hand corner i.e. (0,0) is in the top left of the screen.  In the following picture, you can see the coordinates of the rectangle (20,30) along with its width (50) and height (30). </li>
+</ul>
+<p><img src="./img/09.png" alt="Rectangle example from www.processing.org" /></p>
+<ul>
+<li>Enter the following code in your sketchbook:</li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-attribute">rect</span>(<span class="hljs-number">20</span>,<span class="hljs-number">30</span>,<span class="hljs-number">50</span>,<span class="hljs-number">30</span>);
+</code></pre>
+<ul>
+<li>Run the code, by clicking on the <strong>play</strong> button (highlighted in red in the screen shot below):</li>
+</ul>
+<p><img src="./img/11.png" alt="Running code - click on the play button" /></p>
+<ul>
+<li>The following window should appear with a rectangle that:<ul>
+<li>starts at the (x,y) coordinates (20,30) [measured in pixels]</li>
+<li>has a width of 50 pixels</li>
+<li>has a height of 30 pixels</li></ul></li>
+</ul>
+<p><img src="./img/12.png" alt="Rectangle" /></p>
+<h2 id="drawingsquares">Drawing Squares</h2>
+<ul>
+<li><p>Using the rect() function, you can draw squares. Just set the width and height to the same number of pixels.</p></li>
+<li><p>Below the code you wrote previously, try drawing a square that has starts at the (x,y) coordinates of (40,5) and has a length of 20.  </p></li>
+<li><p>Run the code.  Did a square appear?</p></li>
+</ul>
+<p><img src="./img/13.png" alt="Rectangle and square" /></p></div>
+  
+    <div id="05" style="visibility:hidden"> <h1 id="letsgetdrawing">Lets get Drawing</h1>
+<ul>
+<li>We will use the following built-in functions to draw simple shapes:<ul>
+<li>Pen or Pencil</li>
+<li>Graph Paper</li></ul></li>
+</ul>
+<p>We're going to start by drawing an <strong>a</strong></p>
+<h1 id="whatsapixel">Whats a pixel?</h1>
+<p>A pixel is the smallest unit of a digital image or graphic that can be displayed and represented on a digital display</p>
+<p>Computer screens are divided up into a grid of small dots called pixels (<strong>pic</strong>ture <strong>el</strong>ements)
+ In a black and white picture, each pixel is either black or white.</p>
+<p><img src="./img/letterA.png" alt="Letter a with instructions" /> </p>
+<p>The picture above shows us how a picture can be represented by numbers. The first line
+consists of one white pixel, then three black, then one white. Thus the first line is
+represented as 1, 3, 1.
+The first number always relates to the number of white pixels. If the first pixel is black
+the line will begin with a zero. </p>
+<h1 id="getyourpenandpaper">Get your pen and paper</h1>
+<p>Using your pen and graph paper, try to recreate the image using the instructions</p>
+<p><img src="./img/letterAInstructions.png" alt="Letter a with numbers" /> </p>
+<p>Once you have it completed, add in the grid numbers.  Each box is 10*10, and the grid starts at 0,0 in the top left hand corner</p>
+<p><img src="./img/letterAwithNumbers.png" alt="Letter a with numbers" /> </p>
+<p><strong>Now lets move to processing and code it.</strong></p></div>
+  
+    <div id="06" style="visibility:hidden"> <h1 id="codingthea">Coding the 'a'</h1>
+<p><strong>Remember</strong> the syntax for drawing rectangles</p>
+<pre><code class="hljs">    rect(x, y, w, h)
+        x = x-coordinate <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> <span class="hljs-built_in">upper</span> left corner <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        y = y-coordinate <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> <span class="hljs-built_in">upper</span> left corner <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        w = width <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+        h = height <span class="hljs-keyword">of</span> <span class="hljs-keyword">the</span> rectangle
+</code></pre>
+<p>You are going to use the numbers that you wrote on your grid for the x and y co-ordinates (w and h will always be 10 in this example)</p>
+<p><img src="./img/letterAwithNumbers.png" alt="Letter a with numbers" /> </p>
+<pre><code class="hljs"><span class="hljs-built_in">fill</span>(<span class="hljs-number">0</span>);
+</code></pre>
+<p>this code will fill your rectangles black</p>
+<ul>
+<li>Enter the following code in your sketchbook:</li>
+</ul>
+<pre><code class="hljs"><span class="hljs-built_in">fill</span>(<span class="hljs-number">0</span>);
+<span class="hljs-comment">//line 1</span>
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">10</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">20</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">30</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-comment">//line 2</span>
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-comment">//line 3</span>
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">10</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">20</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">30</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-comment">//line 4</span>
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">0</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-comment">//line 5</span>
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">0</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-comment">//line 6</span>
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">10</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">20</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">30</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+<span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+</code></pre>
+<ul>
+<li>Run the code.  Did the letter <strong>a</strong> appear?  If no, then ask!</li>
+</ul></div>
+  
+    <div id="07" style="visibility:hidden"> <h1 id="letstryanotherone">Lets try another one</h1>
+<p>How about a cup of coffee?</p>
+<p><img src="./img/coffee.png" alt="Cup" /> </p>
+<ul>
+<li>Using your pen and paper follow the instructions to draw the cup</li>
+</ul>
+<p><img src="./img/coffeeInstructions.png" alt="Cup Instructions" /></p>
+<p>Once you have it completed, add in the grid numbers.  Each box is 10*10, and the grid starts at 0,0 in the top left hand corner</p>
+<p><img src="./img/coffeewithNumbers.png" alt="Cup with numbers" /> </p>
+<p>Now, lets try to code it, remember you are just writing the code for the black squares?</p>
+<p><strong>Try to write the code yourself, before copying in the code below</strong></p>
+<pre><code class="hljs">    <span class="hljs-built_in">size</span>(<span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+    <span class="hljs-built_in">fill</span>(<span class="hljs-number">0</span>);
+    <span class="hljs-comment">//line 1</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">120</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">130</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">140</span>,<span class="hljs-number">0</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-comment">//line 2</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">120</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">150</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-comment">//line 3</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">120</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">150</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-comment">//line 4</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">120</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">130</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">140</span>,<span class="hljs-number">30</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-comment">//line 5</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">120</span>,<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-comment">//line 6</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">50</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-comment">//line 7</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">0</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">10</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">20</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">30</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">120</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">130</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">140</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">150</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">160</span>,<span class="hljs-number">60</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-comment">//line 8</span>
+
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">10</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">20</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">30</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">50</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">60</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">70</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">80</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">90</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">100</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">110</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">120</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">130</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">140</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">150</span>,<span class="hljs-number">70</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+</code></pre></div>
+  
+    <div id="08" style="visibility:hidden"> <h1 id="isthereanshorterwayofwritingallthecode">Is there an shorter way of writing all the code</h1>
+<p><strong>Yes</strong></p>
+<p>Instead of coding each individual black square we could code all the squares in a line</p>
+<pre><code class="hljs">    <span class="hljs-built_in">size</span>(<span class="hljs-number">200</span>, <span class="hljs-number">200</span>);
+    <span class="hljs-built_in">fill</span>(<span class="hljs-number">0</span>);
+    <span class="hljs-comment">//line 1</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">0</span>,<span class="hljs-number">110</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-comment">//line 2</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">10</span>,<span class="hljs-number">90</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">150</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-comment">//line 3</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">20</span>,<span class="hljs-number">90</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">150</span>,<span class="hljs-number">20</span>,<span class="hljs-number">10</span>,<span class="hljs-number">10</span>);
+    <span class="hljs-comment">//line 4</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">30</span>,<span class="hljs-number">110</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-comment">//line 5</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">40</span>,<span class="hljs-number">90</span>,<span class="hljs-number">10</span>);
+
+    <span class="hljs-comment">//line 6</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">40</span>,<span class="hljs-number">50</span>,<span class="hljs-number">90</span>,<span class="hljs-number">10</span>);
+
+
+    <span class="hljs-comment">//line 7</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">0</span>,<span class="hljs-number">60</span>,<span class="hljs-number">170</span>,<span class="hljs-number">10</span>);
+
+
+    <span class="hljs-comment">//line 8</span>
+    <span class="hljs-built_in">rect</span>(<span class="hljs-number">10</span>,<span class="hljs-number">70</span>,<span class="hljs-number">150</span>,<span class="hljs-number">10</span>);
+</code></pre>
+<p>There are nearly always better ways of doing the same thing, but you can only learn that when you understand the basic way of doing it!</p></div>
+  
+    <div id="09" style="visibility:hidden"> <h1 id="settingupyourfolderstructure">Setting up your folder structure</h1>
+<p>It is really important to organise where you store all your college files/ software. If you don’t do this early, chaos will ensue! The best way is to organise your files from the start. You can use this file structure on Cloud (OneDrive?) and mirror it on your labtop so you can ’backup’ easily by dragging the full folder from one to the other</p>
+<p><img src="./img/layout1.png" alt="Suggested Layout" /></p>
+<p>A suggested filing system is given above. </p>
+<p><strong>Note</strong> you could have subfolders named Week 1 etc. whichever is most appropriate.  Having set this up, you will get used to using this very quickly and you will save a lot of time in the long run.</p>
+<p><img src="./img/layout2.png" alt="Alternative Layout" /></p></div>
+  
+    <div id="10" style="visibility:hidden"> <h1 id="exercises">Exercises</h1>
+<p>You can try these or make your own.  </p>
+<p><img src="./img/planet.png" alt="Draw a planet" /></p>
+<p><img src="./img/head.png" alt="Baby Face" /></p></div>
+  
+  <script>
+    function showtab(tabs) {
+      let menuItem;
+      
+      menuItem = document.getElementById('menu-Induction');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-Advice');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-WindowsBluej');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-1MacBlueJ');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-04');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-05');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-06');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-07');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-08');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-09');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      menuItem = document.getElementById('menu-10');
+      menuItem.className = "p-4 py-3 text-base";
+      
+      var tab = tabs;
+      switch (tab)
+      {
+        
+          case "Induction":
+            menuItem = document.getElementById('menu-Induction');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Induction").innerHTML;
+            break;
+        
+          case "Advice":
+            menuItem = document.getElementById('menu-Advice');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("Advice").innerHTML;
+            break;
+        
+          case "WindowsBluej":
+            menuItem = document.getElementById('menu-WindowsBluej');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("WindowsBluej").innerHTML;
+            break;
+        
+          case "1MacBlueJ":
+            menuItem = document.getElementById('menu-1MacBlueJ');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("1MacBlueJ").innerHTML;
+            break;
+        
+          case "04":
+            menuItem = document.getElementById('menu-04');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("04").innerHTML;
+            break;
+        
+          case "05":
+            menuItem = document.getElementById('menu-05');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("05").innerHTML;
+            break;
+        
+          case "06":
+            menuItem = document.getElementById('menu-06');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("06").innerHTML;
+            break;
+        
+          case "07":
+            menuItem = document.getElementById('menu-07');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("07").innerHTML;
+            break;
+        
+          case "08":
+            menuItem = document.getElementById('menu-08');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("08").innerHTML;
+            break;
+        
+          case "09":
+            menuItem = document.getElementById('menu-09');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("09").innerHTML;
+            break;
+        
+          case "10":
+            menuItem = document.getElementById('menu-10');
+            menuItem.className = "p-4 py-3 text-base font-bold bordered";
+            document.getElementById('tab-container').innerHTML = document.getElementById("10").innerHTML;
+            break;
+        
+          default:
+            document.getElementById('tab-container').innerHTML = document.getElementById("00").innerHTML;
+            break;
+      }
+    }
+  </script>
+</div>
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+  </body>
+</html>
