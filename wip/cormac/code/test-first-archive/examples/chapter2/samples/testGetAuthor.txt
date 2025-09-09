@@ -1,9 +1,0 @@
-@Test
-public void testGetAuthor()
-{
-    Book ww =
-        new Book("Diana Wynne Jones",
-                 "Witch Week",
-                 273);
-    assertEquals("Diana Wynne Jones", ww.getAuthor());
-}

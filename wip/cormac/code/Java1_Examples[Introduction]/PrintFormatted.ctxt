@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=PrintFormatted
-comment0.text=\n\ Print\ lines\ of\ text\ using\ printf\ and\ formatters\ \ \n\ \ \n\ @author\ John\n\ @version\ 4\ Oct\ 2020\n\ \n\ printf\ \ \ print\ formatted\ where\ the\ first\ string\ contains\ characters\ to\ print\ as\ is\n\ \ \ \ \ \ \ \ \ \ and\ special\ formatters\ such\ as\ %s\ to\ display\ a\ String,\ \n\ \ \ \ \ \ \ \ \ \ %7s\ which\ means\ to\ display\ the\ string\ a\ field\ width\ of\ 7\ characters\n
-comment1.params=args
-comment1.target=void\ main(java.lang.String[])
-numComments=2
