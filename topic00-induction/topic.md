@@ -1,6 +1,7 @@
 ---
 icon:
-  type: vscode-icons:file-type-pdf2
+  type: material-symbols:start
+  color: red
 ---
 00: Induction
 
