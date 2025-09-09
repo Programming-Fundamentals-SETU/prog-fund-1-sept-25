@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileHandler()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ FileHandler\n
+comment1.params=sourceFile
+comment1.target=NewsFeed\ readFromFile(java.lang.String)
+comment1.text=\n\ Read\ the\ binary\ version\ of\ a\ news\ feed\ from\ the\ given\ file.\n\ @param\ sourceFile\ The\ file\ from\ where\ the\ details\ are\ to\ be\ read.\n\ @return\ The\ news\ feed\ object.\n\ @throws\ IOException\ If\ the\ reading\ process\ fails\ for\ any\ reason.\n
+comment2.params=feed\ destinationFile
+comment2.target=void\ saveToFile(NewsFeed,\ java.lang.String)
+comment2.text=\n\ Save\ a\ binary\ version\ of\ the\ news\ feed\ to\ the\ given\ file.\n\ @param\ feed\ The\ news\ feed\ to\ be\ saved.\n\ @param\ destinationFile\ The\ file\ where\ the\ details\ are\ to\ be\ saved.\n\ @throws\ IOException\ If\ the\ saving\ process\ fails\ for\ any\ reason.\n
+numComments=3

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Clock
+comment0.text=\n\ @author\ mulhern\ \n\ @version\ 1.0\n
+comment1.params=hoursPerCycle\ minutesPerHour
+comment1.target=Clock(int,\ int)
+comment2.params=
+comment2.target=void\ increment()
+comment3.params=
+comment3.target=int\ getHours()
+comment4.params=
+comment4.target=int\ getMinutes()
+comment5.params=
+comment5.target=int\ getHoursPerCycle()
+comment6.params=
+comment6.target=int\ getMinutesPerHour()
+numComments=7

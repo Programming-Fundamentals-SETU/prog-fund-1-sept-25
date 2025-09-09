@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CommandWords()
+comment0.text=\n\ Constructor\ -\ initialise\ the\ command\ words.\n
+comment1.params=word
+comment1.target=Command\ get(java.lang.String)
+comment1.text=\n\ Given\ a\ command\ word,\ find\ and\ return\ the\ matching\ command\ object.\n\ Return\ null\ if\ there\ is\ no\ command\ with\ this\ name.\n
+comment2.params=
+comment2.target=void\ showAll()
+comment2.text=\n\ Print\ all\ valid\ commands\ to\ System.out.\n
+numComments=3

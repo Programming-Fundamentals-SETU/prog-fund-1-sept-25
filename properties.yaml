@@ -8,15 +8,15 @@ ignore         :
 
 - topic00-assessment
 #- topic00-induction
-- topic01-intro-to-module
-- topic02-variables-and-data-types 
-- topic03-inputs-and-expressions
+- topic01-objects-and-classes
+- topic02-understanding-class-definitions 
+- topic03-dataTypes-variables-and-expressions
 - topic04-selection
 - topic05-loops
 - topic06-arrays
 - topic07-methods
-- topic08-testing
-- topic09-introduction-to-classes-and-objects
+- topic08-arrays-of-objects
+- topic09-menus-and-persistence
 - topic10-encapsulation-and-interaction
 - topic11-arrays-of-objects 
 - topic12-assignment-studio

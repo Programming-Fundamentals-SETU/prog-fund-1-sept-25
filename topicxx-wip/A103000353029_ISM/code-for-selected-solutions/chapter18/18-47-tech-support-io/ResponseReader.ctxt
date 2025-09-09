@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ResponseReader()
+comment0.text=\n\ Create\ a\ ResponseReader\n
+comment1.params=
+comment1.target=java.util.List\ readDefaultResponses()
+comment1.text=\n\ Read\ a\ list\ of\ default\ responses\ from\ which\ we\ can\ pick\n\ if\ we\ don't\ know\ what\ else\ to\ say.\n\ @return\ The\ list\ of\ responses.\n
+comment2.params=
+comment2.target=java.util.Map\ readMainResponses()
+comment2.text=\n\ Read\ a\ map\ of\ String\ pairs\ from\ a\ file\ and\ return\ them.\n\ \n\ The\ key\ and\ value\ are\ assumed\ to\ be\ on\ alternate\ lines;\ e.g.\:\n\ \ \ \ \ computer\n\ \ \ \ \ Does\ your\ computer\ keep\ crashing\n\ \ \ \ \ memory\n\ \ \ \ \ You\ should\ upgrade\ the\ memory\n\ \ \ \ \ \n\ The\ map\ will\ be\ empty\ if\ the\ file\ was\ not\ found.\n\ @return\ A\ map\ of\ key/response\ pairs.\n
+comment3.params=map\ filename
+comment3.target=void\ writeMap(java.util.HashMap,\ java.lang.String)
+comment3.text=\n\ Write\ a\ map\ of\ strings\ to\ a\ file.\n\ NB\:\ Any\ previous\ contents\ of\ filename\ will\ be\ overwritten.\n\ @param\ map\ The\ map\ to\ be\ written.\n\ @param\ filename\ The\ file\ to\ write.\n
+numComments=4

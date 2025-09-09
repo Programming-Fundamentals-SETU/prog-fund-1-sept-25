@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Parser()
+comment0.text=\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window.\n
+comment1.params=
+comment1.target=Command\ getCommand()
+comment1.text=\n\ @return\ The\ next\ command\ from\ the\ user.\n
+comment2.params=
+comment2.target=void\ showCommands()
+comment2.text=\n\ Print\ out\ a\ list\ of\ valid\ command\ words.\n
+comment3.params=
+comment3.target=boolean\ saveGameLog()
+comment3.text=\n\ Save\ a\ log\ of\ the\ game.\n\ @return\ true\ if\ successful,\ false\ otherwise.\n
+comment4.params=filename
+comment4.target=boolean\ saveGameLog(java.lang.String)
+comment4.text=\n\ Save\ a\ log\ of\ the\ game\ to\ the\ given\ file\ name.\n\ @param\ filename\ Where\ to\ save\ the\ log.\n\ @return\ true\ if\ successful,\ false\ otherwise.\n
+comment5.params=inputLine
+comment5.target=void\ log(java.lang.String)
+numComments=6

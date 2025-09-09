@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Hillside
+comment0.text=\n\ Draw\ a\ picture\ of\ two\ people\ on\ a\ green\ hillside,\n\ with\ the\ sun\ to\ their\ right.\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 7.0\n
+comment1.params=
+comment1.target=Hillside()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Hillside\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Draw\ two\ figures\ on\ a\ hillside\ with\ the\ sun.\n
+numComments=3

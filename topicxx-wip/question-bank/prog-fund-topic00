@@ -1,0 +1,79 @@
+::Q1:: Who are the lecturers for Programming Fundamentals 1 (Semester 1, 2025-2026)?
+{
+~Dr. John Smith and Dr. Mary Kelly
+=Dr. Siobhán Roche and Maireád Meagher
+~Prof. Alan Turing and Dr. Ada Lovelace
+~Dr. Patrick Walsh and Dr. Fiona Murphy
+}
+
+::Q2:: Which communication platform is the main form of outside class communication for this module?
+{
+~Moodle
+~Email
+=Slack
+~GitHub
+}
+
+::Q3:: If you email a lecturer, which of the following should you always include?
+{
+~A joke to break the ice
+=The module name and nature of your query in the subject line
+~Your student number only
+~A screenshot of your problem
+}
+
+::Q4:: Which of the following is NOT listed as a learning technology for this module?
+{
+~Moodle
+~Slack
+~GitHub
+=Zoom
+}
+
+::Q5:: What programming language and environment will students use in this module?
+{
+~Python with PyCharm
+~C++ with Visual Studio
+=Java with BlueJ
+~JavaScript with VS Code
+}
+
+::Q6:: What percentage of the module assessment is the programming assignment worth?
+{
+~10%
+~40%
+=50%
+~60%
+}
+
+::Q7:: Which of the following activities is explicitly mentioned as part of academic misconduct in this module?
+{
+~Forgetting to attend a tutorial
+=Using non-referenced or AI-generated code
+~Asking questions in class
+~Saving files on a laptop instead of the cloud
+}
+
+::Q8:: What project management tool, free and open source, is suggested for time management?
+{
+~Asana
+=Trello
+~Monday.com
+~JIRA
+}
+
+::Q9:: According to the suggested filing system, where should you NOT store your college subfolder?
+{
+=Downloads
+=Desktop
+~Explorer/Finder "favourites"
+~Cloud storage (OneDrive)
+}
+
+::Q10:: What is the purpose of the interview after the programming assignment?
+{
+~To reduce the workload of lecturers
+~To check if students have copied each other’s code
+=To ensure students understand their own code and verify authenticity
+~To award extra bonus marks
+}

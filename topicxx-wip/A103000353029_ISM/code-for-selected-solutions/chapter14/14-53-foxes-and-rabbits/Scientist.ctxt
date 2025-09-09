@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Scientist
+comment0.text=\n\ A\ Scientist\ monitors\ the\ health\ of\ the\ animals\n\ in\ the\ field.\n
+comment1.params=location
+comment1.target=Scientist(Location)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Scientist.\n\ @param\ location\ The\ initial\ location.\n
+comment2.params=currentField\ nextFieldState
+comment2.target=void\ act(Field,\ Field)
+comment2.text=\n\ Perform\ an\ action\ in\ the\ state\ of\ the\ currentField,\n\ leading\ to\ an\ updated\ state\ in\ nextFieldState.\n\ @param\ currentField\ The\ current\ state\ of\ the\ field.\n\ @param\ nextFieldState\ The\ new\ state\ being\ built.\n
+comment3.params=
+comment3.target=boolean\ isActive()
+comment3.text=\n\ Whether\ the\ actor\ is\ still\ active.\n\ @return\ true\ if\ they\ are\ active,\ false\ otherwise.\n
+numComments=4

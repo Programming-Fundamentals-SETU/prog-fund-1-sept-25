@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Actor
+comment0.text=\n\ An\ actor\ in\ a\ simulation.\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @Version\ 7.5\n
+comment1.params=currentField\ nextFieldState
+comment1.target=void\ act(Field,\ Field)
+comment1.text=\n\ Perform\ an\ action\ in\ the\ state\ of\ the\ currentField,\n\ leading\ to\ an\ updated\ state\ in\ nextFieldState.\n\ @param\ currentField\ The\ current\ state\ of\ the\ field.\n\ @param\ nextFieldState\ The\ new\ state\ being\ built.\n
+comment2.params=
+comment2.target=boolean\ isActive()
+comment2.text=\n\ Whether\ the\ actor\ is\ still\ active.\n\ @return\ true\ if\ they\ are\ active,\ false\ otherwise.\n
+numComments=3
