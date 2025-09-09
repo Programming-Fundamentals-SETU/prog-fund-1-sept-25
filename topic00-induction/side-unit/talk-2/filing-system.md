@@ -4,3 +4,5 @@ icon:
   color: red
 ---
 Setup your filing system
+
+Video (5 minutes)
