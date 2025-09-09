@@ -1,6 +1,6 @@
 ---
 icon:
-  type: fluent-mdl2:installation
+  type: material-symbols:start
   color: red
 ---
 ## 00: Induction

@@ -1,6 +1,6 @@
 ---
 icon:
-  type: material-symbols:start
+  type: streamline-ultimate:bookmarks-document
   color: red
 ---
 
