@@ -6,9 +6,9 @@ ignorepin      : 1234
 auth           : 4
 ignore         :
 
-#- topic00-assessment
+- topic00-assessment
 #- topic00-induction
-#- topic01-intro-to-module
+- topic01-intro-to-module
 - topic02-variables-and-data-types 
 - topic03-inputs-and-expressions
 - topic04-selection
