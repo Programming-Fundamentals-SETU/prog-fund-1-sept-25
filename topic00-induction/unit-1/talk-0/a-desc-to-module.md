@@ -1,3 +1,8 @@
+---
+icon:
+  type: streamline-plump-color:information-circle-flat
+  color: red
+---
 Module Description and Assessment Details
 
 
