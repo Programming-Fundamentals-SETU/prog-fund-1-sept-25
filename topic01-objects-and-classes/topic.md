@@ -3,6 +3,6 @@ icon:
   type: material-symbols:start
   color: red
 ---
-00: Induction
+01: Objects and Classes
 
-module structure · delivery approach · java programming language · development environments
+bluej · java programming language · main  · HelloWorld 
