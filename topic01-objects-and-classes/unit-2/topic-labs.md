@@ -1,1 +1,1 @@
-Labs (Installing BlueJ and starting up) 
+Labs (Classes and Objects) 

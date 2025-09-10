@@ -1,7 +1,7 @@
 ---
 icon:
-  type: material-symbols:start
-  color: red
+  type: material-symbols:category
+  color: green
 ---
 01: Objects and Classes
 
