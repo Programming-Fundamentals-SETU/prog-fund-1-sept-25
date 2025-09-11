@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="multichoice">
+    <name><text>Lecturers for Programming Fundamentals 1</text></name>
+    <questiontext format="html"><text><![CDATA[Who are the lecturers for Programming Fundamentals 1 (Semester 1, 2025-2026)?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[Check the module outline under <em>Lecturers</em>.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Spot on — you know who’s teaching you.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Nearly there — review the <em>Lecturers</em> section for both names.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Not quite — check the module outline: it lists both lecturers by name and email.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>Dr. John Smith and Dr. Mary Kelly</text><feedback format="html"><text><![CDATA[Not correct — these names are not in the module outline.]]></text></feedback></answer>
+    <answer fraction="100"><text>Dr. Siobhán Roche and Maireád Meagher</text><feedback format="html"><text><![CDATA[Correct — these are the two lecturers for this module.]]></text></feedback></answer>
+    <answer fraction="0"><text>Prof. Alan Turing and Dr. Ada Lovelace</text><feedback format="html"><text><![CDATA[Nope — famous computer scientists, but not your lecturers here.]]></text></feedback></answer>
+    <answer fraction="0"><text>Dr. Patrick Walsh and Dr. Fiona Murphy</text><feedback format="html"><text><![CDATA[Not correct — these names do not appear in the module document.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Main outside-class communication platform</text></name>
+    <questiontext format="html"><text><![CDATA[Which communication platform is the <strong>main form of outside class communication</strong> for this module?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[See section <em>How to reach us</em>.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Correct — Slack is the primary channel.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Close — read the <em>How to reach us</em> section carefully.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Review the outline: it specifies the quickest way to reach the lecturers.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>Moodle</text><feedback format="html"><text><![CDATA[Moodle is used for materials and dropboxes, but it is not the main communication channel.]]></text></feedback></answer>
+    <answer fraction="0"><text>Email</text><feedback format="html"><text><![CDATA[Email works, but the document specifies Slack as the quickest way.]]></text></feedback></answer>
+    <answer fraction="100"><text>Slack</text><feedback format="html"><text><![CDATA[Correct — Slack is the primary communication channel outside class.]]></text></feedback></answer>
+    <answer fraction="0"><text>GitHub</text><feedback format="html"><text><![CDATA[GitHub is used for tutors/website materials, not for primary communication.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Email etiquette</text></name>
+    <questiontext format="html"><text><![CDATA[When emailing a lecturer, which should you always include?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[The outline asks for the module name and the nature of your query in the subject line.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Exactly — clear subjects speed up support.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Partly right — ensure the subject line includes both the module and what you need.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Recheck the etiquette note: specify the module and the query in the subject line.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>A joke to break the ice</text><feedback format="html"><text><![CDATA[Not necessary — keep it professional.]]></text></feedback></answer>
+    <answer fraction="100"><text>The module name and nature of your query in the subject line</text><feedback format="html"><text><![CDATA[Correct — this helps lecturers triage your message quickly.]]></text></feedback></answer>
+    <answer fraction="0"><text>Your student number only</text><feedback format="html"><text><![CDATA[Insufficient — include module and query details.]]></text></feedback></answer>
+    <answer fraction="0"><text>A screenshot of your problem</text><feedback format="html"><text><![CDATA[Sometimes helpful, but not required for every email.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Learning technologies: not listed</text></name>
+    <questiontext format="html"><text><![CDATA[Which of the following is <em>NOT</em> listed as a learning technology for this module?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[The document lists Moodle, Slack and GitHub; Zoom is not listed.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Correct — Zoom isn’t on the list.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Close — compare the technologies list in the outline.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Revisit the Learning Technologies section; Zoom is not mentioned there.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>Moodle</text><feedback format="html"><text><![CDATA[Moodle is listed and used for links and online exams.]]></text></feedback></answer>
+    <answer fraction="0"><text>Slack</text><feedback format="html"><text><![CDATA[Slack is listed as the main communication channel.]]></text></feedback></answer>
+    <answer fraction="0"><text>GitHub</text><feedback format="html"><text><![CDATA[GitHub is listed for the tutors website and will be used from Week 3.]]></text></feedback></answer>
+    <answer fraction="100"><text>Zoom</text><feedback format="html"><text><![CDATA[Correct — Zoom is not listed among the learning technologies.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Language &amp; environment</text></name>
+    <questiontext format="html"><text><![CDATA[What programming language and environment will students use in this module?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[The module uses Java with the BlueJ environment.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Yes — Java and BlueJ.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Almost — make sure you have both the language and the IDE right.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Check the “Module objectives / Learning outcomes” section: it states Java and BlueJ.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>Python with PyCharm</text><feedback format="html"><text><![CDATA[Not in this module.]]></text></feedback></answer>
+    <answer fraction="0"><text>C++ with Visual Studio</text><feedback format="html"><text><![CDATA[Not in this module.]]></text></feedback></answer>
+    <answer fraction="100"><text>Java with BlueJ</text><feedback format="html"><text><![CDATA[Correct — Java and BlueJ are specified in the outline.]]></text></feedback></answer>
+    <answer fraction="0"><text>JavaScript with VS Code</text><feedback format="html"><text><![CDATA[Not in this module.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Assessment: programming assignment weight</text></name>
+    <questiontext format="html"><text><![CDATA[What percentage of the module assessment is the programming assignment worth?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[Assessment is 100% CA: Tutorials (10%), In-class test (40%), Programming assignment (50%).]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Correct — 50%.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Partly right — review the assessment breakdown table.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Have another look at the Assessment Breakdown section.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>10%</text><feedback format="html"><text><![CDATA[10% is for tutorial attendance.]]></text></feedback></answer>
+    <answer fraction="0"><text>40%</text><feedback format="html"><text><![CDATA[40% is for the in-class written test.]]></text></feedback></answer>
+    <answer fraction="100"><text>50%</text><feedback format="html"><text><![CDATA[Correct — the programming assignment is worth 50%.]]></text></feedback></answer>
+    <answer fraction="0"><text>60%</text><feedback format="html"><text><![CDATA[No component is worth 60%.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Academic integrity: examples</text></name>
+    <questiontext format="html"><text><![CDATA[Which activity is explicitly listed as academic misconduct in this module?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[The outline warns against non-referenced code, AI-generated code, copying, or allowing others to copy.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Correct — keep your submissions your own and properly referenced.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Close — ensure you can distinguish collaboration from misconduct per the outline.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Re-read the Academic Integrity section — it lists specific examples to avoid.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>Forgetting to attend a tutorial</text><feedback format="html"><text><![CDATA[Not ideal for learning, but not listed as misconduct.]]></text></feedback></answer>
+    <answer fraction="100"><text>Using non-referenced or AI-generated code</text><feedback format="html"><text><![CDATA[Correct — explicitly listed as misconduct.]]></text></feedback></answer>
+    <answer fraction="0"><text>Asking questions in class</text><feedback format="html"><text><![CDATA[Encouraged, not misconduct.]]></text></feedback></answer>
+    <answer fraction="0"><text>Saving files on a laptop instead of the cloud</text><feedback format="html"><text><![CDATA[This is about organisation, not integrity.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Time management tools</text></name>
+    <questiontext format="html"><text><![CDATA[Which project management tool (open source/free) is suggested for time management?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[The outline suggests Trello (and also mentions Notion and a notebook).]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Correct — Trello is highlighted.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Almost there — check which tools are explicitly suggested.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Revisit the Time Management subsection.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>Asana</text><feedback format="html"><text><![CDATA[Not mentioned — Trello is the one called out.]]></text></feedback></answer>
+    <answer fraction="100"><text>Trello</text><feedback format="html"><text><![CDATA[Correct — Trello is explicitly suggested.]]></text></feedback></answer>
+    <answer fraction="0"><text>Monday.com</text><feedback format="html"><text><![CDATA[Not mentioned in the outline.]]></text></feedback></answer>
+    <answer fraction="0"><text>JIRA</text><feedback format="html"><text><![CDATA[Not mentioned for this module.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Filing system: avoid locations</text></name>
+    <questiontext format="html"><text><![CDATA[According to the suggested filing system, where should you <strong>not</strong> store your college subfolder? (Select all that apply)]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[Downloads and Desktop are discouraged as the root for your 'college' subfolder.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>false</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Good — avoid Downloads and Desktop as root locations.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Halfway there — both Downloads and Desktop should be avoided.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Check the Do’s and Don’ts table: it warns against using Downloads or Desktop.]]></text></incorrectfeedback>
+    <answer fraction="50"><text>Downloads</text><feedback format="html"><text><![CDATA[Correct — avoid using Downloads as a root storage location.]]></text></feedback></answer>
+    <answer fraction="50"><text>Desktop</text><feedback format="html"><text><![CDATA[Correct — avoid using Desktop as a root storage location.]]></text></feedback></answer>
+    <answer fraction="0"><text>Explorer/Finder “favourites”</text><feedback format="html"><text><![CDATA[This is actually recommended for quick access.]]></text></feedback></answer>
+    <answer fraction="0"><text>Cloud storage (OneDrive)</text><feedback format="html"><text><![CDATA[Recommended as part of a mirrored/backup structure.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Purpose of assignment interview</text></name>
+    <questiontext format="html"><text><![CDATA[What is the purpose of the interview associated with the programming assignment?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[It verifies that the work is your own and that you understand it, and it factors into the assignment mark.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Exactly — authorship and understanding.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Close — it’s not just about plagiarism; it’s also about your explanation of the code.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Revisit the Academic Integrity and Assessment sections for the interview’s role.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>To reduce the workload of lecturers</text><feedback format="html"><text><![CDATA[No — the interview is for authenticity and understanding.]]></text></feedback></answer>
+    <answer fraction="0"><text>To check if students have copied each other’s code</text><feedback format="html"><text><![CDATA[Partly related, but the main goal is broader verification of authorship and understanding.]]></text></feedback></answer>
+    <answer fraction="100"><text>To ensure students understand their own code and verify authenticity</text><feedback format="html"><text><![CDATA[Correct — it checks understanding and authenticity and acts as a multiplier.]]></text></feedback></answer>
+    <answer fraction="0"><text>To award extra bonus marks</text><feedback format="html"><text><![CDATA[No — it’s part of the assessment, not a bonus.]]></text></feedback></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>When will GitHub be required?</text></name>
+    <questiontext format="html"><text><![CDATA[According to the outline, when will the GitHub-based tutors system be turned on?]]></text></questiontext>
+    <generalfeedback format="html"><text><![CDATA[The outline says GitHub/tutors will be used, and this system will be turned on in Week 3.]]></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.0000000</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html"><text><![CDATA[Correct — Week 3.]]></text></correctfeedback>
+    <partiallycorrectfeedback format="html"><text><![CDATA[Almost — double-check the specific week noted.]]></text></partiallycorrectfeedback>
+    <incorrectfeedback format="html"><text><![CDATA[Re-read the Learning Technologies section — the week is specified there.]]></text></incorrectfeedback>
+    <answer fraction="0"><text>Week 1</text><feedback format="html"><text><![CDATA[Not yet — students don’t need a GitHub account immediately.]]></text></feedback></answer>
+    <answer fraction="100"><text>Week 3</text><feedback format="html"><text><![CDATA[Correct — the system is to be turned on in Week 3.]]></text></feedback></answer>
+    <answer fraction="0"><text>Week 6</text><feedback format="html"><text><![CDATA[Later than specified.]]></text></feedback></answer>
+    <answer fraction="0"><text>It’s not used this semester</text><feedback format="html"><text><![CDATA[It is used — the tutors website is hosted on GitHub.]]></text></feedback></answer>
+  </question>
+</quiz>
