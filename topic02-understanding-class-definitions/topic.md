@@ -1,6 +1,6 @@
 ---
 icon:
-  type: material-symbols:category
+  type: material-symbols:view-object-track-outline
   color: blue
 ---
 02: Understanding class definitions

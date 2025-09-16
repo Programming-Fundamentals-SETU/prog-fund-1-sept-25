@@ -1,6 +1,6 @@
 ---
 icon:
-  type: oui:nav-get-started
+  type: codex:curly-brackets
   color: blue
 ---
 Understanding Class Definitions
