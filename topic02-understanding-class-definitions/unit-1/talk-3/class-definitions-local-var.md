@@ -1,6 +1,6 @@
 ---
 icon:
-  type: material-symbols-outlined
+  type: codicon:variable-group
   color: blue
 ---
 Understanding Class Definitions
