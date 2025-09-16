@@ -5,4 +5,4 @@ icon:
 ---
 Understanding Class Definitions
 
-Looking at the Basic Elements
+Basic Elements

@@ -1,8 +1,8 @@
 ---
 icon:
-  type: oui:nav-get-started
+  type: oui:advancedSettingsApp
   color: blue
 ---
 Understanding Class Definitions
 
-Looking at the Local Variables 
+Variables 
