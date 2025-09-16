@@ -1,6 +1,6 @@
 ---
 icon:
-  type: oui-icon-app-script_concept
+  type: material-symbols-outlined
   color: blue
 ---
 Understanding Class Definitions
