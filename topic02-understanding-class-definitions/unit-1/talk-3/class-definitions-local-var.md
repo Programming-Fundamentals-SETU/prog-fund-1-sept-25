@@ -1,8 +1,8 @@
 ---
 icon:
-  type: oui:advancedSettingsApp
+  type: oui-icon-app-script_concept
   color: blue
 ---
 Understanding Class Definitions
 
-Variables 
+Local Variables 
