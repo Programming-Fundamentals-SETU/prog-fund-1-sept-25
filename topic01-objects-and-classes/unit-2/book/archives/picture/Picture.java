@@ -58,7 +58,7 @@ public class Picture
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
-            
+        
             // The person does not become visible until after
             // the sunset.
             person.changeSize(80, 40);
