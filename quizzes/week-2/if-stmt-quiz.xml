@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Q1 -->
+  <question type="multichoice">
+    <name><text>If statement: basic behaviour</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        In Java, what happens with the statements inside the braces of an <code>if</code> statement?<br><br>
+        <pre><code>if (condition) {
+    // statements
+}</code></pre>
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>Only the true-branch executes when the boolean condition evaluates to true.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>They execute only if the boolean condition evaluates to <code>true</code>.</text><feedback><text>Correct — the <code>if</code> block runs only when the condition is true.</text></feedback></answer>
+    <answer fraction="0"><text>They always execute once, regardless of the condition.</text><feedback><text>Not quite — the block is skipped if the condition is false.</text></feedback></answer>
+    <answer fraction="0"><text>They execute repeatedly until the condition becomes false.</text><feedback><text>No — an <code>if</code> is not a loop; it runs at most once.</text></feedback></answer>
+    <answer fraction="0"><text>They execute only after the <code>else</code> block completes.</text><feedback><text>Incorrect — the <code>else</code> block is mutually exclusive with the <code>if</code> block.</text></feedback></answer>
+  </question>
+
+  <!-- Q2 -->
+  <question type="multichoice">
+    <name><text>Equality vs assignment</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        Which operator should you use to test equality of primitive values in Java?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>Remember: <code>=</code> assigns; <code>==</code> compares primitives for equality.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text><code>==</code></text><feedback><text>Correct — <code>==</code> compares primitive values.</text></feedback></answer>
+    <answer fraction="0"><text><code>=</code></text><feedback><text>No — <code>=</code> is the assignment operator, not a comparison.</text></feedback></answer>
+    <answer fraction="0"><text><code>:=</code></text><feedback><text>That’s not a Java operator for equality.</text></feedback></answer>
+    <answer fraction="0"><text><code>.equals</code> for all cases</text><feedback><text><code>.equals</code> is for object equality; primitives use <code>==</code>.</text></feedback></answer>
+  </question>
+
+  <!-- Q3 -->
+  <question type="multichoice">
+    <name><text>Boolean condition examples</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        Which of the following is a valid boolean condition suitable for an <code>if</code> statement?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>A boolean condition must evaluate to true or false, e.g., a relational comparison.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text><code>price &lt; 50</code></text><feedback><text>Correct — a relational expression yields a boolean.</text></feedback></answer>
+    <answer fraction="0"><text><code>price = 50</code></text><feedback><text>No — that’s assignment, not a boolean test.</text></feedback></answer>
+    <answer fraction="0"><text><code>"true"</code></text><feedback><text>This is a string literal, not the boolean value <code>true</code>.</text></feedback></answer>
+    <answer fraction="0"><text><code>50</code></text><feedback><text>An integer literal is not a boolean condition.</text></feedback></answer>
+  </question>
+
+  <!-- Q4 -->
+  <question type="multichoice">
+    <name><text>If–else flow</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        In an <code>if / else if / else</code> chain, once one condition evaluates to true, what happens?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>Only one branch of the chain executes; the rest are skipped.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>The corresponding branch executes and the entire if-statement finishes.</text><feedback><text>Correct — later branches are not evaluated.</text></feedback></answer>
+    <answer fraction="0"><text>All remaining branches are still checked for additional matches.</text><feedback><text>No — evaluation stops at the first true branch.</text></feedback></answer>
+    <answer fraction="0"><text>Exactly two branches execute: the true one and the final <code>else</code>.</text><feedback><text>Incorrect — the <code>else</code> is skipped if any earlier branch ran.</text></feedback></answer>
+    <answer fraction="0"><text>No branches execute; it’s just a check.</text><feedback><text>That’s not how control flow works — one branch may execute.</text></feedback></answer>
+  </question>
+
+  <!-- Q5 -->
+  <question type="multichoice">
+    <name><text>Braces and single statements</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        When may braces be omitted in an <code>if</code> statement?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>Braces can be omitted only when exactly one statement is controlled by the <code>if</code>.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>When there is exactly one statement in the branch.</text><feedback><text>Correct — though many teams prefer always using braces for clarity.</text></feedback></answer>
+    <answer fraction="0"><text>When performance is critical.</text><feedback><text>Omitting braces doesn’t change performance; it affects readability and safety.</text></feedback></answer>
+    <answer fraction="0"><text>Only inside loops.</text><feedback><text>Braces rules are independent of loops.</text></feedback></answer>
+    <answer fraction="0"><text>Never; Java requires braces.</text><feedback><text>Java allows omission for single statements, though it’s optional.</text></feedback></answer>
+  </question>
+
+  <!-- Q6 -->
+  <question type="multichoice">
+    <name><text>Stray semicolon after if</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        Consider:<br><br>
+        <pre><code>if (x &gt; 0);
+{
+    doSomething();
+}</code></pre>
+        What is the effect of the semicolon after the <code>if</code>?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>A stray semicolon ends the <code>if</code> statement, so the block that follows runs unconditionally.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>The <code>if</code> condition is ignored; the block runs every time.</text><feedback><text>Correct — the semicolon creates an empty controlled statement.</text></feedback></answer>
+    <answer fraction="0"><text>The code does not compile.</text><feedback><text>It compiles but behaves incorrectly.</text></feedback></answer>
+    <answer fraction="0"><text>The block runs only when <code>x &gt; 0</code>.</text><feedback><text>No — the semicolon terminates the <code>if</code> before the block.</text></feedback></answer>
+    <answer fraction="0"><text>The block is skipped in all cases.</text><feedback><text>Incorrect — it actually runs unconditionally.</text></feedback></answer>
+  </question>
+
+  <!-- Q7 -->
+  <question type="multichoice">
+    <name><text>Relational operators</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        Which list contains only Java relational operators?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>Relational operators include &lt;, &gt;, &lt;=, &gt;=, ==, != .</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text><code>&lt;, &gt;, &lt;=, &gt;=, ==, !=</code></text><feedback><text>Correct — those are the relational operators.</text></feedback></answer>
+    <answer fraction="0"><text><code>&amp;&amp;, ||, !</code></text><feedback><text>Those are logical (boolean) operators, not relational.</text></feedback></answer>
+    <answer fraction="0"><text><code>+, -, *, /</code></text><feedback><text>These are arithmetic operators.</text></feedback></answer>
+    <answer fraction="0"><text><code>=, :=, ===</code></text><feedback><text><code>=</code> is assignment; <code>:=</code> and <code>===</code> aren’t Java relational operators.</text></feedback></answer>
+  </question>
+
+  <!-- Q8 -->
+  <question type="multichoice">
+    <name><text>Else-if syntax</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        Which is the correct syntax for an <code>else if</code> clause in Java?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>Each condition must be a parenthesised boolean expression.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text><code>else if (amount &gt; 50) { /* ... */ }</code></text><feedback><text>Correct — condition in parentheses, block in braces.</text></feedback></answer>
+    <answer fraction="0"><text><code>else (amount &gt; 50) { /* ... */ }</code></text><feedback><text>No — <code>else</code> alone has no condition.</text></feedback></answer>
+    <answer fraction="0"><text><code>else if amount &gt; 50 { /* ... */ }</code></text><feedback><text>Missing parentheses around the condition.</text></feedback></answer>
+    <answer fraction="0"><text><code>elseif (amount &gt; 50) { /* ... */ }</code></text><feedback><text>Java uses two words: <code>else if</code>, not <code>elseif</code>.</text></feedback></answer>
+  </question>
+
+  <!-- Q9 -->
+  <question type="multichoice">
+    <name><text>Guarding invalid input</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        In a method like:<br><br>
+        <pre><code>public void insertMoney(int amount) {
+    if (amount &gt; 0) {
+        balance = balance + amount;
+    } else {
+        System.out.printf("Use a positive amount: %d%n", amount);
+    }
+}</code></pre>
+        What is the primary purpose of the <code>if</code> check?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>The guard prevents inappropriate state changes by rejecting non-positive amounts.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>To prevent updating the balance when the amount is not positive.</text><feedback><text>Correct — the condition guards against invalid input.</text></feedback></answer>
+    <answer fraction="0"><text>To add a fee whenever any amount is inserted.</text><feedback><text>No — there is no fee logic shown.</text></feedback></answer>
+    <answer fraction="0"><text>To loop until a valid amount is entered.</text><feedback><text>Incorrect — this code does not loop; it just checks once.</text></feedback></answer>
+    <answer fraction="0"><text>To convert the amount to a string before printing.</text><feedback><text>Printing is incidental; the key is guarding the state update.</text></feedback></answer>
+  </question>
+
+  <!-- Q10 -->
+  <question type="multichoice">
+    <name><text>After-the-if code</text></name>
+    <questiontext format="html">
+      <text><![CDATA[
+        Given:<br><br>
+        <pre><code>// do some work
+if (flag) {
+    process();
+}
+// more work here</code></pre>
+        What can you say about the “more work here” section?
+      ]]></text>
+    </questiontext>
+    <generalfeedback><text>Statements after the <code>if</code> run regardless of the condition, unless control flow returns or throws earlier.</text></generalfeedback>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>It will execute whether <code>flag</code> is true or false (barring earlier return/throw).</text><feedback><text>Correct — it is outside the conditional block.</text></feedback></answer>
+    <answer fraction="0"><text>It executes only when <code>flag</code> is true.</text><feedback><text>No — only the block inside the <code>if</code> is conditional.</text></feedback></answer>
+    <answer fraction="0"><text>It executes only when <code>flag</code> is false.</text><feedback><text>Incorrect — nothing makes it conditional on <code>false</code>.</text></feedback></answer>
+    <answer fraction="0"><text>It never executes because <code>process()</code> consumes the flow.</text><feedback><text>Nothing here indicates <code>process()</code> terminates execution.</text></feedback></answer>
+  </question>
+
+</quiz>

@@ -8,7 +8,7 @@ ignore         :
 - topic00-assessment
 #- topic00-induction
 #- topic01-objects-and-classes
-- topic02-understanding-class-definitions 
+#- topic02-understanding-class-definitions 
 - topic03-dataTypes-variables-and-expressions
 - topic04-selection
 - topic05-loops

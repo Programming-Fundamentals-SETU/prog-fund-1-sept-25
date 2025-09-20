@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category: Methods -->
+  <question type="category">
+    <category>
+      <text>$course$/Methods</text>
+    </category>
+  </question>
+
+  <!-- Q7 -->
+  <question type="multichoice">
+    <name><text>Accessor methods</text></name>
+    <questiontext format="html"><text><![CDATA[What is the main purpose of an accessor (getter) method?]]></text></questiontext>
+    <generalfeedback><text>Accessors provide information about object state without changing it.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>To return information about an object’s state.</text><feedback><text>Correct — accessors provide read-only access to fields.</text></feedback></answer>
+    <answer fraction="0"><text>To change the value of a field.</text><feedback><text>No — that’s a mutator’s job.</text></feedback></answer>
+    <answer fraction="0"><text>To print values to the console.</text><feedback><text>Returning is not printing.</text></feedback></answer>
+    <answer fraction="0"><text>To initialize a new object.</text><feedback><text>Constructors handle initialization.</text></feedback></answer>
+  </question>
+
+  <!-- Q8 -->
+  <question type="multichoice">
+    <name><text>Mutator methods</text></name>
+    <questiontext format="html"><text><![CDATA[Which statement best describes a mutator (setter) method?]]></text></questiontext>
+    <generalfeedback><text>Setters update fields and typically have void return type.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>It changes the value of a field.</text><feedback><text>Correct — mutators update the object’s state.</text></feedback></answer>
+    <answer fraction="0"><text>It always returns a value.</text><feedback><text>Most mutators are void.</text></feedback></answer>
+    <answer fraction="0"><text>It only prints information.</text><feedback><text>Printing is not the role of a setter.</text></feedback></answer>
+    <answer fraction="0"><text>It creates a new object.</text><feedback><text>Object creation is done by constructors.</text></feedback></answer>
+  </question>
+
+  <!-- Q9 -->
+  <question type="multichoice">
+    <name><text>Accessor return type</text></name>
+    <questiontext format="html"><text><![CDATA[What must be true about an accessor method?]]></text></questiontext>
+    <generalfeedback><text>An accessor must have a non-void return type.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Its return type is not void.</text><feedback><text>Correct — accessors always return a value.</text></feedback></answer>
+    <answer fraction="0"><text>It must always be public.</text><feedback><text>Not strictly required (though common).</text></feedback></answer>
+    <answer fraction="0"><text>It must take exactly one parameter.</text><feedback><text>Many accessors take none.</text></feedback></answer>
+    <answer fraction="0"><text>It must print its result.</text><feedback><text>Returning ≠ printing.</text></feedback></answer>
+  </question>
+
+  <!-- Q10 -->
+  <question type="multichoice">
+    <name><text>The this keyword</text></name>
+    <questiontext format="html"><text><![CDATA[Why do we use the <code>this</code> keyword in Java?]]></text></questiontext>
+    <generalfeedback><text>this refers to the current object and is often used to disambiguate field vs parameter names.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>To distinguish a field from a parameter with the same name.</text><feedback><text>Correct — e.g., this.price = price;</text></feedback></answer>
+    <answer fraction="0"><text>To call methods from other classes.</text><feedback><text>No — this refers to the current instance.</text></feedback></answer>
+    <answer fraction="0"><text>To make variables global.</text><feedback><text>It refers to instance scope, not globals.</text></feedback></answer>
+    <answer fraction="0"><text>To declare a static field.</text><feedback><text>this does not apply to static members.</text></feedback></answer>
+  </question>
+
+  <!-- Q11 -->
+  <question type="multichoice">
+    <name><text>Printing with concatenation</text></name>
+    <questiontext format="html"><text><![CDATA[What is the effect of <code>System.out.println("# " + price + " cents.");</code>?]]></text></questiontext>
+    <generalfeedback><text>String concatenation joins literals with variable values for output.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Concatenates the string and the value of price into output.</text><feedback><text>Correct — produces a string including the variable value.</text></feedback></answer>
+    <answer fraction="0"><text>Prints only the variable name.</text><feedback><text>It prints the variable’s value, not the name.</text></feedback></answer>
+    <answer fraction="0"><text>Adds price to a balance field.</text><feedback><text>This is output, not assignment.</text></feedback></answer>
+    <answer fraction="0"><text>Returns the value.</text><feedback><text>Printing is not returning.</text></feedback></answer>
+  </question>
+
+  <!-- Q12 -->
+  <question type="multichoice">
+    <name><text>Concatenation order</text></name>
+    <questiontext format="html"><text><![CDATA[What does <code>System.out.println(5 + 6 + "hello");</code> print?]]></text></questiontext>
+    <generalfeedback><text>Numbers add before concatenation when evaluated left to right.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>11hello</text><feedback><text>Correct — addition happens first, then concatenation.</text></feedback></answer>
+    <answer fraction="0"><text>56hello</text><feedback><text>No — 5 + 6 = 11 before concatenation.</text></feedback></answer>
+    <answer fraction="0"><text>hello56</text><feedback><text>That would occur if the string came first.</text></feedback></answer>
+    <answer fraction="0"><text>5 + 6hello</text><feedback><text>Java does not output the expression verbatim.</text></feedback></answer>
+  </question>
+
+  <!-- Q13 -->
+  <question type="multichoice">
+    <name><text>Formatted printing %d</text></name>
+    <questiontext format="html"><text><![CDATA[In <code>System.out.printf("# %d cents.%n", price);</code> what does <code>%d</code> mean?]]></text></questiontext>
+    <generalfeedback><text>%d inserts an integer argument; %n inserts a newline.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Insert the next argument as an integer.</text><feedback><text>Correct — %d is an integer placeholder.</text></feedback></answer>
+    <answer fraction="0"><text>Print a decimal with 2 places.</text><feedback><text>That would be %.2f.</text></feedback></answer>
+    <answer fraction="0"><text>Add a new line.</text><feedback><text>%n inserts a newline.</text></feedback></answer>
+    <answer fraction="0"><text>Print a double always.</text><feedback><text>%d is specifically for integers.</text></feedback></answer>
+  </question>
+
+  <!-- Q14 -->
+  <question type="multichoice">
+    <name><text>Method header: int</text></name>
+    <questiontext format="html"><text><![CDATA[In the method header <code>public int getPrice()</code>, what does <code>int</code> mean?]]></text></questiontext>
+    <generalfeedback><text>The return type indicates the type of result returned to the caller.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>The method returns an integer value.</text><feedback><text>Correct — the return type specifies the type of result.</text></feedback></answer>
+    <answer fraction="0"><text>The method takes an integer parameter.</text><feedback><text>No — parameter list is empty here.</text></feedback></answer>
+    <answer fraction="0"><text>The method is private.</text><feedback><text>Access is specified by public, not int.</text></feedback></answer>
+    <answer fraction="0"><text>The method name must start with int.</text><feedback><text>No — method names are independent of the return type.</text></feedback></answer>
+  </question>
+
+  <!-- Q15 -->
+  <question type="multichoice">
+    <name><text>Find a syntax error</text></name>
+    <questiontext format="html"><text><![CDATA[Consider the code:<br><br>
+<pre><code>public class CokeMachine {
+    private price;
+    public CokeMachine() {
+        price = 300
+    }
+    public int getPrice {
+        return Price;
+    }
+}</code></pre>
+Which is one clear error?]]></text></questiontext>
+    <generalfeedback><text>Common mistakes include missing types, missing semicolons, incorrect method headers, and wrong identifier case.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>private price; is missing a type.</text><feedback><text>Correct — fields must declare a type (e.g., private int price;).</text></feedback></answer>
+    <answer fraction="0"><text>The class name is invalid.</text><feedback><text>CokeMachine is a valid identifier.</text></feedback></answer>
+    <answer fraction="0"><text>The constructor must return an int.</text><feedback><text>Constructors don’t declare return types.</text></feedback></answer>
+    <answer fraction="0"><text>The method getPrice must be static.</text><feedback><text>Instance methods are fine; static is not required.</text></feedback></answer>
+  </question>
+
+</quiz>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category -->
+  <question type="category">
+    <category><text>$course$/Class Definitions 3 — Local variables</text></category>
+  </question>
+
+  <!-- Q1 -->
+  <question type="multichoice">
+    <name><text>Variables recap: kinds</text></name>
+    <questiontext format="html"><text><![CDATA[Which list correctly names the three kinds of variables discussed in class design?]]></text></questiontext>
+    <generalfeedback><text>Fields, parameters, and local variables each serve a distinct purpose.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Fields, parameters, and local variables</text><feedback><text>Correct — these are the three kinds emphasised.</text></feedback></answer>
+    <answer fraction="0"><text>Fields, arrays, and constants</text><feedback><text>No — arrays/constants are separate concepts, not the three variable kinds here.</text></feedback></answer>
+    <answer fraction="0"><text>Parameters, methods, and classes</text><feedback><text>Methods/classes aren’t variables.</text></feedback></answer>
+    <answer fraction="0"><text>Locals, packages, and modules</text><feedback><text>Packages/modules are not variables.</text></feedback></answer>
+  </question>
+
+  <!-- Q2 -->
+  <question type="multichoice">
+    <name><text>Fields: scope and lifetime</text></name>
+    <questiontext format="html"><text><![CDATA[What are the scope and lifetime of a <em>field</em>?]]></text></questiontext>
+    <generalfeedback><text>Fields belong to the object; they are visible throughout the class and live as long as the object exists.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Scope: the whole class; Lifetime: the lifetime of the object</text><feedback><text>Correct — fields persist with the object and are accessible throughout the class.</text></feedback></answer>
+    <answer fraction="0"><text>Scope: the declaring method; Lifetime: a single call</text><feedback><text>No — that description matches locals, not fields.</text></feedback></answer>
+    <answer fraction="0"><text>Scope: package; Lifetime: until program exit</text><feedback><text>Package scope is not how fields work; their lifetime is tied to the object.</text></feedback></answer>
+    <answer fraction="0"><text>Scope: a single block; Lifetime: one iteration</text><feedback><text>That describes a block-scoped local, not a field.</text></feedback></answer>
+  </question>
+
+  <!-- Q3 -->
+  <question type="multichoice">
+    <name><text>Parameters: role</text></name>
+    <questiontext format="html"><text><![CDATA[What is the primary role of a <em>parameter</em> in a method or constructor?]]></text></questiontext>
+    <generalfeedback><text>Parameters receive values from the caller to help perform the task.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>To receive values from outside so the method can do its work</text><feedback><text>Correct — a fresh set of parameter values is provided on each call.</text></feedback></answer>
+    <answer fraction="0"><text>To persist data for the object across calls</text><feedback><text>No — that’s the job of fields, not parameters.</text></feedback></answer>
+    <answer fraction="0"><text>To control visibility of fields</text><feedback><text>Visibility is set by access modifiers, not parameters.</text></feedback></answer>
+    <answer fraction="0"><text>To print formatted output</text><feedback><text>Formatting is unrelated to the purpose of parameters.</text></feedback></answer>
+  </question>
+
+  <!-- Q4 -->
+  <question type="multichoice">
+    <name><text>Return statement behaviour</text></name>
+    <questiontext format="html"><text><![CDATA[Why does this method fail to clear the balance?<br><pre><code>public int refundBalance() {
+    // Return the amount left.
+    return balance;
+    // Clear the balance.
+    balance = 0;
+}</code></pre>]]></text></questiontext>
+    <generalfeedback><text>Execution stops immediately after a return statement; later statements are not executed.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>The return ends the method, so the assignment to zero never runs</text><feedback><text>Correct — code after the return is unreachable.</text></feedback></answer>
+    <answer fraction="0"><text>Assignments are illegal after a comment</text><feedback><text>Comments do not affect legality of assignments.</text></feedback></answer>
+    <answer fraction="0"><text>The method needs two return statements</text><feedback><text>The number of return statements is not the issue; order and reachability are.</text></feedback></answer>
+    <answer fraction="0"><text>Only void methods may assign to fields</text><feedback><text>Non-void methods can assign to fields; that’s not the problem here.</text></feedback></answer>
+  </question>
+
+  <!-- Q5 -->
+  <question type="multichoice">
+    <name><text>Local variable purpose</text></name>
+    <questiontext format="html"><text><![CDATA[What is a typical use of a <em>local variable</em> inside a method?]]></text></questiontext>
+    <generalfeedback><text>Locals are short-lived, for temporary calculation/storage within a method’s block.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Temporary storage needed during the method’s execution</text><feedback><text>Correct — locals exist only while the method/block runs.</text></feedback></answer>
+    <answer fraction="0"><text>Long-term storage across many method calls</text><feedback><text>That’s what fields are for, not locals.</text></feedback></answer>
+    <answer fraction="0"><text>Receiving input from outside the method</text><feedback><text>That’s the job of parameters.</text></feedback></answer>
+    <answer fraction="0"><text>Controlling public/private visibility</text><feedback><text>Visibility modifiers apply to members, not local variables.</text></feedback></answer>
+  </question>
+
+  <!-- Q6 -->
+  <question type="multichoice">
+    <name><text>Local variable example</text></name>
+    <questiontext format="html"><text><![CDATA[In the revised <code>refundBalance</code>, why do we introduce <code>amountToRefund</code>?<br><pre><code>public int refundBalance() {
+    int amountToRefund;
+    amountToRefund = balance;
+    balance = 0;
+    return amountToRefund;
+}</code></pre>]]></text></questiontext>
+    <generalfeedback><text>The local stores the value before balance is cleared, letting the method both clear and return the amount.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>To keep the amount while we reset the field, then return it</text><feedback><text>Correct — the local holds the original balance for the return.</text></feedback></answer>
+    <answer fraction="0"><text>Because fields cannot be read in non-void methods</text><feedback><text>Fields can be read anywhere in the class.</text></feedback></answer>
+    <answer fraction="0"><text>Because parameters cannot be declared in methods</text><feedback><text>Parameters are declared in method headers; this is a local.</text></feedback></answer>
+    <answer fraction="0"><text>To avoid using return statements</text><feedback><text>The method still uses a return; the local doesn’t eliminate it.</text></feedback></answer>
+  </question>
+
+  <!-- Q7 -->
+  <question type="multichoice">
+    <name><text>Scope of a local</text></name>
+    <questiontext format="html"><text><![CDATA[What is the scope of a local variable declared inside a method block?]]></text></questiontext>
+    <generalfeedback><text>The scope of a local is the block in which it is declared (and nested inner blocks).</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>The block in which it is declared</text><feedback><text>Correct — the local is not visible outside that block.</text></feedback></answer>
+    <answer fraction="0"><text>The entire class</text><feedback><text>That describes fields, not locals.</text></feedback></answer>
+    <answer fraction="0"><text>The whole package</text><feedback><text>Locals never have package-wide scope.</text></feedback></answer>
+    <answer fraction="0"><text>Across all methods of the class</text><feedback><text>Locals are not shared across methods.</text></feedback></answer>
+  </question>
+
+  <!-- Q8 -->
+  <question type="multichoice">
+    <name><text>Lifetime of a local</text></name>
+    <questiontext format="html"><text><![CDATA[When does a local variable <em>exist</em>?]]></text></questiontext>
+    <generalfeedback><text>A local’s lifetime is the time of execution of the block in which it is declared.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Only while the containing block is executing</text><feedback><text>Correct — once the block finishes, the local is gone.</text></feedback></answer>
+    <answer fraction="0"><text>For the lifetime of the object</text><feedback><text>That’s the lifetime of fields, not locals.</text></feedback></answer>
+    <answer fraction="0"><text>Until program termination</text><feedback><text>Locals do not persist to program end.</text></feedback></answer>
+    <answer fraction="0"><text>Across all future calls to the method</text><feedback><text>Each call gets fresh locals; they don’t persist across calls.</text></feedback></answer>
+  </question>
+
+  <!-- Q9 -->
+  <question type="multichoice">
+    <name><text>Scope vs lifetime</text></name>
+    <questiontext format="html"><text><![CDATA[Which statement best distinguishes <em>scope</em> from <em>lifetime</em>?]]></text></questiontext>
+    <generalfeedback><text>Scope is a static (textual) region in the source; lifetime is a dynamic (runtime) period of existence.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Scope: where the name is visible in the source; Lifetime: how long the variable exists at runtime</text><feedback><text>Correct — scope is textual; lifetime is temporal.</text></feedback></answer>
+    <answer fraction="0"><text>Scope is runtime; lifetime is compile-time</text><feedback><text>It’s the other way around: scope is textual, lifetime is runtime.</text></feedback></answer>
+    <answer fraction="0"><text>They are synonyms</text><feedback><text>No — they refer to different concepts.</text></feedback></answer>
+    <answer fraction="0"><text>Scope applies only to classes; lifetime only to methods</text><feedback><text>Both concepts apply to many program elements.</text></feedback></answer>
+  </question>
+
+  <!-- Q10 -->
+  <question type="multichoice">
+    <name><text>No visibility modifier for locals</text></name>
+    <questiontext format="html"><text><![CDATA[Why do local variables not use visibility modifiers like <code>public</code> or <code>private</code>?]]></text></questiontext>
+    <generalfeedback><text>Locals are not members; their visibility is confined to their block by definition.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Because their visibility is already limited to the declaring block</text><feedback><text>Correct — locals aren’t class members, so access modifiers don’t apply.</text></feedback></answer>
+    <answer fraction="0"><text>Because Java doesn’t allow modifiers anywhere</text><feedback><text>Java allows modifiers for members; locals are a special case.</text></feedback></answer>
+    <answer fraction="0"><text>Because locals are always public by default</text><feedback><text>Locals are not public; they are block-scoped.</text></feedback></answer>
+    <answer fraction="0"><text>Because they are stored in a different file</text><feedback><text>Storage location is unrelated; the reason is block scope.</text></feedback></answer>
+  </question>
+
+</quiz>

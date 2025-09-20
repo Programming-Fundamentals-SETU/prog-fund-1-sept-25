@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <!-- Category: Class Definitions -->
+  <question type="category">
+    <category>
+      <text>$course$/Class Definitions</text>
+    </category>
+  </question>
+
+  <!-- Q1 -->
+  <question type="multichoice">
+    <name><text>Fields: purpose</text></name>
+    <questiontext format="html"><text><![CDATA[What is the main role of a field in a Java class?]]></text></questiontext>
+    <generalfeedback><text>Fields (instance variables) define the state of an object.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty>
+    <single>true</single><shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>To store the state (values) of an object.</text><feedback><text>Correct — fields are instance variables that define object state.</text></feedback></answer>
+    <answer fraction="0"><text>To define the class’s behavior.</text><feedback><text>No — methods define behavior, not fields.</text></feedback></answer>
+    <answer fraction="0"><text>To import external libraries.</text><feedback><text>Incorrect — imports are separate from fields.</text></feedback></answer>
+    <answer fraction="0"><text>To decide the class name.</text><feedback><text>Class names come from the class declaration, not fields.</text></feedback></answer>
+  </question>
+
+  <!-- Q2 -->
+  <question type="multichoice">
+    <name><text>Constructors: naming rule</text></name>
+    <questiontext format="html"><text><![CDATA[What must always be true about a constructor in Java?]]></text></questiontext>
+    <generalfeedback><text>Constructors must have the same name as the class and no return type.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Its name must match the class name.</text><feedback><text>Correct — this is required by the language.</text></feedback></answer>
+    <answer fraction="0"><text>It must always take at least one parameter.</text><feedback><text>No — constructors can be parameterless.</text></feedback></answer>
+    <answer fraction="0"><text>It must always return an int.</text><feedback><text>Constructors don’t declare a return type.</text></feedback></answer>
+    <answer fraction="0"><text>It must always be private.</text><feedback><text>Not true — constructors are often public.</text></feedback></answer>
+  </question>
+
+  <!-- Q3 -->
+  <question type="multichoice">
+    <name><text>Parameters in constructors</text></name>
+    <questiontext format="html"><text><![CDATA[In a constructor, parameters are typically used for what purpose?]]></text></questiontext>
+    <generalfeedback><text>Constructor parameters usually provide initial values for fields.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>To initialize the fields of the new object.</text><feedback><text>Correct — parameter values are stored into fields.</text></feedback></answer>
+    <answer fraction="0"><text>To create new methods.</text><feedback><text>No — parameters supply data, not methods.</text></feedback></answer>
+    <answer fraction="0"><text>To declare the package.</text><feedback><text>Packages are separate declarations.</text></feedback></answer>
+    <answer fraction="0"><text>To print default messages.</text><feedback><text>Printing isn’t the main role of parameters.</text></feedback></answer>
+  </question>
+
+  <!-- Q4 -->
+  <question type="multichoice">
+    <name><text>Assignment semantics</text></name>
+    <questiontext format="html"><text><![CDATA[What does the statement <code>balance = balance + amount;</code> do?]]></text></questiontext>
+    <generalfeedback><text>Right-hand side is evaluated and copied into the left-hand variable.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>Adds amount to the current value of balance.</text><feedback><text>Correct — evaluates RHS, stores result into LHS.</text></feedback></answer>
+    <answer fraction="0"><text>Creates a new variable.</text><feedback><text>No — it updates an existing variable.</text></feedback></answer>
+    <answer fraction="0"><text>Swaps two values.</text><feedback><text>Not true — this just overwrites balance.</text></feedback></answer>
+    <answer fraction="0"><text>Always resets balance to zero.</text><feedback><text>Incorrect — only adds.</text></feedback></answer>
+  </question>
+
+  <!-- Q5 -->
+  <question type="multichoice">
+    <name><text>Naming variables</text></name>
+    <questiontext format="html"><text><![CDATA[Which of these is the best choice for a variable name?]]></text></questiontext>
+    <generalfeedback><text>Good names make code easier to read and maintain.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>ticketPrice</text><feedback><text>Correct — descriptive and clear.</text></feedback></answer>
+    <answer fraction="0"><text>t5</text><feedback><text>Too cryptic to be good style.</text></feedback></answer>
+    <answer fraction="0"><text>xyz123</text><feedback><text>Not meaningful or clear.</text></feedback></answer>
+    <answer fraction="0"><text>q</text><feedback><text>Single letters should be avoided except for loops.</text></feedback></answer>
+  </question>
+
+  <!-- Q6 -->
+  <question type="multichoice">
+    <name><text>Java keywords</text></name>
+    <questiontext format="html"><text><![CDATA[Which of these is a Java keyword?]]></text></questiontext>
+    <generalfeedback><text>Keywords are reserved words such as class, public, and private.</text></generalfeedback>
+    <defaultgrade>1</defaultgrade><penalty>0.3333333</penalty><single>true</single>
+    <shuffleanswers>true</shuffleanswers><answernumbering>abc</answernumbering>
+    <answer fraction="100"><text>class</text><feedback><text>Correct — class is a reserved word.</text></feedback></answer>
+    <answer fraction="0"><text>TicketMachine</text><feedback><text>An identifier, not a keyword.</text></feedback></answer>
+    <answer fraction="0"><text>balance</text><feedback><text>A variable name, not a keyword.</text></feedback></answer>
+    <answer fraction="0"><text>cost</text><feedback><text>User-defined identifier, not reserved.</text></feedback></answer>
+  </question>
+
+</quiz>
