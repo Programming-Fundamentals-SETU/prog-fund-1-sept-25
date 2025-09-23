@@ -5,4 +5,4 @@ icon:
 ---
 03: Data Types, Variables and Expressions
 
-primitive, object data types
+primitive data types, expressions
