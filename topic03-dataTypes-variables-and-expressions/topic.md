@@ -1,8 +1,7 @@
 ---
 icon:
-  type: material-symbols:view-object-track-outline
+  type: codicon:variable-group
   color: blue
 ---
-02: Understanding class definitions
+03: Data Types, Variables and Expressions
 
-Introduction to the basic structure of a Class 
