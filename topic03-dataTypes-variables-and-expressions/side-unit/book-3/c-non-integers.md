@@ -1,6 +1,6 @@
 ---
 icon:
-  type: ix:data-type-integer
+  type: carbon:character-fraction
   color: yellow
 ---
-Whole number types in Java
+Non-integer number types in Java
