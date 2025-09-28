@@ -3,7 +3,7 @@ icon:
   type: fluent-mdl2:handwriting
   color: orange
 ---
-#  Programming Fundamentals - Topic 03 Tutorial
+# Programming Fundamentals - Topic 03 Tutorial
 
 # Tutorial Questions - Variables, Data Types & Operators
 
