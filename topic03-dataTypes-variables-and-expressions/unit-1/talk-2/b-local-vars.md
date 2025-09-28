@@ -1,6 +1,6 @@
 ---
 icon:
-  type: sgame-icons:life-bar
+  type: game-icons:life-bar
   color: yellow
 ---
 
