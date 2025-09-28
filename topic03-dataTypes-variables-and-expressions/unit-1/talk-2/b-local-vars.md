@@ -1,7 +1,7 @@
 ---
 icon:
   type: game-icons:life-bar
-  color: yellow
+  color: orange
 ---
 
 # Local Variables and Scope

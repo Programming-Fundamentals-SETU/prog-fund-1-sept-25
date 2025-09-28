@@ -1,7 +1,7 @@
 ---
 icon:
   type: ooui:references-rtl
-  color: yellow
+  color: orange
 ---
 03: Data Types, Variables and Expressions
 

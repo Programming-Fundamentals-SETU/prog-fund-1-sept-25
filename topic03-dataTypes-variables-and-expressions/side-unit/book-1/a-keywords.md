@@ -1,6 +1,6 @@
 ---
 icon:
   type: streamline-ultimate-color:tags-settings
-  color: yellow
+  color: orange
 ---
 List of keywords in Java
