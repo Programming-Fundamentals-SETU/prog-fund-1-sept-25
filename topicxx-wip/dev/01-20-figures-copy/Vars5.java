@@ -7,5 +7,6 @@
 */
 public class Vars5
 {
-     private int x = 3.5;
+     private float x = 3.5f;
+     private double y = 4.2d;
 }

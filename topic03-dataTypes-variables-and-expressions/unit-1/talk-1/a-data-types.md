@@ -1,7 +1,7 @@
 ---
 icon:
   type: codicon:variable-group
-  color: blue
+  color: yellow
 ---
 
 Data Types
