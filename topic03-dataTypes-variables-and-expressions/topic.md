@@ -1,7 +1,7 @@
 ---
 icon:
-  type: codicon:variable-group
-  color: blue
+  type: ooui:references-rtl
+  color: yellow
 ---
 03: Data Types, Variables and Expressions
 
