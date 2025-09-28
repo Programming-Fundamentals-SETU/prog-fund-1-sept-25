@@ -1,6 +1,6 @@
 ---
 icon:
   type: bi:filetype-java
-  color: yellow
+  color: orange
 ---
 Primitive types in Java
