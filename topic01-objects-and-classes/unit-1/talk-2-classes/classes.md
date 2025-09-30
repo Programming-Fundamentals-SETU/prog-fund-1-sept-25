@@ -3,6 +3,6 @@ icon:
   type: material-symbols:category
   color: green
 ---
-Classes and Objects
+# 1: Classes and Objects
 
 What are Classes and Objects

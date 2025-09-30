@@ -3,7 +3,7 @@ icon:
   type: oui:nav-get-started
   color: green
 ---
-Using BlueJ
+# 1: Using BlueJ
 
 Getting started with Java
 

@@ -3,6 +3,6 @@ icon:
   type: carbon:virtual-machine
   color: green
 ---
-JVM
+# 1: JVM
 
 Java Virtual Machine (JVM) · JDK · bytecode · javac · main method · files
