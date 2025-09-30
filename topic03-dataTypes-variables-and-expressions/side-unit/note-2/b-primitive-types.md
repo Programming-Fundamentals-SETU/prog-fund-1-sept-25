@@ -5,4 +5,4 @@ icon:
 ---
 Primitive types in Java
 
-![](b-primitive-types.png)
+![](img/b-primitive-types.png)
