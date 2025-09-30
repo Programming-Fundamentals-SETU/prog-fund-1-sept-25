@@ -1,7 +1,7 @@
 ---
 icon:
   type: oui:logstash-if
-  color: blue-100
+  color: teal
 ---
 # 04 : Selection
 
