@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Q1 – Valid Java variable name</text>
+    </name>
+    <questiontext format="html">
+      <text>Which of the following is a valid Java variable name?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Variable names are case-sensitive, cannot start with a digit or contain spaces, and cannot be reserved words.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>2ndPlace</text>
+      <feedback format="html">
+        <text>Identifiers cannot begin with a digit.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>myVariable</text>
+      <feedback format="html">
+        <text>Correct: starts with a letter; letters/digits/_/$ are allowed; no spaces.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>class</text>
+      <feedback format="html">
+        <text>This is a reserved word (keyword) and cannot be used as an identifier.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>total-sum</text>
+      <feedback format="html">
+        <text>Hyphens are not allowed in identifiers; use camelCase like totalSum.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q2 – Case sensitivity of identifiers</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement about Java variable names is true?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Identifiers are case-sensitive; permitted characters are letters, digits, _, and $, but they cannot start with a digit.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>They are not case-sensitive</text>
+      <feedback format="html">
+        <text>Incorrect: total and Total are different identifiers.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They can contain white spaces</text>
+      <feedback format="html">
+        <text>Incorrect: spaces are not permitted in identifiers.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>They are case-sensitive</text>
+      <feedback format="html">
+        <text>Correct: Java treats uppercase and lowercase letters as different.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They can begin with a digit</text>
+      <feedback format="html">
+        <text>Incorrect: identifiers cannot begin with a digit.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q3 – Definition of a token</text>
+    </name>
+    <questiontext format="html">
+      <text>In Java, a ________ is a small, meaningful piece of code such as a keyword, operator, literal, or identifier.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Tokens include keywords, identifiers, literals, operators, and separators.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>block</text>
+      <feedback format="html">
+        <text>A block is a group of statements enclosed in braces.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>token</text>
+      <feedback format="html">
+        <text>Correct: tokens are the smallest meaningful units recognized by the compiler.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>method</text>
+      <feedback format="html">
+        <text>A method is a named block of code that can be invoked.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>comment</text>
+      <feedback format="html">
+        <text>Comments are not tokens and are ignored by the compiler.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q4 – Declaring a float literal</text>
+    </name>
+    <questiontext format="html">
+      <text>Which declaration correctly defines a &lt;i&gt;float&lt;/i&gt; variable with the value 4.5?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Use float with an f suffix (e.g., 3.14f) or use double without the suffix.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>float size = 4.5;</text>
+      <feedback format="html">
+        <text>A float literal must use the f (or F) suffix.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>float size = 4.5f;</text>
+      <feedback format="html">
+        <text>Correct: the f suffix makes the literal type float.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>double size = 4.5;</text>
+      <feedback format="html">
+        <text>This declares a double, not a float.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>int size = 4.5f;</text>
+      <feedback format="html">
+        <text>Non-integer literal cannot be assigned to an int.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q5 – Remainder operator</text>
+    </name>
+    <questiontext format="html">
+      <text>Which operator would you use to calculate the remainder of an integer division in Java?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Use % to compute the remainder: e.g., 10 % 6 is 4.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>/</text>
+      <feedback format="html">
+        <text>This performs division, not the remainder.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>*</text>
+      <feedback format="html">
+        <text>This performs multiplication.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>%</text>
+      <feedback format="html">
+        <text>Correct: the modulo operator % returns the remainder.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>//</text>
+      <feedback format="html">
+        <text>Double slash is not an operator in Java; it starts a comment.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q6 – Case sensitivity of types</text>
+    </name>
+    <questiontext format="html">
+      <text>What is wrong with the declaration Int number = 5;</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Primitive types are lowercase (e.g., int, double, boolean).</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>Variable name is invalid</text>
+      <feedback format="html">
+        <text>The variable name number is fine.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Value cannot be assigned at declaration</text>
+      <feedback format="html">
+        <text>Assignment at declaration is allowed.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>Data type is case-sensitive</text>
+      <feedback format="html">
+        <text>Correct: the primitive type is int, not Int.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Semicolon is missing</text>
+      <feedback format="html">
+        <text>There is a semicolon present.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q7 – Integer division result</text>
+    </name>
+    <questiontext format="html">
+      <text>What is the result of 10 / 6 in Java when both operands are integers?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>If both operands are int, the result is int with the fractional part discarded.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="100" format="html">
+      <text>1</text>
+      <feedback format="html">
+        <text>Correct: integer division truncates toward zero; the fractional part is discarded.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.6</text>
+      <feedback format="html">
+        <text>This would require floating-point division.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.66</text>
+      <feedback format="html">
+        <text>Floating-point approximation; not for integer division.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>1.666…</text>
+      <feedback format="html">
+        <text>This is the mathematical quotient, but Java integer division truncates to 1.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q8 – Local variables lifetime</text>
+    </name>
+    <questiontext format="html">
+      <text>Which statement about local variables is true?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Local variables are short-lived and scoped to the block in which they are declared.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>They exist for the lifetime of the program</text>
+      <feedback format="html">
+        <text>No: they do not outlive the method/block.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>They exist only while the method is executing</text>
+      <feedback format="html">
+        <text>Correct: locals are created on entry and discarded on exit.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They can be accessed from anywhere in the class</text>
+      <feedback format="html">
+        <text>No: their scope is limited to their declaring block.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>They must always receive their value from parameters</text>
+      <feedback format="html">
+        <text>No: locals are set inside the method; parameters receive values from callers.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q9 – Refund method behavior</text>
+    </name>
+    <questiontext format="html">
+      <text>In the method below, what value is returned?
+
+public int refundBalance() {
+    int amountToRefund;
+    amountToRefund = balance;
+    balance = 0;
+    return amountToRefund;
+}</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>The method copies balance into a local, clears the field, and returns the saved value.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>0</text>
+      <feedback format="html">
+        <text>No: the method stores the old balance in amountToRefund before clearing.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The old value of balance</text>
+      <feedback format="html">
+        <text>Correct: amountToRefund holds the prior balance.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The new value of balance</text>
+      <feedback format="html">
+        <text>After setting balance = 0, the new value is 0, but the method returns amountToRefund.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Nothing is returned</text>
+      <feedback format="html">
+        <text>This method returns an int and has a return statement.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q10 – Effect of return</text>
+    </name>
+    <questiontext format="html">
+      <text>What happens when a return statement is executed in a method?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>A return immediately ends method execution and hands back control (and optionally a value) to the caller.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>The method continues executing until the end</text>
+      <feedback format="html">
+        <text>No: execution stops at the return.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The method terminates immediately</text>
+      <feedback format="html">
+        <text>Correct: control returns to the caller immediately.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The method skips one line and continues</text>
+      <feedback format="html">
+        <text>No: return exits the method.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The method pauses but does not terminate</text>
+      <feedback format="html">
+        <text>No: there is no pause; it exits.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q11 – Scope of a field</text>
+    </name>
+    <questiontext format="html">
+      <text>The scope of a field is:</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>A field belongs to the class and is visible throughout it (visibility may be further restricted by access modifiers).</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>The block in which it is declared</text>
+      <feedback format="html">
+        <text>This describes a local variable, not a field.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The whole class</text>
+      <feedback format="html">
+        <text>Correct: a field is accessible throughout its class (subject to access modifiers).</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Only inside its method</text>
+      <feedback format="html">
+        <text>Fields are not declared inside methods; locals are.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Limited to a single statement</text>
+      <feedback format="html">
+        <text>This is not how field scope works.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q12 – Lifetime of a local variable</text>
+    </name>
+    <questiontext format="html">
+      <text>The lifetime of a local variable is:</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text>Local variables are created when their block begins execution and are discarded when it ends.</text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <correctfeedback format="html">
+      <text>Correct!</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Not quite. Review the slides on this topic.</text>
+    </incorrectfeedback>
+    <answer fraction="0" format="html">
+      <text>The lifetime of the program</text>
+      <feedback format="html">
+        <text>Locals do not persist for the whole program.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>The lifetime of its containing object</text>
+      <feedback format="html">
+        <text>That describes fields, not locals.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text>The execution of the block in which it is declared</text>
+      <feedback format="html">
+        <text>Correct: locals exist only during execution of their block.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text>Until the class is garbage collected</text>
+      <feedback format="html">
+        <text>GC pertains to objects on the heap, not stack-allocated locals.</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
