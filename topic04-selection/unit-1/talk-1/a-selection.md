@@ -1,8 +1,8 @@
 ---
 icon:
   type: oui:logstash-if
-  color: light-blue
+  color: lightblue
 ---
-# 04 : Selection
+# 04 : if statements
 
-Selection - if statements
+if, if-else, if-else-if
