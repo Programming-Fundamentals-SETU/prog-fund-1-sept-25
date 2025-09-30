@@ -4,6 +4,6 @@ icon:
   color: orange
 ---
 
-# 3: Data Types
+# 03: Data Types
 
 variables, primitive types

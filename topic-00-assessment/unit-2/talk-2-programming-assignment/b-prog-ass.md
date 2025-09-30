@@ -4,7 +4,7 @@ icon:
   color: green
 ---
 
-0: Programming Assignment
+00: Programming Assignment
 
 Specification, Marking Scheme and due dates.
 
