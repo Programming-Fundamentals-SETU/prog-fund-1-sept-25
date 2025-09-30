@@ -1,7 +1,7 @@
 ---
 icon:
   type: oui:logstash-if
-  color: darkturquoise
+  color: orangered
 ---
 # 04 : if statements
 
