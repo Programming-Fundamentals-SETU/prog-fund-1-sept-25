@@ -1,6 +1,6 @@
 ---
 icon:
-  type: oui:logstash-if
+  type: ix:data-type-boolean
   color: orangered
 ---
 # 04 : Boolean Expressions
