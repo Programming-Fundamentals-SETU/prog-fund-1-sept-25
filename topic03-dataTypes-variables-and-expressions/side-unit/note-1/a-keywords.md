@@ -5,4 +5,4 @@ icon:
 ---
 List of keywords in Java
 
-![](keywords.png)
+![](img/keywords.png)
