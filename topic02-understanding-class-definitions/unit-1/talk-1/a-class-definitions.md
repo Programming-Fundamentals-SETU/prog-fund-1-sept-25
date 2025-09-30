@@ -3,6 +3,6 @@ icon:
   type: codex:add-border
   color: blue
 ---
-Understanding Class Definitions
+# 2: Understanding Class Definitions
 
 Basic Elements

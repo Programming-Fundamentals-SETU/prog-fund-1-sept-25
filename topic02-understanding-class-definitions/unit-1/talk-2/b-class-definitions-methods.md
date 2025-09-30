@@ -3,6 +3,6 @@ icon:
   type: codex:curly-brackets
   color: blue
 ---
-Understanding Class Definitions
+# 2: Understanding Class Definitions
 
 Methods

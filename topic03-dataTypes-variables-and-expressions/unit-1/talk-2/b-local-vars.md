@@ -4,7 +4,7 @@ icon:
   color: orange
 ---
 
-# Local Variables and Scope
+# 3. Local Variables and Scope
 
 Variables and Scope
 
