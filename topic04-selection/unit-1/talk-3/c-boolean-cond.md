@@ -5,4 +5,4 @@ icon:
 ---
 # 04 : Boolean Expressions
 
-boolean conditions, relational operators, order of evaluation
+boolean conditions, relational operators, logical ops
