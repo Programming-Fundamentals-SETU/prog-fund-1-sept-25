@@ -1,1 +1,1 @@
-Practical labs (Selection and Scanner_IO)
+Practical labs  and tutorials(Selection and Scanner_IO)
