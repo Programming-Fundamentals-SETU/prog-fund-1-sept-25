@@ -10,7 +10,7 @@ ignore         :
 #- topic01-objects-and-classes
 #- topic02-understanding-class-definitions 
 #- topic03-dataTypes-variables-and-expressions
-- topic04-selection
+#- topic04-selection
 - topic05-loops
 - topic06-arrays
 - topic07-methods
