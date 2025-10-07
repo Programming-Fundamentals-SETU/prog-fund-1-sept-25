@@ -3,6 +3,6 @@ icon:
     type: carbon:while-loop
     color: lightseagreen
 ---
-While loops
+# 05: While loops
 
 iteration · while loops 

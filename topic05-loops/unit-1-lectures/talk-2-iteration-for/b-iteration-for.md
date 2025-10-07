@@ -5,4 +5,4 @@ icon:
 ---
 # 05: For loops
 
-looping · for,  while loops 
+looping · while loops 
