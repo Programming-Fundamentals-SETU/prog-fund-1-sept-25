@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category>
+      <text>$course$/top/Prog-Fund-1/Week-Boolean-Selection</text>
+    </category>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Q1: Order of Evaluation</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the result of the following expression according to Java’s order of evaluation?</p><pre><code>3 + 6 * 5 - 2</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>37</text>
+      <feedback format="html">
+        <text><![CDATA[Multiplication happens before addition and subtraction, but check your arithmetic.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>49</text>
+      <feedback format="html">
+        <text><![CDATA[You’ve multiplied incorrectly — review operator precedence.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>31</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! 3 + (6 * 5) - 2 = 31.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>25</text>
+      <feedback format="html">
+        <text><![CDATA[You’re adding before multiplying — that’s not the Java order of evaluation.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q2: Compound assignment</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does this compound assignment statement do?</p><pre><code>x += 5;</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Increases x by 5</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! Equivalent to x = x + 5.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Sets x equal to 5</text>
+      <feedback format="html">
+        <text><![CDATA[No, that would be x = 5;]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Multiplies x by 5</text>
+      <feedback format="html">
+        <text><![CDATA[That’s what x *= 5; would do.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Divides x by 5</text>
+      <feedback format="html">
+        <text><![CDATA[No, x /= 5; performs division.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q3: Operator precedence</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which operator is evaluated first in Java?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>+</text>
+      <feedback format="html">
+        <text><![CDATA[Addition comes after multiplication.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>-</text>
+      <feedback format="html">
+        <text><![CDATA[Subtraction has lower precedence than multiplication/division.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>*</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! Multiplication/division are evaluated before addition/subtraction.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>=</text>
+      <feedback format="html">
+        <text><![CDATA[Assignment is evaluated last in expressions.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q4: Boolean values</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>A boolean variable in Java can hold which values?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>"true" or "false"</text>
+      <feedback format="html">
+        <text><![CDATA[These are strings, not boolean literals.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1 or 0</text>
+      <feedback format="html">
+        <text><![CDATA[Some languages use 1/0; Java uses true/false keywords.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>true or false</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! Java uses the keywords true and false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Yes or No</text>
+      <feedback format="html">
+        <text><![CDATA[Not valid in Java — those would be strings.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q5: NOT operator effect</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What will this code print if <code>isEligible = false</code>?</p><pre><code>if (!isEligible) {
+    System.out.println("Sorry you cannot vote.");
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Nothing</text>
+      <feedback format="html">
+        <text><![CDATA[No, the message will print because !false is true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Sorry you cannot vote.</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! The NOT operator reverses the boolean value.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>You can vote.</text>
+      <feedback format="html">
+        <text><![CDATA[That would print only if isEligible were true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>An error</text>
+      <feedback format="html">
+        <text><![CDATA[This code is valid Java; no error here.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q6: Logical operators</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which operator means “both conditions must be true”?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>||</text>
+      <feedback format="html">
+        <text><![CDATA[OR (||) means either condition may be true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>&&</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! AND (&&) requires both conditions to be true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>!</text>
+      <feedback format="html">
+        <text><![CDATA[This negates a condition (NOT).]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>=</text>
+      <feedback format="html">
+        <text><![CDATA[That’s assignment, not a logical operator.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q7: OR for invalid mark</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Consider the code:</p><pre><code>if ((mark &lt; 0) || (mark &gt; 100)) {
+    System.out.println("This is NOT a valid % mark.");
+}</code></pre><p>When will the message be printed?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Always</text>
+      <feedback format="html">
+        <text><![CDATA[No, only when one of the two conditions is true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Only if mark is between 0 and 100</text>
+      <feedback format="html">
+        <text><![CDATA[That’s when the condition is false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Only if mark is invalid</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! True when mark &lt; 0 or mark &gt; 100.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Never</text>
+      <feedback format="html">
+        <text><![CDATA[It prints when the condition is true, so not “never.”]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q8: NOT of true</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the result of this expression?</p><pre><code>!true</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! The NOT operator flips true to false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[That’s the original value, not the negated one.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>null</text>
+      <feedback format="html">
+        <text><![CDATA[Booleans here do not become null.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback format="html">
+        <text><![CDATA[Java booleans aren’t represented numerically.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q9: If condition with negative amount</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens when <code>amount</code> is negative in this code?</p><pre><code>if (amount &gt; 0) {
+    balance = balance + amount;
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Adds amount to balance</text>
+      <feedback format="html">
+        <text><![CDATA[That happens only if amount &gt; 0.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Subtracts amount</text>
+      <feedback format="html">
+        <text><![CDATA[No subtraction here.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Does nothing</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! Condition is false, so block isn’t executed.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Causes an error</text>
+      <feedback format="html">
+        <text><![CDATA[Negative values don’t cause an error; the condition is simply false.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q10: Part of if that is the test</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which part of an <code>if</code> statement contains the test to evaluate?</p><pre><code>if (price &lt; 50) {
+    System.out.println("Discount applied");
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>else block</text>
+      <feedback format="html">
+        <text><![CDATA[The else block runs only when the test is false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>condition</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! The expression inside parentheses is the test.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>curly braces</text>
+      <feedback format="html">
+        <text><![CDATA[These mark the statements to execute, not the test.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>print statement</text>
+      <feedback format="html">
+        <text><![CDATA[That’s an action, not the test.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q11: Else-if chain behaviour</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens when multiple conditions are used with <code>else if</code>?</p><pre><code>if (age &lt; 13) {
+    System.out.println("Child");
+} else if (age &lt; 19) {
+    System.out.println("Teenager");
+} else {
+    System.out.println("Adult");
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>All true conditions execute</text>
+      <feedback format="html">
+        <text><![CDATA[Only the first true branch executes; the rest are skipped.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Only the first true condition executes</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! Once one condition is true, later ones are not evaluated.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>None execute</text>
+      <feedback format="html">
+        <text><![CDATA[One branch always executes: the first true one, or the else.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>The last condition always executes</text>
+      <feedback format="html">
+        <text><![CDATA[No — only if all previous conditions are false will the else run.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q12: Tiered bonus example</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What will this code do if <code>amount = 120</code>?</p><pre><code>if (amount &gt; 100) {
+    balance = balance + 50;
+} else if (amount &gt; 50) {
+    balance = balance + 25;
+} else {
+    amount = amount + 5;
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Adds 5 to amount</text>
+      <feedback format="html">
+        <text><![CDATA[That happens only for amounts ≤ 50.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Adds 25 to balance</text>
+      <feedback format="html">
+        <text><![CDATA[That’s for amounts between 51 and 100.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Adds 50 to balance</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! The first condition is true; the rest are skipped.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Does nothing</text>
+      <feedback format="html">
+        <text><![CDATA[At least one branch runs; here it adds 50 to balance.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q13: Nature of the if statement</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which of the following statements about the <code>if</code> statement is true?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>It executes repeatedly until false</text>
+      <feedback format="html">
+        <text><![CDATA[That describes a loop (while/for), not an if.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>It is executed once</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! An if statement is executed once when encountered.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>It requires curly braces</text>
+      <feedback format="html">
+        <text><![CDATA[Braces are optional when there is only one statement in the block.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>It cannot contain another if</text>
+      <feedback format="html">
+        <text><![CDATA[If statements can be nested.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q14: Assignment vs equality</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does the <code>=</code> operator do in Java?</p><pre><code>age = 18;</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Tests equality</text>
+      <feedback format="html">
+        <text><![CDATA[Use == to test equality.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Assigns a value</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! = assigns the value on the right to the variable on the left.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Compares two variables</text>
+      <feedback format="html">
+        <text><![CDATA[== compares values; = assigns.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Performs addition</text>
+      <feedback format="html">
+        <text><![CDATA[= does not perform arithmetic.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q15: Stray semicolon after if</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is wrong with this code?</p><pre><code>if (price &lt; 50);
+{
+    price = 50;
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Braces are missing</text>
+      <feedback format="html">
+        <text><![CDATA[Braces are present and correct.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Semi-colon is needed</text>
+      <feedback format="html">
+        <text><![CDATA[The semicolon is actually the problem here.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Remove the semi-colon</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct! The stray ; ends the if, so the block always runs.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Nothing</text>
+      <feedback format="html">
+        <text><![CDATA[There is a problem — the extra ; breaks the conditional behaviour.]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
