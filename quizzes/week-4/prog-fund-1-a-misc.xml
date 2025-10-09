@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category>
+      <text>$course$/top/Prog-Fund-1/Week-Boolean-Selection/a-misc</text>
+    </category>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>A1: Order of Evaluation 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate according to Java precedence:</p><pre><code>3 + 6 * 5 - 2</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>37</text>
+      <feedback format="html">
+        <text><![CDATA[Multiplication before addition/subtraction, but check arithmetic.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>31</text>
+      <feedback format="html">
+        <text><![CDATA[✔ 3 + (6*5) - 2 = 31.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>49</text>
+      <feedback format="html">
+        <text><![CDATA[That applies incorrect arithmetic after precedence.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>25</text>
+      <feedback format="html">
+        <text><![CDATA[You likely added before multiplying.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A2: Order of Evaluation 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate:</p><pre><code>3 + 6 * (5 - 2)</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>21</text>
+      <feedback format="html">
+        <text><![CDATA[✔ 5-2=3, 6*3=18, 3+18=21.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>27</text>
+      <feedback format="html">
+        <text><![CDATA[You added 3 to 24 mistakenly; check (5-2) first, then multiply.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>33</text>
+      <feedback format="html">
+        <text><![CDATA[Parentheses then multiplication — not addition first.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>17</text>
+      <feedback format="html">
+        <text><![CDATA[Re-evaluate: 6*(5-2)=18; 3+18=21.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A3: Order of Evaluation 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate:</p><pre><code>(3 + 6) * 5 - 2</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>43</text>
+      <feedback format="html">
+        <text><![CDATA[✔ (3+6)=9, 9*5=45, 45-2=43.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>31</text>
+      <feedback format="html">
+        <text><![CDATA[That’s the version without the leading parentheses.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>25</text>
+      <feedback format="html">
+        <text><![CDATA[You likely multiplied before evaluating the parentheses.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>47</text>
+      <feedback format="html">
+        <text><![CDATA[Check the final subtraction by 2.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A4: Compound assignment (+=)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What does this statement do?</p><pre><code>x += 5;</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Increases x by 5</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Equivalent to x = x + 5.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Sets x to 5</text>
+      <feedback format="html">
+        <text><![CDATA[That would be x = 5;]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Multiplies x by 5</text>
+      <feedback format="html">
+        <text><![CDATA[That is x *= 5;]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Divides x by 5</text>
+      <feedback format="html">
+        <text><![CDATA[That is x /= 5;]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A5: Compound assignment (*=)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the effect of:</p><pre><code>y *= 3;</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Adds 3 to y</text>
+      <feedback format="html">
+        <text><![CDATA[That would be y += 3;]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Multiplies y by 3</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Equivalent to y = y * 3.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Sets y to 3</text>
+      <feedback format="html">
+        <text><![CDATA[That would be y = 3;]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Divides y by 3</text>
+      <feedback format="html">
+        <text><![CDATA[That would be y /= 3;]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A6: Integer division</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Given <code>int a = 7, b = 2;</code> what is the value of:</p><pre><code>a / b</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>3</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Integer division truncates the fraction: 7/2 = 3.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>3.5</text>
+      <feedback format="html">
+        <text><![CDATA[With ints, result is truncated; use double for 3.5.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback format="html">
+        <text><![CDATA[Check integer division behaviour.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Error</text>
+      <feedback format="html">
+        <text><![CDATA[This is valid; both are ints.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A7: Modulus operator</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Given <code>int a = 17, b = 5;</code> what is:</p><pre><code>a % b</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>2</text>
+      <feedback format="html">
+        <text><![CDATA[✔ 17 = 3*5 + 2; remainder is 2.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback format="html">
+        <text><![CDATA[That’s the quotient remainder, not correct here.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback format="html">
+        <text><![CDATA[Modulus result is always less than the divisor (if positive numbers).]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>-2</text>
+      <feedback format="html">
+        <text><![CDATA[Signs matter, but here both are positive.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A8: Mixed operators</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Evaluate:</p><pre><code>10 - 6 / 3 + 4 * 2</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>16</text>
+      <feedback format="html">
+        <text><![CDATA[✔ 6/3=2; 4*2=8; 10 - 2 + 8 = 16.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>10</text>
+      <feedback format="html">
+        <text><![CDATA[Re-evaluate with precedence: division and multiplication first.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>8</text>
+      <feedback format="html">
+        <text><![CDATA[Likely subtracted and added before handling * and /.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>20</text>
+      <feedback format="html">
+        <text><![CDATA[Check each step carefully.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A9: Side effects check</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the final value of <code>x</code> after this executes (assume <code>int x = 4;</code>)?</p><pre><code>x -= 6;  // line 1
+x += 3;  // line 2</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>1</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Line1: 4-6 = -2; Line2: -2+3 = 1.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>-3</text>
+      <feedback format="html">
+        <text><![CDATA[Recheck line 2: -2 + 3 = 1.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>-2</text>
+      <feedback format="html">
+        <text><![CDATA[That’s after line 1 only.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>7</text>
+      <feedback format="html">
+        <text><![CDATA[This would be x += 3 from 4 directly; but there’s a preceding -= 6.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>A10: Precedence mnemonic</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which mnemonic best matches Java’s arithmetic precedence order presented (brackets, multiplication/division, addition/subtraction)?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>BODMAS / PEMDAS</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Brackets, Orders (exponents), Division/Multiplication, Addition/Subtraction (Java lacks exponent operator).]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>ASMDOB</text>
+      <feedback format="html">
+        <text><![CDATA[This reverses the usual order.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>SADBOM</text>
+      <feedback format="html">
+        <text><![CDATA[Not a standard mnemonic.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>MDASBO</text>
+      <feedback format="html">
+        <text><![CDATA[Brackets happen first, then MDAS.]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

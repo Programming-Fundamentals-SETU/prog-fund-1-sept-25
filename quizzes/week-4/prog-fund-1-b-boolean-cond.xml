@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category>
+      <text>$course$/top/Prog-Fund-1/Week-Boolean-Selection/b-boolean-cond</text>
+    </category>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>B1: Boolean literals</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which are valid Java boolean literals?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>true and false</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct!]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>"true" and "false"</text>
+      <feedback format="html">
+        <text><![CDATA[These are Strings, not booleans.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1 and 0</text>
+      <feedback format="html">
+        <text><![CDATA[Some languages allow this; Java does not.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Yes and No</text>
+      <feedback format="html">
+        <text><![CDATA[Not Java boolean values.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B2: Relational operators</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which expression tests equality of primitive ints correctly?</p><pre><code>int a = 5, b = 5;</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>a = b</text>
+      <feedback format="html">
+        <text><![CDATA[That assigns b to a; use == for equality.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>a == b</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct equality test.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>a != b</text>
+      <feedback format="html">
+        <text><![CDATA[This tests inequality.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>a equals b</text>
+      <feedback format="html">
+        <text><![CDATA[Not valid for primitives.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B3: AND example</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>For input <code>mark</code>, when is this condition true?</p><pre><code>(mark &gt;= 0) &amp;&amp; (mark &lt;= 100)</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>When mark is between 0 and 100 inclusive</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Both bounds must hold.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Only when mark is strictly between 0 and 100</text>
+      <feedback format="html">
+        <text><![CDATA[The equality allows 0 and 100.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>When mark is negative</text>
+      <feedback format="html">
+        <text><![CDATA[Fails the first bound.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Always</text>
+      <feedback format="html">
+        <text><![CDATA[It’s only true within the inclusive range.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B4: OR example</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>When is this condition true?</p><pre><code>(mark &lt; 0) || (mark &gt; 100)</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>When mark is invalid (outside 0..100)</text>
+      <feedback format="html">
+        <text><![CDATA[✔ True if either side is true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>When mark is 0..100 inclusive</text>
+      <feedback format="html">
+        <text><![CDATA[Then both sides are false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Never</text>
+      <feedback format="html">
+        <text><![CDATA[It can be true for out-of-range values.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Always</text>
+      <feedback format="html">
+        <text><![CDATA[Not always; only for invalid marks.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B5: NOT example</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Given <code>boolean isFriday = false;</code> what is:</p><pre><code>!isFriday</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>true</text>
+      <feedback format="html">
+        <text><![CDATA[✔ NOT false is true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>false</text>
+      <feedback format="html">
+        <text><![CDATA[That would be isFriday itself.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback format="html">
+        <text><![CDATA[Java booleans aren’t numeric.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>null</text>
+      <feedback format="html">
+        <text><![CDATA[This expression is boolean, not nullable here.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B6: Boolean variable in if</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What prints?</p><pre><code>boolean canVote = (age &gt;= 18);
+if (canVote) {
+    System.out.println("You can vote!");
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>"You can vote!" when age &gt;= 18</text>
+      <feedback format="html">
+        <text><![CDATA[✔ The condition equals the boolean variable.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>It never prints</text>
+      <feedback format="html">
+        <text><![CDATA[It prints for age 18 or more.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>It prints only when age == 18</text>
+      <feedback format="html">
+        <text><![CDATA[It’s >= 18, not == 18.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Compilation error</text>
+      <feedback format="html">
+        <text><![CDATA[This is valid Java.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B7: Short-circuit AND</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which statement about <code>&amp;&amp;</code> is true?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Right-hand side is not evaluated if left-hand side is false</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Short-circuit behaviour.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Both sides always evaluate</text>
+      <feedback format="html">
+        <text><![CDATA[That’s &amp; (bitwise) or languages without short-circuit.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>RHS is skipped when LHS is true</text>
+      <feedback format="html">
+        <text><![CDATA[That describes || short-circuit, not &&.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>It performs bitwise AND on booleans</text>
+      <feedback format="html">
+        <text><![CDATA[That’s single ampersand & with booleans.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B8: Short-circuit OR</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which statement about <code>||</code> is true?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>RHS is not evaluated if LHS is true</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Short-circuit OR.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>RHS is not evaluated if LHS is false</text>
+      <feedback format="html">
+        <text><![CDATA[If LHS is false, RHS must be checked.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Both sides always evaluate</text>
+      <feedback format="html">
+        <text><![CDATA[Not for ||; it short-circuits.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>It’s the same as | on booleans</text>
+      <feedback format="html">
+        <text><![CDATA[Single | evaluates both sides.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B9: Equality vs assignment trap</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is wrong with this code?</p><pre><code>if (x = 5) {{
+    System.out.println("Five");
+}}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Uses = instead of ==</text>
+      <feedback format="html">
+        <text><![CDATA[✔ = assigns; == compares.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Missing semicolon after if</text>
+      <feedback format="html">
+        <text><![CDATA[A semicolon would be incorrect here.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Should use === in Java</text>
+      <feedback format="html">
+        <text><![CDATA[Java doesn’t have ===.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Nothing is wrong</text>
+      <feedback format="html">
+        <text><![CDATA[There is a logic/syntax issue: = is not a boolean expression here.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>B10: Combining conditions</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which condition matches “age is a teenager (13–19 inclusive) or a senior (65+)”?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>(age &gt;= 13 &amp;&amp; age &lt;= 19) || (age &gt;= 65)</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Matches the described ranges.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>(age &gt; 13 &amp;&amp; age &lt; 19) || (age &gt; 65)</text>
+      <feedback format="html">
+        <text><![CDATA[Excludes the endpoints 13,19,65.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>age &gt;= 13 || age &gt;= 65</text>
+      <feedback format="html">
+        <text><![CDATA[This includes many ages unintentionally.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>age &lt;= 19 || age &gt;= 65</text>
+      <feedback format="html">
+        <text><![CDATA[This includes ages under 13.]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>

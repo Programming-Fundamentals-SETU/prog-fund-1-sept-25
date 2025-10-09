@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category>
+      <text>$course$/top/Prog-Fund-1/Week-Boolean-Selection/c-selection</text>
+    </category>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>C1: Basic if</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What happens here if <code>amount = -10</code>?</p><pre><code>if (amount &gt; 0) {
+    balance = balance + amount;
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>balance increases by -10</text>
+      <feedback format="html">
+        <text><![CDATA[The body doesn’t run when amount &gt; 0 is false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Nothing happens</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Condition is false; block is skipped.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Compilation error</text>
+      <feedback format="html">
+        <text><![CDATA[This is valid Java.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>balance decreases by 10</text>
+      <feedback format="html">
+        <text><![CDATA[The addition doesn’t execute.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C2: If-else form</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Complete behaviour of this code for positive vs non-positive values?</p><pre><code>if (amount &gt; 0) {
+    balance = balance + amount;
+} else {
+    System.out.printf("Use a positive amount: %d%n", amount);
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Positive adds to balance; otherwise prints a message</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Matches the example.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Always adds to balance</text>
+      <feedback format="html">
+        <text><![CDATA[Else handles non-positives.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Always prints the message</text>
+      <feedback format="html">
+        <text><![CDATA[It prints only when amount &lt;= 0.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Throws an exception for negative values</text>
+      <feedback format="html">
+        <text><![CDATA[No exception thrown in this snippet.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C3: Else-if chain</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What prints for <code>age = 15</code>?</p><pre><code>if (age &lt; 13) {
+    System.out.println("Child");
+} else if (age &lt; 19) {
+    System.out.println("Teenager");
+} else {
+    System.out.println("Adult");
+}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Child</text>
+      <feedback format="html">
+        <text><![CDATA[15 is not &lt; 13.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Teenager</text>
+      <feedback format="html">
+        <text><![CDATA[✔ 15 &lt; 19 and previous condition is false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Adult</text>
+      <feedback format="html">
+        <text><![CDATA[Else runs only if both earlier conditions are false.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Nothing</text>
+      <feedback format="html">
+        <text><![CDATA[One of the branches always runs.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C4: First true branch wins</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>How many branches execute in an if/else-if/else chain?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>All branches that are true</text>
+      <feedback format="html">
+        <text><![CDATA[Only one branch executes.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Exactly one branch</text>
+      <feedback format="html">
+        <text><![CDATA[✔ First true branch executes; rest are skipped. Else runs if none are true.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Zero or two branches</text>
+      <feedback format="html">
+        <text><![CDATA[Never two; at least one if else is present.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>All branches always</text>
+      <feedback format="html">
+        <text><![CDATA[That’s not how selection works.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C5: Braces optionality</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which two snippets are equivalent?</p><pre><code>// A
+if (price &lt; 50) {
+    price = 50;
+}
+
+// B
+if (price &lt; 50)
+    price = 50;</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>A and B are equivalent when the block has one statement</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Braces optional with a single statement.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A and B are never equivalent</text>
+      <feedback format="html">
+        <text><![CDATA[They can be equivalent with one statement.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>B is invalid Java</text>
+      <feedback format="html">
+        <text><![CDATA[It’s valid.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A executes twice</text>
+      <feedback format="html">
+        <text><![CDATA[Both execute at most once.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C6: Stray semicolon</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is wrong with the following?</p><pre><code>if (price &lt; 50);
+{{
+    price = 50;
+}}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>The semicolon ends the if; block always runs</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Remove the stray semicolon.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Missing braces</text>
+      <feedback format="html">
+        <text><![CDATA[Braces are present.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Needs else</text>
+      <feedback format="html">
+        <text><![CDATA[Else is optional.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Correct as-is</text>
+      <feedback format="html">
+        <text><![CDATA[It’s incorrect due to the stray ;.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C7: Ticket machine (simple)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What purpose does the condition serve?</p><pre><code>public void insertMoney(int amount) {{
+    if (amount &gt; 0) {{
+        balance = balance + amount;
+    }}
+}}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>Avoids adding non-positive amounts</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Prevents inappropriate action.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Forces balance to 0 for negatives</text>
+      <feedback format="html">
+        <text><![CDATA[No reset happens here.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Always adds amount</text>
+      <feedback format="html">
+        <text><![CDATA[Condition blocks non-positives.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Throws exception for negatives</text>
+      <feedback format="html">
+        <text><![CDATA[No exception in this code.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C8: Ticket machine (tiers)</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the outcome for <code>amount = 60</code>?</p><pre><code>public void specialOffer(int amount) {{
+    if (amount &gt; 100) {{
+        balance = balance + 50;
+    }} else if (amount &gt; 50) {{
+        balance = balance + 25;
+    }} else {{
+        amount = amount + 5;
+    }}
+}}</code></pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>Adds 50 to balance</text>
+      <feedback format="html">
+        <text><![CDATA[That’s for amount &gt; 100.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Adds 25 to balance</text>
+      <feedback format="html">
+        <text><![CDATA[✔ 60 &gt; 50 but not &gt; 100.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Adds 5 to amount</text>
+      <feedback format="html">
+        <text><![CDATA[Else branch is for amount ≤ 50.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Does nothing</text>
+      <feedback format="html">
+        <text><![CDATA[A branch always executes.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C9: Condition definition</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which best defines a boolean condition used by an if statement?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>An expression that evaluates to true or false</text>
+      <feedback format="html">
+        <text><![CDATA[✔ Correct definition.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A statement that prints output</text>
+      <feedback format="html">
+        <text><![CDATA[Printing is a side effect, not a condition.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A block of multiple statements</text>
+      <feedback format="html">
+        <text><![CDATA[That’s a block, not a condition.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A method that returns an int</text>
+      <feedback format="html">
+        <text><![CDATA[If requires a boolean expression.]]></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>C10: Relational operator reminder</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Which statement is correct about <code>=</code> vs <code>==</code>?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[]]></text>
+    </generalfeedback>
+    <defaultgrade>1.000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="100">
+      <text>= assigns; == tests equality for primitives</text>
+      <feedback format="html">
+        <text><![CDATA[✔ As highlighted on the slides.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>= tests equality; == assigns</text>
+      <feedback format="html">
+        <text><![CDATA[This is reversed.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Both test equality</text>
+      <feedback format="html">
+        <text><![CDATA[Only == tests equality.]]></text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Java uses === for equality</text>
+      <feedback format="html">
+        <text><![CDATA[Java does not have ===.]]></text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
