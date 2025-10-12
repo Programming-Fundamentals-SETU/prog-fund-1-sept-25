@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Angle
+comment0.text=\n\ This\ class\ asks\ the\ user\ to\ enter\ an\ angle.\ \ If\ the\ angle\ is\:\n\ \ \ \ \ less\ than\ 90,\ print\ out\ acute\ angle\n\ \ \ \ \ exactly\ 90,\ print\ out\ right\ angle\n\ \ \ \ \ more\ than\ 90\ but\ less\ than\ 180,\ print\ out\ obtuse\ angle\n\ \ \ \ \ exactly\ 180,\ print\ out\ straight\ angle\n\ \ \ \ \ otherwise,\ print\ out\ reflex\ angle\n\n\ @version\ (1.0)\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

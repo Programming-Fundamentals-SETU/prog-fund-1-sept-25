@@ -11,7 +11,7 @@ ignore         :
 #- topic02-understanding-class-definitions 
 #- topic03-dataTypes-variables-and-expressions
 #- topic04-selection
-- topic05-loops
+#- topic05-loops
 - topic06-arrays
 - topic07-methods
 - topic08-arrays-of-objects
