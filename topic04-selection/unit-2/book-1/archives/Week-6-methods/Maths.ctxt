@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Maths
+comment0.text=\n\ Write\ a\ description\ of\ class\ Maths\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=n
+comment1.target=int\ timesTwo(int)
+comment2.params=n
+comment2.target=int\ timesTwo2(int)
+comment3.params=n
+comment3.target=int\ factorial(int)
+comment4.params=n
+comment4.target=long\ factorialLong(int)
+numComments=5
