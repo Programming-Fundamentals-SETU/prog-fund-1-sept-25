@@ -4,6 +4,6 @@ icon:
     color: chocolate
 ---
 
-# 06: Arrays of Object Ty
+# 06: Arrays of Object Types
 
 arrays of objects
