@@ -3,7 +3,7 @@ icon:
     type: carbon:array-numbers
     color: chocolate
 ---
-# 06: Arrays introduction
+# 06:  introduction to Arrays
 
 Primitive Arrays syntax and loops 
 
