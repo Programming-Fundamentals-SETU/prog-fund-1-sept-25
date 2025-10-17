@@ -2,7 +2,7 @@
 icon:
   type: devicon:java 
 ---
-# Programming Fundamentals 1
+Mairead Meagher & Siobhan Roche
 
 This is an introductory Programming module and assumes no prior knowledge of programming. 
 
