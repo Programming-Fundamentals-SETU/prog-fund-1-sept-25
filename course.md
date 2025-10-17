@@ -2,7 +2,7 @@
 icon:
   type: devicon:java 
 ---
-Mairead Meagher & Siobhan Roche
+Programming Fundamentals 1 (BlueJ)
 
 This is an introductory Programming module and assumes no prior knowledge of programming. 
 
