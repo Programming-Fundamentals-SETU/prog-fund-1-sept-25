@@ -3,9 +3,15 @@ icon:
   type: fluent-mdl2:handwriting
   color: lightseagreen
 ---
-# 05: Tutorial 
 
-loops · while loops · for loops 
+<div align="center">
+
+<h1>Tutorial Sheet - Topic 05 </h1>
+<h2>Programming Fundamentals 1</h2>
+
+Loops, while loops, for loops, nested loops.
+
+</div>
 
 ## Part A: Understanding While Loops
 
