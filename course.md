@@ -1,6 +1,7 @@
 ---
 icon:
-  type: devicon:java 
+  type: streamline-ultimate:java
+  color: red
 ---
 Programming Fundamentals 1
 
