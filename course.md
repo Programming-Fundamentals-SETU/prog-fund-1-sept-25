@@ -2,7 +2,7 @@
 icon:
   type: devicon:java 
 ---
-Programming Fundamentals 1 (BlueJ)
+Programming Fundamentals 1
 
 This is an introductory Programming module and assumes no prior knowledge of programming. 
 
