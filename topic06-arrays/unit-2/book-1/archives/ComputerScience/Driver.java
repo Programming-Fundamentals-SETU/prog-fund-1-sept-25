@@ -16,13 +16,8 @@ public class Driver
         
         students = new Person[20];
         
-        // Person me = new Person("Joe", "Bloggs", 31);
         
-        // me.printFullName();
-        // me.printAge();
-        
-        // System.out.println("Happy Birthday! You were " + me.happyBirthday() + 
-        // " years old. Now you are " +  me.getAge());
+       
     
       
     }
