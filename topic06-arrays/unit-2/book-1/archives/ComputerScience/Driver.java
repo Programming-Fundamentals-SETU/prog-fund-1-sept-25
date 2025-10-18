@@ -13,10 +13,11 @@ public class Driver
     }
         
     Driver(){ 
-        
+        int[] nums = {1,3,4};
         students = new Person[20];
         
-        
+for (int i = 0; i < 3; i++) 
+  System.out.println(nums[i]);        
        
     
       
