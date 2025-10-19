@@ -1,9 +1,10 @@
 ---
-icon  : game-icons:sewing-strings
-color : chocolate
+   icon  :
+        type: game-icons:sewing-strings
+        color : chocolate
 ---
 
-## Strings 
+## 06: Strings 
 
 String v char · Java API  · string methods
 
