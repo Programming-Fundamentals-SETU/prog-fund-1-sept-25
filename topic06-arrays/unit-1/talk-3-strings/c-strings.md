@@ -1,6 +1,6 @@
 ---
 icon:
-    type: carbon:array-numbers
+    type: carbon:string-text 
     color: chocolate
 ---
 # 06: Strings 
