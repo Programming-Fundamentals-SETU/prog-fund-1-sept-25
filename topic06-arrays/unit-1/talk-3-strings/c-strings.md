@@ -1,7 +1,7 @@
 ---
-icon  :
-   type: game-icons:sewing-strings
-   color : chocolate
+icon:
+    type: carbon:array-numbers
+    color: chocolate
 ---
 # 06: Strings 
 
