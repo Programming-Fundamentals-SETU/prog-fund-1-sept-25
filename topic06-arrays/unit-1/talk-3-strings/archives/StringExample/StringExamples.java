@@ -16,19 +16,26 @@ public class StringExamples
     {
         
     }
-     public static void main(String[] args) {
-        String message = "      HTTP 404 Not Fount Error    ";
-        int originalMessageLength = message.length();
+     // public static void main(String[] args) {
+        // String message = "      HTTP 404 Not Fount Error    ";
+        // int originalMessageLength = message.length();
         
-        String trimmedMessage = message.trim();
-        int trimmedMessageLength = trimmedMessage.length();
+        // String trimmedMessage = message.trim();
+        // int trimmedMessageLength = trimmedMessage.length();
         
-        System.out.println("The original message ["+ message + "] is " 
-            + originalMessageLength + " characters long");
-        System.out.println("The trimmed message ["+ trimmedMessage + "] is " 
-            + trimmedMessageLength + " characters long");
-        }
-    
+        // System.out.println("The original message ["+ message + "] is " 
+            // + originalMessageLength + " characters long");
+        // System.out.println("The trimmed message ["+ trimmedMessage + "] is " 
+            // + trimmedMessageLength + " characters long");
+        // }
+        public static void main(String[] args) {
+    String[] words = new String[4];
+words[1] = "Dog";
+words[3] = "Cat";
+for (int i = 0; i < words.length; i++) {
+    System.out.println(words[i]);
+}
+}
     
     // public static void main(String[] args) {
         // String message = "I wonder how long this message is?";
