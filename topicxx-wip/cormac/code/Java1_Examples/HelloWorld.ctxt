@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=HelloWorld
+comment0.text=\n\ HelloWorld\ \ \ Print\ hello\ and\ welcome\ text\ \n\ \ \n\ @author\ Mairead\ &\ Siobhan\n\ @version\ Sem\ 1\ 25\n\ \n\ The\ term\ print\ is\ legacy\ from\ when\ most\ computer\ output\ was\ printed\ on\ paper.\n\ It\ is\ more\ correct\ to\ consider\ print\ as\ meaning\ to\ write\ on\ the\ screen\n\ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

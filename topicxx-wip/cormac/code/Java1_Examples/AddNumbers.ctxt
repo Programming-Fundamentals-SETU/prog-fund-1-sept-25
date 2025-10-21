@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=AddNumbers
+comment0.text=\n\ Request\ two\ numbers,\ add\ them\ and\ print\ the\ sum\ \n\ \ \n\ @author\ Mairead\ &\ Siobhan\n\ @version\ Sem\ 1\ 25\n\ \n\ Print\ "Program\ to\ request\ and\ add\ two\ numbers"\n\ Prompt\ for\ first\ number,\ input\ and\ store\n\ Prompt\ for\ second\ number,\ input\ and\ store\n\ Sum\ the\ numbers\n\ Print\ "The\ sum\ is\ "\ and\ the\ sum\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

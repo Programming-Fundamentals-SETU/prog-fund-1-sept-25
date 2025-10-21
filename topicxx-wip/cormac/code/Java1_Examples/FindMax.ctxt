@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=FindMax
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ b
+comment2.target=int\ max(int,\ int)
+comment2.text=\n\ Method\ max\ determines\ and\ returns\ the\ maximum\ value\ of\ the\ two\ parameters\ a\ and\ b\n\ @param\ a\ \ the\ first\ parameter\n\ @param\ b\ \ the\ second\ parameter\n\ @return\ \ \ the\ maximum\ of\ a\ and\ b\n
+numComments=3

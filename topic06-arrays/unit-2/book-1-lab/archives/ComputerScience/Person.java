@@ -111,6 +111,10 @@ public class Person
         System.out.println("First name is : " + firstName);
     }
 
+    public void printSecondName()
+    {
+        System.out.println("Second name is : " + secondName);
+    }
     /**
      * 
      */
@@ -138,4 +142,6 @@ public class Person
         this.age = this.age + 1;
         return oldAge;
     }
+    
+
 }
