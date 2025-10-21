@@ -51,7 +51,6 @@ The `Person` class models a simple person object with four attributes and severa
 ---
 
 ## 🧩 UML Diagram (PlantUML)
-
 ```plantuml
 @startuml
 title Person Class Diagram
@@ -63,18 +62,24 @@ class Person {
     - float temperature
 
     + Person(String firstName, String secondName, int age)
+    
     + int getAge()
     + String getFirstName()
     + String getSecondName()
     + float getTemperature()
+    
     + void setAge(int age)
     + void setFirstName(String firstName)
     + void setSecondName(String firstName)
     + void setTemperature(float temperature)
+    
     + void printAge()
     + void printFirstName()
+    + void printSecondName()
     + void printFullName()
     + void printTemperature()
+    
     + int happyBirthday()
 }
 @enduml
+
