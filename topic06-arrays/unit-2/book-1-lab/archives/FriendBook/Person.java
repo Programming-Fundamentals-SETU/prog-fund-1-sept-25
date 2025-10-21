@@ -1,8 +1,9 @@
 
 
 /**
- * Write a description of class Person here.
- * @author Mairead & Siobhan @version Week 7
+ * Class Person.
+ * @author Mairead & Siobhan 
+ * @version Week 7
  */
 public class Person
 {

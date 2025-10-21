@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Person
-comment0.text=\n\ Write\ a\ description\ of\ class\ Person\ here.\n\ @author\ Mairead\ &\ Siobhan\ @version\ Week\ 7\n
+comment0.text=\n\ Class\ Person.\n\ @author\ Mairead\ &\ Siobhan\ \n\ @version\ Week\ 7\n
 comment1.params=firstName\ secondName\ age
 comment1.target=Person(java.lang.String,\ java.lang.String,\ int)
 comment1.text=\n\ \n

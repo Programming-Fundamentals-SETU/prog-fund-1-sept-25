@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Driver here.
+ * This Driver manages a list of friends
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Mairead & Siobhan
+ * @version Week 7
  */
 public class Driver
 {
@@ -17,7 +17,7 @@ public class Driver
     }
         
     Driver(){ 
-        
+        // 'manually add some friends'
         friends[0] = new Person("Joe", "Bloggs", 21);
         friends[1] = new Person("Anne", "Meagher", 23);
         friends[2] = new Person("Rob", "O Connnor", 25);       
