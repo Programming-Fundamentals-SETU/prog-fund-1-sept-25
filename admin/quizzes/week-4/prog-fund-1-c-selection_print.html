@@ -1,0 +1,45 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Printable Quiz</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.4; }
+      h1, h2 { page-break-after: avoid; }
+      .question { margin: 1em 0 1.5em; }
+      .choices { margin-left: 1em; }
+      .choices div { margin: 0.15em 0; }
+      .key { page-break-before: always; }
+      .note { color: #555; font-style: italic; }
+      @media print { a { color: black; text-decoration: none; } }
+    </style>
+    </head><body><h1>Printable Quiz</h1><div class='question'><h2>1. C1: Basic if</h2><div>What happens here if amount = -10?
+
+if (amount &gt; 0) {
+    balance = balance + amount;
+}</div><div class='choices'><div>(A) balance increases by -10</div><div>(B) Nothing happens</div><div>(C) Compilation error</div><div>(D) balance decreases by 10</div></div></div><div class='question'><h2>2. C2: If-else form</h2><div>Complete behaviour of this code for positive vs non-positive values?
+
+if (amount &gt; 0) {
+    balance = balance + amount;
+} else {
+    System.out.printf(&quot;Use a positive amount: %d%n&quot;, amount);
+}</div><div class='choices'><div>(A) Positive adds to balance; otherwise prints a message</div><div>(B) Always adds to balance</div><div>(C) Always prints the message</div><div>(D) Throws an exception for negative values</div></div></div><div class='question'><h2>3. C3: Else-if chain</h2><div>What prints for age = 15?
+
+if (age</div><div class='choices'><div>(A) Child</div><div>(B) Teenager</div><div>(C) Adult</div><div>(D) Nothing</div></div></div><div class='question'><h2>4. C4: First true branch wins</h2><div>How many branches execute in an if/else-if/else chain?</div><div class='choices'><div>(A) All branches that are true</div><div>(B) Exactly one branch</div><div>(C) Zero or two branches</div><div>(D) All branches always</div></div></div><div class='question'><h2>5. C5: Braces optionality</h2><div>Which two snippets are equivalent?
+
+// A
+if (price</div><div class='choices'><div>(A) A and B are equivalent when the block has one statement</div><div>(B) A and B are never equivalent</div><div>(C) B is invalid Java</div><div>(D) A executes twice</div></div></div><div class='question'><h2>6. C6: Stray semicolon</h2><div>What is wrong with the following?
+
+if (price</div><div class='choices'><div>(A) The semicolon ends the if; block always runs</div><div>(B) Missing braces</div><div>(C) Needs else</div><div>(D) Correct as-is</div></div></div><div class='question'><h2>7. C7: Ticket machine (simple)</h2><div>What purpose does the condition serve?
+
+public void insertMoney(int amount) {{
+    if (amount &gt; 0) {{
+        balance = balance + amount;
+    }}
+}}</div><div class='choices'><div>(A) Avoids adding non-positive amounts</div><div>(B) Forces balance to 0 for negatives</div><div>(C) Always adds amount</div><div>(D) Throws exception for negatives</div></div></div><div class='question'><h2>8. C8: Ticket machine (tiers)</h2><div>What is the outcome for amount = 60?
+
+public void specialOffer(int amount) {{
+    if (amount &gt; 100) {{
+        balance = balance + 50;
+    }} else if (amount &gt; 50) {{
+        balance = balance + 25;
+    }} else {{
+        amount = amount + 5;
+    }}
+}}</div><div class='choices'><div>(A) Adds 50 to balance</div><div>(B) Adds 25 to balance</div><div>(C) Adds 5 to amount</div><div>(D) Does nothing</div></div></div><div class='question'><h2>9. C9: Condition definition</h2><div>Which best defines a boolean condition used by an if statement?</div><div class='choices'><div>(A) An expression that evaluates to true or false</div><div>(B) A statement that prints output</div><div>(C) A block of multiple statements</div><div>(D) A method that returns an int</div></div></div><div class='question'><h2>10. C10: Relational operator reminder</h2><div>Which statement is correct about = vs ==?</div><div class='choices'><div>(A) = assigns; == tests equality for primitives</div><div>(B) = tests equality; == assigns</div><div>(C) Both test equality</div><div>(D) Java uses === for equality</div></div></div><div class='key'><h2>Answer Key</h2><ol><li>1. B</li><li>2. A</li><li>3. B</li><li>4. B</li><li>5. A</li><li>6. A</li><li>7. A</li><li>8. B</li><li>9. A</li><li>10. A</li></ol></div></body></html>

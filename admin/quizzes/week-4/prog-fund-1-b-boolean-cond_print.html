@@ -1,0 +1,29 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Printable Quiz</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.4; }
+      h1, h2 { page-break-after: avoid; }
+      .question { margin: 1em 0 1.5em; }
+      .choices { margin-left: 1em; }
+      .choices div { margin: 0.15em 0; }
+      .key { page-break-before: always; }
+      .note { color: #555; font-style: italic; }
+      @media print { a { color: black; text-decoration: none; } }
+    </style>
+    </head><body><h1>Printable Quiz</h1><div class='question'><h2>1. B1: Boolean literals</h2><div>Which are valid Java boolean literals?</div><div class='choices'><div>(A) true and false</div><div>(B) &quot;true&quot; and &quot;false&quot;</div><div>(C) 1 and 0</div><div>(D) Yes and No</div></div></div><div class='question'><h2>2. B2: Relational operators</h2><div>Which expression tests equality of primitive ints correctly?
+
+int a = 5, b = 5;</div><div class='choices'><div>(A) a = b</div><div>(B) a == b</div><div>(C) a != b</div><div>(D) a equals b</div></div></div><div class='question'><h2>3. B3: AND example</h2><div>For input mark, when is this condition true?
+
+(mark &gt;= 0) &amp;&amp; (mark</div><div class='choices'><div>(A) When mark is between 0 and 100 inclusive</div><div>(B) Only when mark is strictly between 0 and 100</div><div>(C) When mark is negative</div><div>(D) Always</div></div></div><div class='question'><h2>4. B4: OR example</h2><div>When is this condition true?
+
+(mark  100)</div><div class='choices'><div>(A) When mark is invalid (outside 0..100)</div><div>(B) When mark is 0..100 inclusive</div><div>(C) Never</div><div>(D) Always</div></div></div><div class='question'><h2>5. B5: NOT example</h2><div>Given boolean isFriday = false; what is:
+
+!isFriday</div><div class='choices'><div>(A) true</div><div>(B) false</div><div>(C) 0</div><div>(D) null</div></div></div><div class='question'><h2>6. B6: Boolean variable in if</h2><div>What prints?
+
+boolean canVote = (age &gt;= 18);
+if (canVote) {
+    System.out.println(&quot;You can vote!&quot;);
+}</div><div class='choices'><div>(A) &quot;You can vote!&quot; when age &gt;= 18</div><div>(B) It never prints</div><div>(C) It prints only when age == 18</div><div>(D) Compilation error</div></div></div><div class='question'><h2>7. B7: Short-circuit AND</h2><div>Which statement about &amp;&amp; is true?</div><div class='choices'><div>(A) Right-hand side is not evaluated if left-hand side is false</div><div>(B) Both sides always evaluate</div><div>(C) RHS is skipped when LHS is true</div><div>(D) It performs bitwise AND on booleans</div></div></div><div class='question'><h2>8. B8: Short-circuit OR</h2><div>Which statement about || is true?</div><div class='choices'><div>(A) RHS is not evaluated if LHS is true</div><div>(B) RHS is not evaluated if LHS is false</div><div>(C) Both sides always evaluate</div><div>(D) It’s the same as | on booleans</div></div></div><div class='question'><h2>9. B9: Equality vs assignment trap</h2><div>What is wrong with this code?
+
+if (x = 5) {{
+    System.out.println(&quot;Five&quot;);
+}}</div><div class='choices'><div>(A) Uses = instead of ==</div><div>(B) Missing semicolon after if</div><div>(C) Should use === in Java</div><div>(D) Nothing is wrong</div></div></div><div class='question'><h2>10. B10: Combining conditions</h2><div>Which condition matches “age is a teenager (13–19 inclusive) or a senior (65+)”?</div><div class='choices'><div>(A) (age &gt;= 13 &amp;&amp; age = 65)</div><div>(B) (age &gt; 13 &amp;&amp; age  65)</div><div>(C) age &gt;= 13 || age &gt;= 65</div><div>(D) age = 65</div></div></div><div class='key'><h2>Answer Key</h2><ol><li>1. A</li><li>2. B</li><li>3. A</li><li>4. A</li><li>5. A</li><li>6. A</li><li>7. A</li><li>8. A</li><li>9. A</li><li>10. A</li></ol></div></body></html>

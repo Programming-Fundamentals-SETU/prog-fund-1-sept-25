@@ -1,0 +1,31 @@
+<!doctype html><html><head><meta charset='utf-8'><title>Printable Quiz</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.4; }
+      h1, h2 { page-break-after: avoid; }
+      .question { margin: 1em 0 1.5em; }
+      .choices { margin-left: 1em; }
+      .choices div { margin: 0.15em 0; }
+      .key { page-break-before: always; }
+      .note { color: #555; font-style: italic; }
+      @media print { a { color: black; text-decoration: none; } }
+    </style>
+    </head><body><h1>Printable Quiz</h1><div class='question'><h2>1. A1: Order of Evaluation 1</h2><div>Evaluate according to Java precedence:
+
+3 + 6 * 5 - 2</div><div class='choices'><div>(A) 37</div><div>(B) 31</div><div>(C) 49</div><div>(D) 25</div></div></div><div class='question'><h2>2. A2: Order of Evaluation 2</h2><div>Evaluate:
+
+3 + 6 * (5 - 2)</div><div class='choices'><div>(A) 21</div><div>(B) 27</div><div>(C) 33</div><div>(D) 17</div></div></div><div class='question'><h2>3. A3: Order of Evaluation 3</h2><div>Evaluate:
+
+(3 + 6) * 5 - 2</div><div class='choices'><div>(A) 43</div><div>(B) 31</div><div>(C) 25</div><div>(D) 47</div></div></div><div class='question'><h2>4. A4: Compound assignment (+=)</h2><div>What does this statement do?
+
+x += 5;</div><div class='choices'><div>(A) Increases x by 5</div><div>(B) Sets x to 5</div><div>(C) Multiplies x by 5</div><div>(D) Divides x by 5</div></div></div><div class='question'><h2>5. A5: Compound assignment (*=)</h2><div>What is the effect of:
+
+y *= 3;</div><div class='choices'><div>(A) Adds 3 to y</div><div>(B) Multiplies y by 3</div><div>(C) Sets y to 3</div><div>(D) Divides y by 3</div></div></div><div class='question'><h2>6. A6: Integer division</h2><div>Given int a = 7, b = 2; what is the value of:
+
+a / b</div><div class='choices'><div>(A) 3</div><div>(B) 3.5</div><div>(C) 4</div><div>(D) Error</div></div></div><div class='question'><h2>7. A7: Modulus operator</h2><div>Given int a = 17, b = 5; what is:
+
+a % b</div><div class='choices'><div>(A) 2</div><div>(B) 3</div><div>(C) 5</div><div>(D) -2</div></div></div><div class='question'><h2>8. A8: Mixed operators</h2><div>Evaluate:
+
+10 - 6 / 3 + 4 * 2</div><div class='choices'><div>(A) 16</div><div>(B) 10</div><div>(C) 8</div><div>(D) 20</div></div></div><div class='question'><h2>9. A9: Side effects check</h2><div>What is the final value of x after this executes (assume int x = 4;)?
+
+x -= 6;  // line 1
+x += 3;  // line 2</div><div class='choices'><div>(A) 1</div><div>(B) -3</div><div>(C) -2</div><div>(D) 7</div></div></div><div class='question'><h2>10. A10: Precedence mnemonic</h2><div>Which mnemonic best matches Java’s arithmetic precedence order presented (brackets, multiplication/division, addition/subtraction)?</div><div class='choices'><div>(A) BODMAS / PEMDAS</div><div>(B) ASMDOB</div><div>(C) SADBOM</div><div>(D) MDASBO</div></div></div><div class='key'><h2>Answer Key</h2><ol><li>1. B</li><li>2. A</li><li>3. A</li><li>4. A</li><li>5. B</li><li>6. A</li><li>7. A</li><li>8. A</li><li>9. A</li><li>10. A</li></ol></div></body></html>
