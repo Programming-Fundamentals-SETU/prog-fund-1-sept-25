@@ -4,7 +4,7 @@ icon:
   color: midnightblue
 ---
 
-# 06: Methods terminology
+# 07: Methods terminology
 
 methods · method signature · return type · parameters 
 
