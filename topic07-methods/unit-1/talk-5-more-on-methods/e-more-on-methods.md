@@ -1,6 +1,6 @@
 ---
 icon:
-  type: streamline-freehand-color:file-code
+  type: solar:code-file-bold
   color: midnightblue
 ---
 
