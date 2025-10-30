@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ClassExamples
+comment1.params=num
+comment1.target=int\ cubed(int)
+comment10.params=a\ b\ c
+comment10.target=int\ max(int,\ int,\ int)
+comment2.params=farenheit
+comment2.target=double\ farenheitToCelsius(double)
+comment3.params=num1\ num2
+comment3.target=double\ product(double,\ double)
+comment4.params=num1\ num2
+comment4.target=void\ addNum(double,\ double)
+comment5.params=num1\ num2
+comment5.target=void\ addNum(int,\ int)
+comment6.params=num1\ num2\ num3
+comment6.target=int\ addNum(int,\ int,\ int)
+comment7.params=n
+comment7.target=int\ factorialRecursion(int)
+comment8.params=n
+comment8.target=int\ factorialLoop(int)
+comment9.params=a\ b\ c
+comment9.target=int\ product(int,\ int,\ int)
+numComments=11
