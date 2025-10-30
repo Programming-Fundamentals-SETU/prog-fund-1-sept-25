@@ -1,6 +1,6 @@
 ---
 icon:
-  type: streamline-color:smiley-laughing-3
+  type: fluent-emoji-high-contrast:rolling-on-the-floor-laughing
   color: midnightblue
 ---
 
