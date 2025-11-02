@@ -1,0 +1,725 @@
+<?xml version="1.0" ?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Q1: Why do we use methods in Java?</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the main reason we use methods in Java?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>To make programs run slower</text>
+      <feedback>
+        <text>Methods make code faster and more efficient, not slower.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>To avoid reusing code</text>
+      <feedback>
+        <text>Methods encourage reuse, not avoid it.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>To organise code into reusable blocks</text>
+      <feedback>
+        <text>Correct! Methods group related code into reusable, modular sections.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>To make code longer</text>
+      <feedback>
+        <text>Methods actually shorten and simplify code.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q2: Keyword for methods with no return value</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What keyword is used when a method does not return any value?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>null</text>
+      <feedback>
+        <text>`null` is a value, not a return type.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>none</text>
+      <feedback>
+        <text>Not a valid Java keyword.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>void</text>
+      <feedback>
+        <text>Correct! `void` means no value is returned.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>empty</text>
+      <feedback>
+        <text>No such keyword in Java syntax.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q3: Method header syntax</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following correctly defines a simple method header?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>method int getTotal()</text>
+      <feedback>
+        <text>“method” is not part of Java syntax.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>public getTotal() int</text>
+      <feedback>
+        <text>Incorrect order of keywords.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>public int getTotal()</text>
+      <feedback>
+        <text>Correct syntax: access modifier → return type → method name.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>public method int getTotal()</text>
+      <feedback>
+        <text>“method” keyword doesn’t exist in Java.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q4: Return type identification</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the method header `public int add(int x, int y)`, what is the return type?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="100">
+      <text>int</text>
+      <feedback>
+        <text>Correct! The method returns an integer value.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>add</text>
+      <feedback>
+        <text>That’s the method name, not the return type.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>x</text>
+      <feedback>
+        <text>That’s a parameter, not a return type.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>public</text>
+      <feedback>
+        <text>An access modifier, not a return type.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q5: Parameters meaning</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What is the correct Java term for variables declared inside a method’s parentheses?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="100">
+      <text>Parameters</text>
+      <feedback>
+        <text>Correct! Parameters are placeholders for incoming data.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Arguments</text>
+      <feedback>
+        <text>Arguments are the actual values passed in.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Fields</text>
+      <feedback>
+        <text>Fields belong to the class, not the method.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Returns</text>
+      <feedback>
+        <text>Not a valid Java term.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q6: Method call syntax</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of these correctly calls a method named `printHello()`?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>printHello;</text>
+      <feedback>
+        <text>Missing parentheses – invalid call.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>call printHello();</text>
+      <feedback>
+        <text>No 'call' keyword in Java.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>printHello();</text>
+      <feedback>
+        <text>Correct! Parentheses invoke the method.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>System.out.printHello();</text>
+      <feedback>
+        <text>This won’t compile unless `printHello` belongs to `System`.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q7: Purpose of Driver class</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In Java, what is the Driver class mainly used for?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>To create graphical interfaces</text>
+      <feedback>
+        <text>GUI code uses Swing/JavaFX, not the Driver.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>To control program execution and call methods</text>
+      <feedback>
+        <text>Correct! The Driver holds `main()` and directs execution.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>To store user data</text>
+      <feedback>
+        <text>Drivers don’t store data.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>To test syntax errors</text>
+      <feedback>
+        <text>The compiler checks syntax.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q8: Entry point method</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which method must every Driver class contain?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>start()</text>
+      <feedback>
+        <text>Not the Java entry point.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>main()</text>
+      <feedback>
+        <text>Correct! Execution begins at `main()`.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>runProgram()</text>
+      <feedback>
+        <text>Custom names aren’t recognised as entry points.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>begin()</text>
+      <feedback>
+        <text>Not a standard Java method.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q9: Why separate Driver from other classes?</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Why do we separate a Driver from other classes in Java?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>To keep methods private</text>
+      <feedback>
+        <text>Privacy is set by access modifiers, not structure.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>To make code modular and test methods separately</text>
+      <feedback>
+        <text>Correct! It improves structure and testing.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>To make programs harder to read</text>
+      <feedback>
+        <text>Separation makes programs easier to read.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>To avoid `System.out.println()`</text>
+      <feedback>
+        <text>Printing can appear anywhere.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q10: Object creation meaning</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Given `Calculator calc = new Calculator();`, what is happening on the first line?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>A new method is called</text>
+      <feedback>
+        <text>No method call here — an object is created.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>A new object is created from the class</text>
+      <feedback>
+        <text>Correct! The `new` keyword creates an object.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Only a variable is declared</text>
+      <feedback>
+        <text>It both declares and instantiates.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A method called Calculator() runs from Driver</text>
+      <feedback>
+        <text>The constructor runs automatically, not from Driver.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q11: No parameter, no return method</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of these defines a method with no parameters and no return value?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="100">
+      <text>void hello()</text>
+      <feedback>
+        <text>Correct! `void` means no return, `()` means no parameters.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>int hello(int x)</text>
+      <feedback>
+        <text>This has both parameters and a return type.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>public int hello()</text>
+      <feedback>
+        <text>Returns an int value.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>hello void()</text>
+      <feedback>
+        <text>Invalid Java syntax.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q12: timesTwo method output</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[If `timesTwo(5)` multiplies by 2 and returns the result, what prints from `System.out.println(timesTwo(5));`?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>2</text>
+      <feedback>
+        <text>That’s division, not doubling.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>5</text>
+      <feedback>
+        <text>That’s the input value.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>10</text>
+      <feedback>
+        <text>Correct! 5 × 2 = 10.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>25</text>
+      <feedback>
+        <text>That’s squaring, not doubling.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q13: JokeGenerator return type</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[In the JokeGenerator example, what does the `ageInTenYears()` method return?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>An integer</text>
+      <feedback>
+        <text>It returns text, not a number.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>A String message</text>
+      <feedback>
+        <text>Correct! It returns a humorous message about future age.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Nothing (void)</text>
+      <feedback>
+        <text>The method has a return value.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A Scanner object</text>
+      <feedback>
+        <text>Scanner handles input, not output.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q14: Valid method names</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which of the following is *not* a valid Java method name by convention?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>printTotal</text>
+      <feedback>
+        <text>Follows correct camelCase.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>calculateAverage</text>
+      <feedback>
+        <text>Valid naming convention.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>SayHello</text>
+      <feedback>
+        <text>Correct! Should start lowercase: `sayHello`.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>isEven</text>
+      <feedback>
+        <text>Good for boolean methods.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q15: Boolean return value</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What does this method return when called with 9?
+
+`public boolean isEven(int n) { return n % 2 == 0; }`]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>9 is odd, not even.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Correct! 9 % 2 ≠ 0, so it returns false.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>1</text>
+      <feedback>
+        <text>Booleans return true/false, not numbers.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text>Same reason – booleans are not integers.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q16: Boolean method type</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What type of value does a Boolean method return?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>A number</text>
+      <feedback>
+        <text>Numbers are int or double.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A character</text>
+      <feedback>
+        <text>Characters use type char.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>A String</text>
+      <feedback>
+        <text>Strings are text, not logical values.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>true or false</text>
+      <feedback>
+        <text>Correct! Boolean methods return one of these two values.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q17: Fahrenheit to Celsius formula</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which formula correctly converts Fahrenheit to Celsius?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>(F + 32) × 5/9</text>
+      <feedback>
+        <text>That adds instead of subtracting.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>(F − 32) × 5/9</text>
+      <feedback>
+        <text>Correct! Subtract 32, then multiply by 5/9.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>(C − 32) × 5/9</text>
+      <feedback>
+        <text>Wrong variable — should use F.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>(C + 32) × 9/5</text>
+      <feedback>
+        <text>That’s Celsius to Fahrenheit.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q18: fahrenheitToCelsius output</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[If `fahrenheitToCelsius(98.6)` returns 37.0, what prints?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="100">
+      <text>37.0</text>
+      <feedback>
+        <text>Correct! The return value prints to the console.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>98.6</text>
+      <feedback>
+        <text>That’s the input, not output.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>0</text>
+      <feedback>
+        <text>Would only print 0 if F = 32.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Nothing (void method)</text>
+      <feedback>
+        <text>The method has a return type, not void.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q19: Method overloading meaning</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[What does 'method overloading' mean in Java?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>Using too many methods</text>
+      <feedback>
+        <text>Overloading isn’t about quantity.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>Declaring methods with the same name but different parameters</text>
+      <feedback>
+        <text>Correct! That’s the definition of overloading.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Calling a method from another class</text>
+      <feedback>
+        <text>That’s just invocation.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Overwriting an existing method</text>
+      <feedback>
+        <text>That’s overriding, not overloading.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q20: Overloaded version call</text>
+    </name>
+    <questiontext format="html">
+      <text>&lt;![CDATA[Which overloaded method runs when calling `addNum(3.5, 2.5);`?]]&gt;</text>
+    </questiontext>
+    <defaultgrade>1</defaultgrade>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>ABCD</answernumbering>
+    <answer fraction="0">
+      <text>addNum(int, int)</text>
+      <feedback>
+        <text>Arguments are doubles, not ints.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>addNum(double, double)</text>
+      <feedback>
+        <text>Correct! Java matches parameter types exactly.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Both methods are called</text>
+      <feedback>
+        <text>Only one match executes.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>None — ambiguous</text>
+      <feedback>
+        <text>Not ambiguous; it matches the double version.</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
