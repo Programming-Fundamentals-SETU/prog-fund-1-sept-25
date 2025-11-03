@@ -1,4 +1,10 @@
-Gym V1
+---
+icon: 
+    type: iconoir:gym
+    color: sandybrown
+---
 
-Lab work · Classes · Field Validation · toString 
+## O8 : Gym App
+
+Coding example · Field Validation · toString 
   
