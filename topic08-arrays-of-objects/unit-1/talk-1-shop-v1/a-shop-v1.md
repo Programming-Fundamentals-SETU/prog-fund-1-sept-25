@@ -1,7 +1,7 @@
 ---
 icon:
   type: arcticons:shop
-  color: gold
+  color: darkmagenta
 ---
 
 # 07: Shop V1.0

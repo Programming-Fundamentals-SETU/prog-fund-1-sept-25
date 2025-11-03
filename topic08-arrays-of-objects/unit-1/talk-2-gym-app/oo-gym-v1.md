@@ -1,7 +1,7 @@
 ---
 icon: 
     type: iconoir:gym
-    color: gold
+    color: darkmagenta
 ---
 
 # O8 : Gym App
