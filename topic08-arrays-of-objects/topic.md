@@ -1,7 +1,7 @@
 ---
 icon:
   type: heroicons-outline:collection
-  color: sandybrown
+  color: gold
 ---
 # 08 : Arrays of Objects
 

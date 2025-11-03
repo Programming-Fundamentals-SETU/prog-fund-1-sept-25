@@ -1,10 +1,10 @@
 ---
 icon: 
     type: iconoir:gym
-    color: sandybrown
+    color: gold
 ---
 
-## O8 : Gym App
+# O8 : Gym App
 
 Coding example · Field Validation · toString 
   

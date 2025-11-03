@@ -1,7 +1,7 @@
 ---
 icon:
   type: arcticons:shop
-  color: sandybrown
+  color: gold
 ---
 
 # 07: Shop V1.0
