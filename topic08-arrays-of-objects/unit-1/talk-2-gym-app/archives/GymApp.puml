@@ -1,0 +1,58 @@
+@startuml
+' ==========================================================
+'  UML Class Diagram: GymMember (Styled Version)
+' ==========================================================
+
+' --- Diagram Styling ---
+skinparam backgroundColor #f9f9f6
+skinparam classBackgroundColor #fff6e5
+skinparam classBorderColor #b38b59
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+skinparam roundcorner 15
+skinparam dpi 150
+skinparam arrowColor #8b6b39
+skinparam classFontColor #3a2f1c
+skinparam classFontStyle bold
+skinparam classAttributeFontColor #4b3d2b
+skinparam classAttributeFontSize 11
+skinparam classOperationFontColor #4b3d2b
+skinparam noteBackgroundColor #fff4d9
+skinparam noteBorderColor #b38b59
+
+' --- Class Definition ---
+class GymMember {
+  .. Attributes ..
+  - name : String = "Unknown"
+  - height : double = 0.0
+  - weight : double = 0.0
+  - membershipNumber : int = 99999
+  - isCurrentGymMember : boolean = false
+
+  .. Constructor ..
+  + GymMember(name : String, height : double, weight : double, membershipNumber : int, isCurrentGymMember : boolean)
+
+  .. Methods ..
+  + getName() : String
+  + setName(name : String) : void
+  + initName(name : String) : void
+  + getHeight() : double
+  + setHeight(height : double) : void
+  + getWeight() : double
+  + setWeight(weight : double) : void
+  + getMembershipNumber() : int
+  + setMembershipNumber(membershipNumber : int) : void
+  + isCurrentGymMember() : boolean
+  + setCurrentGymMember(currentGymMember : boolean) : void
+  + toString() : String
+}
+
+note top of GymMember
+<<Entity>> GymMember  
+Represents a gym member with validated attributes:
+- Height between 0.5 m and 3.0 m  
+- Weight between 25 kg and 500 kg  
+- Membership number 00001 – 99998  
+end note
+
+@enduml
