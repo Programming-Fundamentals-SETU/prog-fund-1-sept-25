@@ -1,14 +1,16 @@
 /**
  * The store class saves all the entered products into a primitive array.
  *
- * @author Mairead Meagher, Siobhan Drohan, Siobhan Roche
+ * @author Mairead Meagher, Siobhan Drohan, Siobhan Roch
  * @version 2.0
  */
 
 public class Store {
 
     private Product[] products;
-    private int total = 0;  //dual purpose. 1) number of items stored in array, 2) next available index location
+    private int total = 0;  //dual purpose. 
+                            // 1) number of items stored in array, 
+                            //2) next available index location
 
     public Store(int numberItems){
         products = new Product[numberItems];
@@ -27,7 +29,7 @@ public class Store {
      * @param product  Product object to be added to the array.
      * @return Status of the add; true for success, false for fail.
      */
-    public boolean add(Product product){
+    public boolean addProduct(Product product){
         if (isFull()){
             return false;
         }

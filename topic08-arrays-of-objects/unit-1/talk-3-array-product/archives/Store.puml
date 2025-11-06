@@ -1,0 +1,20 @@
+@startuml
+class Store {
+    - String name
+    - String location
+    - int capacity
+    - ArrayList<Product> products
+
+    + Store(String name, String location, int capacity)
+    + String getName()
+    + void setName(String name)
+    + String getLocation()
+    + void setLocation(String location)
+    + int getCapacity()
+    + void setCapacity(int capacity)
+    + ArrayList<Product> getProducts()
+    + void addProduct(Product product)
+    + void removeProduct(Product product)
+    + String toString()
+}
+@enduml
