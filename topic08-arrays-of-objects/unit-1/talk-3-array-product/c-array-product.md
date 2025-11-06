@@ -3,7 +3,6 @@ icon:
     type: carbon:array-booleans
     color: darkmagenta
 ---
+ShopV2.0 - Store
 
-# 08: Shop V2.0 - Array of Product
-
-array of Product objects in Driver class
+Store manages array of Products

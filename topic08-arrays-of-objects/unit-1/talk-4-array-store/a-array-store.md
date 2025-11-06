@@ -4,7 +4,7 @@ icon:
   color: darkmagenta
 ---
 
-# 08: Shop V2.1 - Store class
+# 08: Shop V2.1 - More methods
 
-adding a class to store products
+listing, cheapest, average 
 
