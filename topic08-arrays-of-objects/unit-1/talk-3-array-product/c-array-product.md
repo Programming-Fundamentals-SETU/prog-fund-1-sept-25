@@ -1,6 +1,6 @@
 ---
 icon: 
-    type: iconoir:gym
+    type: carbon:array-booleans
     color: darkmagenta
 ---
 
