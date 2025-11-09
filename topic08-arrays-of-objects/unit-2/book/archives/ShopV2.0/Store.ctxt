@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Store
-comment0.text=\n\ The\ store\ class\ saves\ all\ the\ entered\ products\ into\ a\ primitive\ array.\n\n\ @author\ Mairead\ Meagher,\ Siobhan\ Drohan,\ Siobhan\ Roche\n\ @version\ 2.0\n
+comment0.text=\n\ The\ store\ class\ saves\ all\ the\ entered\ products\ into\ a\ primitive\ array.\n\n\ @author\ Mairead\ Meagher,\ Siobhan\ Drohan,\ Siobhan\ Roch\n\ @version\ 2.0\n
 comment1.params=numberItems
 comment1.target=Store(int)
 comment2.params=
@@ -8,7 +8,7 @@ comment2.target=boolean\ isFull()
 comment3.params=
 comment3.target=boolean\ isEmpty()
 comment4.params=product
-comment4.target=boolean\ add(Product)
+comment4.target=boolean\ addProduct(Product)
 comment4.text=\n\ \ If\ there\ is\ space\ available,\ add\ the\ product\ object,\ passed\ as\ a\ parameter,\ to\ the\ array.\n\ @param\ product\ \ Product\ object\ to\ be\ added\ to\ the\ array.\n\ @return\ Status\ of\ the\ add;\ true\ for\ success,\ false\ for\ fail.\n
 comment5.params=
 comment5.target=java.lang.String\ listProducts()

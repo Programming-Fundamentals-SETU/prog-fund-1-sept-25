@@ -3,8 +3,8 @@ import java.util.Scanner;
 /**
  * This class runs the application and handles the Product I/O
  *
- * @author Mairead Meagher, Siobhan Drohan, Siobhan Roche
- * @version 2.0
+ * @author Siobhan Drohan, Mairead Meagher, Siobhan Roche
+ * @version 2.2
  *
  */
 public class Driver{
@@ -23,6 +23,10 @@ public class Driver{
         Driver driver = new Driver();
         driver.processOrder();
         driver.printProducts();
+        driver.printCurrentProducts();
+        driver.printAverageProductPrice();
+        driver.printCheapestProduct();
+        driver.printProductsAboveAPrice();
     }
 
     private void processOrder(){
@@ -57,7 +61,7 @@ public class Driver{
         if ((currentProduct == 'y') || (currentProduct == 'Y'))
             inCurrentProductLine = true;
 
-        boolean isAdded = store.addProduct(new Product(productName, productCode, unitCost, inCurrentProductLine));
+        boolean isAdded = store.add(new Product(productName, productCode, unitCost, inCurrentProductLine));
         if (isAdded){
             System.out.println("Product Added Successfully");
         }
@@ -68,7 +72,42 @@ public class Driver{
     
     //print the product (the toString method is automatically called).
     private void printProducts(){
+        System.out.println("List of Products are:");
         System.out.println(store.listProducts());
     }
 
+    //print out a list of all current products i.e. that are in the current product line.
+    private void printCurrentProducts(){
+        System.out.println("List of CURRENT Products are:");
+        System.out.println(store.listCurrentProducts());
+    }
+
+    //print out the average product price for all products stored in the array
+    private void printAverageProductPrice(){
+        double averagePrice = store.averageProductPrice();
+        if (averagePrice != -1){
+            System.out.println("The average product price is: " + averagePrice);
+        }
+        else{
+            System.out.println("There are no products in the store.");
+        }
+    }
+
+    //print out the product name that is the cheapest of those stored in the array
+    private void printCheapestProduct(){
+        Product cheapestProduct = store.cheapestProduct();
+        if (cheapestProduct != null) {
+            System.out.println("The cheapest product is:  " + cheapestProduct.getProductName());
+        }
+        else{
+            System.out.println("There are no products in the store.");
+        }
+    }
+
+    //ask the user to enter a price and print out all products costing that price or more.
+    private void printProductsAboveAPrice(){
+        System.out.print("View the products costing more than this price:  ");
+        double price = input.nextDouble();
+        System.out.println(store.listProductsAboveAPrice(price));
+    }
 }

@@ -1,15 +1,19 @@
+# Product Class Diagram
+
 ```plantuml
 @startuml
-title Product Class Diagram
+skinparam backgroundColor #f9f9f6
+skinparam classBackgroundColor #fff6e5
 
-' Include the class directly
 class Product {
+    .. Attributes ..
     - String productName
     - int productCode
     - double unitCost
     - boolean inCurrentProductLine
-    --
+    .. Constructor ..
     + Product( String productName, int productCode, double unitCost, boolean inCurrentProductLine)
+   .. Methods ..  
     + String getProductName()
     + int getProductCode()
     + double getUnitCost()
@@ -21,8 +25,8 @@ class Product {
     + String toString()
 }
 
-skinparam classAttributeIconSize 0
-skinparam backgroundColor #C19A6B
-skinparam shadowing false
-skinparam classFontSize 14
+' skinparam classAttributeIconSize 0
+' skinparam backgroundColor #C19A6B
+' skinparam shadowing false
+' skinparam classFontSize 14
 @enduml

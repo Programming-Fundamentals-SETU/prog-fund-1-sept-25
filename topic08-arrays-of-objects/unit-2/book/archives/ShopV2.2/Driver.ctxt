@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Driver
+comment0.text=\n\ This\ class\ runs\ the\ application\ and\ handles\ the\ Product\ I/O\n\n\ @author\ Siobhan\ Drohan,\ Mairead\ Meagher,\ Siobhan\ Roche\n\ @version\ 2.2\n\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ method\ is\ the\ starting\ point\ for\ the\ program.\n\ When\ started,\ the\ main\ method\ calls\ the\ addProduct()\ method\n\ followed\ by\ the\ printProduct()\ method.\n\n\ @param\ args\ \ Any\ arguments\ for\ the\ main\ method\n
+comment2.params=
+comment2.target=void\ processOrder()
+comment3.params=
+comment3.target=void\ addProduct()
+comment4.params=
+comment4.target=void\ printProducts()
+comment5.params=
+comment5.target=void\ printCurrentProducts()
+comment6.params=
+comment6.target=void\ printAverageProductPrice()
+comment7.params=
+comment7.target=void\ printCheapestProduct()
+comment8.params=
+comment8.target=void\ printProductsAboveAPrice()
+numComments=9
