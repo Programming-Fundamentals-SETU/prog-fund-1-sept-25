@@ -18,7 +18,7 @@ ignore         :
 #- topic05-loops
 #- topic06-arrays
 #- topic07-methods
-- topic08-arrays-of-objects
+#- topic08-arrays-of-objects
 - topic09-menus-and-persistence
 - topic10-encapsulation-and-interaction
 - topic11-arrays-of-objects 
