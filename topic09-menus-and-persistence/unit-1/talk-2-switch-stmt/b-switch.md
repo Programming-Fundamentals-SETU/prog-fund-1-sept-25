@@ -1,9 +1,9 @@
 ---
 icon:
-    type: f7:menu
+    type: material-symbols:flowchart-outline-sharp
     color: coral
 ---
 
-# 09: Menu Systems
+# 09: Switch Statement
 
-menus, switch statement
+syntax · switch statement
