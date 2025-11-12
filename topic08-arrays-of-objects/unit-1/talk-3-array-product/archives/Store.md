@@ -8,7 +8,7 @@ skinparam classBackgroundColor #fff6e5
 class Store {
      .. Attributes ..
     - total : int total = 0
-    - productsArrayList<Product> 
+    - products : Product[]
      .. Constructor ..
 
     + Store(int numItems)
