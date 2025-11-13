@@ -19,20 +19,20 @@ class GymMember {
   - isCurrentGymMember : boolean = false
 
   .. Constructor ..
-  + GymMember(name : String, height : double, weight : double, membershipNumber : int, isCurrentGymMember : boolean)
+  + GymMember(String,  double, double,  int,  boolean)
 
   .. Methods ..
   + getName() : String
-  + setName(name : String) : void
-  + initName(name : String) : void
+  + setName(String) : void
+  + initName(String) : void
   + getHeight() : double
-  + setHeight(height : double) : void
+  + setHeight(double) : void
   + getWeight() : double
-  + setWeight(weight : double) : void
+  + setWeight(double) : void
   + getMembershipNumber() : int
-  + setMembershipNumber(membershipNumber : int) : void
+  + setMembershipNumber(int) : void
   + isCurrentGymMember() : boolean
-  + setCurrentGymMember(currentGymMember : boolean) : void
+  + setCurrentGymMember( boolean) : void
   + toString() : String
 }
 

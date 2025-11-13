@@ -10,7 +10,6 @@ class Store {
     - total : int total = 0
     - products : Product[]
      .. Constructor ..
-
     + Store(int numItems)
     .. Methods ..
     - boolean isFull()

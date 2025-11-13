@@ -12,16 +12,16 @@ class Product {
     - double unitCost
     - boolean inCurrentProductLine
     .. Constructor ..
-    + Product( String productName, int productCode, double unitCost, boolean inCurrentProductLine)
-   .. Methods ..  
+    + Product(String, int, double, boolean)
+    .. Methods ..
     + String getProductName()
     + int getProductCode()
     + double getUnitCost()
     + boolean isInCurrentProductLine()
-    + void setProductName(String productName)
-    + void setProductCode(String productCode)
-    + void setUnitCose(double unitCost)
-    + void setisInCurrentProductLine(boolean inCurrentProductLine) 
+    + void setProductName(String)
+    + void setProductCode(String)
+    + void setUnitCost(double)
+    + void setisInCurrentProductLine(boolean) 
     + String toString()
 }
 
