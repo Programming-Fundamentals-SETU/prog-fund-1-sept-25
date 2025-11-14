@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Store
+comment0.text=\r\n\ The\ store\ class\ saves\ all\ the\ entered\ products\ into\ a\ primitive\ array.\r\n\r\n\ @author\ Siobhan\ Drohan,\ Mairead\ Meagher\r\n\ @version\ 2.2\r\n
+comment1.params=numberItems
+comment1.target=Store(int)
+comment2.params=
+comment2.target=boolean\ isFull()
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=
+comment4.target=java.lang.String\ listProducts()
+comment4.text=\r\n\ This\ method\ builds\ and\ returns\ a\ String\ containing\ all\ the\ products\ in\ the\ array.\r\n\ For\ each\ product\ in\ the\ array,\ the\ associated\ index\ number\ is\ included.\r\n\ If\ no\ products\ are\ stored\ in\ the\ array,\ the\ String\ "No\ products\ in\ the\ store"\ is\ returned.\r\n\r\n\ @return\ A\ String\ containing\ all\ the\ products\ in\ the\ array,\ or\ "No\ products\ in\ the\ store",\r\n\ if\ empty.\r\n
+comment5.params=
+comment5.target=java.lang.String\ listCurrentProducts()
+comment5.text=\r\n\ This\ method\ builds\ and\ returns\ a\ String\ containing\ all\ the\ products\ in\ the\ array\r\n\ that\ are\ in\ the\ current\ product\ line.\r\n\ <p>\r\n\ For\ each\ product\ added\ to\ the\ String,\ the\ associated\ index\ number\ is\ included.\r\n\r\n\ @return\ A\ String\ containing\ all\ the\ products\ in\ the\ array,\ or\ "No\ products\ are\ in\ our\ current\r\n\ product\ line",\ if\ none\ in\ the\ current\ line.\ \ If\ no\ products\ are\ stored\ in\ the\ array,\ the\r\n\ returned\ String\ indicates\ this.\r\n
+comment6.params=
+comment6.target=double\ averageProductPrice()
+comment6.text=\r\n\ This\ method\ returns\ the\ average\ product\ price\ of\ all\ the\ products\ in\ the\ array.\r\n\ If\ no\ products\ are\ stored\ in\ the\ array,\ the\ value\ returned\ is\ -1.\r\n\r\n\ @return\ The\ average\ product\ price,\ or\ -1\ if\ no\ products\ exist.\r\n
+comment7.params=price
+comment7.target=java.lang.String\ listProductsAboveAPrice(double)
+comment7.text=\r\n\ This\ method\ builds\ and\ returns\ a\ String\ containing\ all\ the\ products\ in\ the\ array\r\n\ that\ are\ more\ expensive\ that\ a\ specific\ amount\ (passed\ as\ a\ parameter).\r\n\ <p>\r\n\ For\ each\ product\ added\ to\ the\ String,\ the\ associated\ index\ number\ is\ included.\r\n\ If\ no\ products\ are\ stored\ in\ the\ array,\ the\ returned\ String\ indicates\ this.\r\n\r\n\ @param\ price\ The\ value\ used\ to\ filter\ for\ products\ costing\ more\ than\ it.\r\n\ @return\ A\ String\ containing\ all\ the\ products\ in\ the\ array\ more\ expensive\ than\ the\ parameter\ value\r\n\ or\ "No\ Products\ are\ more\ expensive\ than\:\ ",\ if\ none\ are\ more\ expensive.\ \ If\ no\ products\ are\r\n\ in\ the\ array,\ the\ returned\ String\ contains\ "No\ products\ in\ store".\r\n
+numComments=8
