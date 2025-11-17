@@ -46,4 +46,32 @@ public class Loops {
     }
     return -1;
 }
+
+public boolean containsOdd(){
+      int numbers[] = {4,6,8,7,10,12};
+           
+      return containsOdd(numbers);
+        
+  }
+  public boolean containsOdd(int numbers[]){
+       
+      boolean oddNumberInArray = false;
+      
+      for(int i = 0; i< numbers.length; i++)
+      if (numbers[i] %2 == 1) {   //check if it is odd
+         oddNumberInArray = true;
+      }
+      
+      return oddNumberInArray;
+        
+  }
+  
+  public String printStars(int numStars){
+      
+        String s = "";
+        for(int i = 0;i<numStars; i++){
+            s+="*";
+        }
+        return s+"\n";
+  }
 }
