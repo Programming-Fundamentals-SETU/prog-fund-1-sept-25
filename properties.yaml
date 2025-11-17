@@ -19,7 +19,7 @@ ignore         :
 #- topic06-arrays
 #- topic07-methods
 #- topic08-arrays-of-objects
-- topic09-menus-and-persistence
+#- topic09-menus-and-persistence
 - topic10-encapsulation-and-interaction
 - topic11-arrays-of-objects 
 - topic12-assignment-studio
