@@ -23,7 +23,7 @@ public class Loops {
         names = new String[size];
     }
     public boolean addName(String name){
-        if(names.length < total){
+        if(names.length > total){
             this.names[total] = name;
             total++;
             return true;

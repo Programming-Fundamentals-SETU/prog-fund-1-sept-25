@@ -20,11 +20,14 @@ public class Driver
         getNames(namesNum);
     }
     public void getNames(int num){
-        
+        input.nextLine();
         for(int i = 0; i<num; i++){
-          input.nextLine();
           System.out.println("Enter a name");
-          
+          String name = input.nextLine();
+          if(loops.addName(name))
+              System.out.println("Sucessfully Added");
+          else
+              System.out.println("Error adding "+ name);
           
         }
     }
@@ -54,7 +57,6 @@ public class Driver
             }
             //pause the program so that the user can read what we just printed to the terminal window
             System.out.println("\nPress enter key to continue...");
-            input.nextLine();
             input.nextLine(); //second read is required - bug in Scanner class;
             // display the main menu again
             option = mainMenu();
@@ -63,5 +65,7 @@ public class Driver
         System.out.println("Exiting...bye");
         System.exit(0);
     }
+    
+    
     
 }
