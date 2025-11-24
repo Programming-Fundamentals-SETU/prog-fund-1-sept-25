@@ -1,0 +1,37 @@
+{
+  "title": "Programming Understanding Survey",
+  "items": [
+    {
+      "type": "scale",
+      "title": "Small code understanding"
+    },
+    {
+      "type": "scale",
+      "title": "Class-level understanding"
+    },
+    {
+      "type": "scale",
+      "title": "Whole-program understanding"
+    },
+    {
+      "type": "multiple_choice",
+      "title": "Self-rating of understanding"
+    },
+    {
+      "type": "checkboxes",
+      "title": "What makes understanding hard"
+    },
+    {
+      "type": "checkboxes",
+      "title": "What helps understanding"
+    },
+    {
+      "type": "scale",
+      "title": "Confidence"
+    },
+    {
+      "type": "paragraph",
+      "title": "Hardest part of understanding a full program"
+    }
+  ]
+}

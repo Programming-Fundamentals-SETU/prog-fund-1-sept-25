@@ -10,7 +10,6 @@ public class LibraryDriver
 {
     Scanner input ;
     String libraryName;
-    int maxBooks;
     Library lib;
     
     LibraryDriver(){
