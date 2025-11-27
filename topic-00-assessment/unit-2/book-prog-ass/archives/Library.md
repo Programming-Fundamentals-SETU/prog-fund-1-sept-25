@@ -14,6 +14,7 @@ class Library {
   - String libraryName
   - Book[] books
   - int bookCount
+  - int maxBooks
   .. Constructor ..
 
   + Library(String, int)
