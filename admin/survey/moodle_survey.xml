@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+  <item type="label">
+    <presentation><![CDATA[<h3>Understanding Small Pieces of Code</h3>]]></presentation>
+  </item>
+  <item type="multichoicerated">
+    <name>Small Code Understanding</name>
+    <presentation>
+      Understand what each line does|5
+      Predict what the method will return or print|5
+      Spot basic mistakes|5
+      Trace the code step-by-step confidently|5
+    </presentation>
+  </item>
+
+  <item type="label">
+    <presentation><![CDATA[<h3>Understanding Larger Blocks of Code</h3>]]></presentation>
+  </item>
+  <item type="multichoicerated">
+    <name>Class-Level Understanding</name>
+    <presentation>
+      See how fields, constructor and methods work together|5
+      Follow the flow of data inside the class|5
+      Understand what the class represents|5
+    </presentation>
+  </item>
+
+  <item type="label">
+    <presentation><![CDATA[<h3>Understanding Full Programs</h3>]]></presentation>
+  </item>
+  <item type="multichoicerated">
+    <name>Whole Program Understanding</name>
+    <presentation>
+      Understand class interaction|5
+      Understand how user input moves through the program|5
+      Understand loops/arrays/methods in context|5
+    </presentation>
+  </item>
+
+  <item type="multichoice">
+    <name>Your Understanding Summary</name>
+    <presentation>
+      I understand the small bits but not the big picture
+      I understand the big picture but sometimes get lost in details
+      I understand both the small bits and the big picture
+      I struggle with both the small bits and the big picture
+      It depends on the topic
+    </presentation>
+  </item>
+
+  <item type="textarea">
+    <name>Open Comment</name>
+    <presentation></presentation>
+  </item>
+</feedback>

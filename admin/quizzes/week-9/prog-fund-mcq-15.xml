@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+<!-- Q1 -->
+<question type="multichoice">
+  <name><text>Q1 Product Validation – Purpose</text></name>
+  <questiontext format="html">
+    <text>Why is validation needed in the Product class (e.g. Shop 2.2) and in general?</text>
+  </questiontext>
+  <answer fraction="100"><text>To prevent impossible or nonsensical values being stored in the object.</text>
+    <feedback><text>Correct — validation protects object integrity.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>To make the constructor run faster.</text>
+    <feedback><text>No — speed is not the goal here.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Because Java requires validation for all classes.</text>
+    <feedback><text>Incorrect — Java doesn’t enforce validation; programmers must.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>So that getters do not need to return values.</text>
+    <feedback><text>No — getters always return values; validation is unrelated.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q2 -->
+<question type="multichoice">
+  <name><text>Q2 Default Values</text></name>
+  <questiontext><text>When a numeric field fails validation in the constructor, what should happen?</text></questiontext>
+  <answer fraction="100"><text>The field is set to a fixed default value.</text>
+    <feedback><text>Exactly — e.g., invalid productCode becomes 9999.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The program stops with an error.</text>
+    <feedback><text>No — validation avoids errors, it doesn’t cause them.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The field is left uninitialised.</text>
+    <feedback><text>Incorrect — Java won’t leave fields floating in the void.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The user is asked to re-enter the data automatically.</text>
+    <feedback><text>No — constructors don’t normally loop back to the user.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q3 -->
+<question type="multichoice">
+  <name><text>Q3 String Validation – Difference</text></name>
+  <questiontext><text>How is invalid String input typically handled in the constructor?</text></questiontext>
+  <answer fraction="100"><text>The String is truncated to the permitted maximum length.</text>
+    <feedback><text>Correct — Strings use truncation rather than a fixed default.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>It becomes “INVALID”.</text>
+    <feedback><text>No — there’s no dramatic renaming.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The field is assigned null.</text>
+    <feedback><text>Incorrect — null would cause more problems.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The program automatically shortens it using setUnitCost().</text>
+    <feedback><text>No — unit cost has nothing to do with names!</text></feedback>
+  </answer>
+</question>
+
+<!-- Q4 -->
+<question type="multichoice">
+  <name><text>Q4 Boundary Testing – Meaning</text></name>
+  <questiontext><text>What does boundary testing check?</text></questiontext>
+  <answer fraction="100"><text>Values at, just inside, and just outside the allowed limits.</text>
+    <feedback><text>Right — boundaries define the edges of valid input.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Random values only.</text>
+    <feedback><text>No — boundaries are deliberate, not random.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Only invalid values.</text>
+    <feedback><text>No — valid and invalid cases are needed.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Only the default values.</text>
+    <feedback><text>No — defaults are part of testing but not the whole thing.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q5 -->
+<question type="multichoice">
+  <name><text>Q5 Loop Control Variable</text></name>
+  <questiontext><text>What is the role of a Loop Control Variable (LCV)?</text></questiontext>
+  <answer fraction="100"><text>It determines whether the loop continues or stops.</text>
+    <feedback><text>Correct — the LCV is central to loop behaviour.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>It prints data to the console.</text>
+    <feedback><text>No — printing is not its job.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>It stores all input values.</text>
+    <feedback><text>Incorrect — arrays store collections, not the LCV.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>It must always be an int.</text>
+    <feedback><text>No — the LCV can be any type (e.g., sentinel values).</text></feedback>
+  </answer>
+</question>
+
+<!-- Q6 -->
+<question type="multichoice">
+  <name><text>Q6 Sentinel-Based Loop</text></name>
+  <questiontext><text>Which description best matches a sentinel-based loop?</text></questiontext>
+  <answer fraction="100"><text>It stops when a special value is entered.</text>
+    <feedback><text>Correct — the sentinel marks “no more input”.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>It always repeats a fixed number of times.</text>
+    <feedback><text>No — that’s a counter-controlled loop.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>It requires at least one array.</text>
+    <feedback><text>No — sentinel loops don’t require arrays.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>It works only with negative numbers.</text>
+    <feedback><text>Incorrect — the sentinel can be any agreed value.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q7 -->
+<question type="multichoice">
+  <name><text>Q7 Flag-Based Loop</text></name>
+  <questiontext><text>When can  a flag-based loop stop looping/searching?</text></questiontext>
+  <answer fraction="100"><text>When the required property has been found.</text>
+    <feedback><text>Exactly — once the flag is raised, the hunt is over.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>When all array elements are printed.</text>
+    <feedback><text>No — printing is unrelated.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Only when a sentinel is detected.</text>
+    <feedback><text>No — that’s a different loop pattern.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>When the LCV becomes zero.</text>
+    <feedback><text>No — flag loops don’t rely on decreasing counters.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q8 -->
+<question type="multichoice">
+  <name><text>Q8 Counter-Controlled Loop</text></name>
+  <questiontext><text>Which of the following is essential in a counter-controlled loop?</text></questiontext>
+  <answer fraction="100"><text>A known number of iterations.</text>
+    <feedback><text>Correct — counters are for predictable repetition.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>A sentinel value.</text>
+    <feedback><text>No — that belongs to sentinel loops.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>A boolean flag.</text>
+    <feedback><text>No — flag-based loops use flags.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>A switch statement.</text>
+    <feedback><text>No — loops do not require switch statements.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q9 -->
+<question type="multichoice">
+  <name><text>Q9 Switch – Suitable Use</text></name>
+  <questiontext><text>When is a switch statement most appropriate?</text></questiontext>
+  <answer fraction="100"><text>When selecting from a small number of exact options.</text>
+    <feedback><text>Correct — menus are a classic example.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>When comparing ranges of values.</text>
+    <feedback><text>No — ranges suit if/else, not switch.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>When constructing arrays.</text>
+    <feedback><text>No — switches do not build arrays.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>When validating user input lengths.</text>
+    <feedback><text>No — validation logic doesn’t require switch.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q10 -->
+<question type="multichoice">
+  <name><text>Q10 Switch – Missing break</text></name>
+  <questiontext><text>What happens if the default is missing in a switch statement?</text></questiontext>
+  <answer fraction="100"><text>Nothing happens if none of the named values  were used</text>
+    <feedback><text>Correct — Java uses the default option if no other branch was executed.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The program crashes.</text>
+    <feedback><text>No — it continues, just without a default action.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The switch repeats itself.</text>
+    <feedback><text>No — switches don’t loop.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>The default case runs automatically.</text>
+    <feedback><text>No — default isn’t forced.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q11 -->
+<question type="multichoice">
+  <name><text>Q11 Menu Looping</text></name>
+  <questiontext><text>What structure is typically used to keep a menu repeating?</text></questiontext>
+  <answer fraction="100"><text>A loop controlled by the user’s menu option.</text>
+    <feedback><text>Correct — the LCV is usually the option variable.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>A switch inside another switch.</text>
+    <feedback><text>No — inception is not required.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>A recursive method.</text>
+    <feedback><text>No — recursion is excessive for menus.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>A boolean flag that never changes.</text>
+    <feedback><text>No — that loop would run forever.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q12 -->
+<question type="multichoice">
+  <name><text>Q12 Arrays + Sentinel</text></name>
+  <questiontext><text>Why might arrays be used with sentinel loops?</text></questiontext>
+  <answer fraction="100"><text>To store all valid inputs before the sentinel appears.</text>
+    <feedback><text>Correct — arrays keep the collected data.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Because arrays generate sentinel values automatically.</text>
+    <feedback><text>No — arrays do not make magic numbers.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>To force the loop to run exactly 100 times.</text>
+    <feedback><text>No — sentinel loops do not force fixed iteration counts.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Because arrays are required for switch statements.</text>
+    <feedback><text>Incorrect — switches don’t require arrays.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q13 -->
+<question type="multichoice">
+  <name><text>Q13 toString Purpose</text></name>
+  <questiontext><text>What is the purpose of toString() in a class?</text></questiontext>
+  <answer fraction="100"><text>To return a readable description of the object’s fields.</text>
+    <feedback><text>Correct — it formats the object into a user-friendly string.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>To print directly to the console.</text>
+    <feedback><text>No — printing is done outside toString().</text></feedback>
+  </answer>
+  <answer fraction="0"><text>To validate fields.</text>
+    <feedback><text>No — validation is done in setters/constructors.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>To update numeric fields.</text>
+    <feedback><text>No — updating is done in setters.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q14 -->
+<question type="multichoice">
+  <name><text>Q14 ProductCode Range</text></name>
+  <questiontext><text>Which productCode value should be REJECTED according to the validation rules that productCode should be in the range 1000 - 9999 inclusive?</text></questiontext>
+  <answer fraction="100"><text>10000</text>
+    <feedback><text>Correct — 10000 is outside the upper boundary.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>1000</text>
+    <feedback><text>No — 1000 is the lower valid boundary.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>2000</text>
+    <feedback><text>No — 2000 is well within range.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>9999</text>
+    <feedback><text>No — 9999 is the upper valid boundary.</text></feedback>
+  </answer>
+</question>
+
+<!-- Q15 -->
+<question type="multichoice">
+  <name><text>Q15 Switch Inputs</text></name>
+  <questiontext><text>Which data types can a Java switch statement operate on?</text></questiontext>
+  <answer fraction="100"><text>int, char, and String</text>
+    <feedback><text>Correct — these are supported types.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>double only</text>
+    <feedback><text>No — double cannot be switched on.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>boolean only</text>
+    <feedback><text>No — boolean is not permitted in switch.</text></feedback>
+  </answer>
+  <answer fraction="0"><text>Arrays only</text>
+    <feedback><text>No — arrays cannot be used in switch.</text></feedback>
+  </answer>
+</question>
+
+</quiz>

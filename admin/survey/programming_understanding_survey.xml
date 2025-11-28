@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="description">
+    <name><text>Small Code Understanding</text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Rate your understanding of short pieces of code (1 = low, 5 = high).</p>]]></text>
+    </questiontext>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Line-by-line understanding</text></name>
+    <questiontext><text>I understand what each line does.</text></questiontext>
+    <shuffleanswers>false</shuffleanswers>
+    <single>true</single>
+    <answer fraction="0"><text>1</text></answer>
+    <answer fraction="0"><text>2</text></answer>
+    <answer fraction="0"><text>3</text></answer>
+    <answer fraction="0"><text>4</text></answer>
+    <answer fraction="100"><text>5</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Tracing methods</text></name>
+    <questiontext><text>I can trace small methods step-by-step.</text></questiontext>
+    <shuffleanswers>false</shuffleanswers>
+    <single>true</single>
+    <answer fraction="0"><text>1</text></answer>
+    <answer fraction="0"><text>2</text></answer>
+    <answer fraction="0"><text>3</text></answer>
+    <answer fraction="0"><text>4</text></answer>
+    <answer fraction="100"><text>5</text></answer>
+  </question>
+
+  <question type="description">
+    <name><text>Class-Level Understanding</text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Rate how well you understand classes and their structure.</p>]]></text>
+    </questiontext>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Fields & Constructors</text></name>
+    <questiontext><text>I understand how fields, constructors and methods work together.</text></questiontext>
+    <shuffleanswers>false</shuffleanswers>
+    <single>true</single>
+    <answer fraction="0"><text>1</text></answer>
+    <answer fraction="0"><text>2</text></answer>
+    <answer fraction="0"><text>3</text></answer>
+    <answer fraction="0"><text>4</text></answer>
+    <answer fraction="100"><text>5</text></answer>
+  </question>
+
+  <question type="description">
+    <name><text>Full Program Understanding</text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Rate how well you understand full programs (driver + classes + arrays).</p>]]></text>
+    </questiontext>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Big picture</text></name>
+    <questiontext><text>I understand how the whole program fits together.</text></questiontext>
+    <shuffleanswers>false</shuffleanswers>
+    <single>true</single>
+    <answer fraction="0"><text>1</text></answer>
+    <answer fraction="0"><text>2</text></answer>
+    <answer fraction="0"><text>3</text></answer>
+    <answer fraction="0"><text>4</text></answer>
+    <answer fraction="100"><text>5</text></answer>
+  </question>
+
+  <question type="multichoice">
+    <name><text>Your learning summary</text></name>
+    <questiontext><text>Which statement best matches you?</text></questiontext>
+    <shuffleanswers>false</shuffleanswers>
+    <single>true</single>
+    <answer fraction="100"><text>I understand the small bits but not the big picture</text></answer>
+    <answer fraction="100"><text>I understand the big picture but sometimes get lost in details</text></answer>
+    <answer fraction="100"><text>I understand both the small bits and the big picture</text></answer>
+    <answer fraction="100"><text>I struggle with both</text></answer>
+    <answer fraction="100"><text>It depends on the topic</text></answer>
+  </question>
+
+  <question type="essay">
+    <name><text>Open feedback</text></name>
+    <questiontext><text>What is the hardest part of understanding full programs?</text></questiontext>
+    <responseformat>editor</responseformat>
+    <responsefieldlines>5</responsefieldlines>
+  </question>
+
+</quiz>
