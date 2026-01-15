@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Q1 Arrays of Objects</text>
+    </name>
+    <questiontext format="html">
+      <text>What best describes an &lt;i&gt;array of objects&lt;/i&gt;?</text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>A. A collection of primitive data types of the same kind</text>
+      <feedback>
+        <text>❌ Incorrect — primitives are not objects.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>B. A collection of class instances stored under one variable name</text>
+      <feedback>
+        <text>✅ Correct — An array of objects stores multiple instances of a class (e.g. Product[]).</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>C. A collection of unrelated variables</text>
+      <feedback>
+        <text>❌ Incorrect — arrays hold elements of one consistent type.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>D. A collection that can change its size automatically</text>
+      <feedback>
+        <text>❌ Incorrect — arrays in Java have a fixed length.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q2 Product type</text>
+    </name>
+    <questiontext format="html">
+      <text>In &lt;code&gt;private Product[] products;&lt;/code&gt;, what does &lt;code&gt;Product&lt;/code&gt; represent?</text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>A. A field name</text>
+      <feedback>
+        <text>❌ Incorrect — products is the field name, not Product.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>B. A method</text>
+      <feedback>
+        <text>❌ Incorrect — not a method declaration.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>C. The object type stored in the array</text>
+      <feedback>
+        <text>✅ Correct — Product is the class type of each element in the array.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>D. The array variable</text>
+      <feedback>
+        <text>❌ Incorrect — products is the variable, not the type.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q3 Store constructor</text>
+    </name>
+    <questiontext format="html">
+      <text>When a &lt;code&gt;Store&lt;/code&gt; object is created with &lt;code&gt;new Store(10)&lt;/code&gt;, what happens?&lt;br&gt;&lt;pre&gt;&lt;code&gt;public class Store {
+    private Product[] products;
+    private int total = 0;
+
+    public Store(int numberItems) {
+        products = new Product[numberItems];
+    }
+}&lt;/code&gt;&lt;/pre&gt;</text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>A. Ten Product objects are created automatically</text>
+      <feedback>
+        <text>❌ Incorrect — Java doesn’t auto-create the contained objects.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>B. The array reference is created, but its elements are null</text>
+      <feedback>
+        <text>✅ Correct — The constructor creates an array of references but no Product objects yet.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>C. The array and all Product objects are initialised</text>
+      <feedback>
+        <text>❌ Incorrect — only the array structure exists.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>D. The Store cannot hold any products yet</text>
+      <feedback>
+        <text>❌ Incorrect — the Store can hold products; it’s just empty.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q4 isFull method</text>
+    </name>
+    <questiontext format="html">
+      <text>What is the purpose of the private method &lt;code&gt;isFull()&lt;/code&gt; in the Store class?&lt;br&gt;&lt;pre&gt;&lt;code&gt;private boolean isFull() {
+    return (total == products.length);
+}&lt;/code&gt;&lt;/pre&gt;</text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>A. To print all products</text>
+      <feedback>
+        <text>❌ Incorrect — printing is done by listProducts().</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>B. To return true when the array is full</text>
+      <feedback>
+        <text>✅ Correct — It checks if total equals the array length.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>C. To count how many products have been added</text>
+      <feedback>
+        <text>❌ Incorrect — total itself counts products.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>D. To check whether a specific product exists</text>
+      <feedback>
+        <text>❌ Incorrect — it doesn’t search for an item.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q5 Adding Product</text>
+    </name>
+    <questiontext format="html">
+      <text>Which line correctly adds a &lt;code&gt;Product&lt;/code&gt; object to the &lt;code&gt;Store&lt;/code&gt;?&lt;br&gt;(As shown in the lecture slides — add() takes a Product object as a parameter.)</text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>A. store.addProduct(productName, code);</text>
+      <feedback>
+        <text>❌ Incorrect — wrong parameters; add() doesn’t take primitives directly.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>B. store.add(new Product(&amp;quot;TV&amp;quot;, 1234, 899.99, true));</text>
+      <feedback>
+        <text>✅ Correct — This matches the lecture code, where add() receives a Product object.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>C. store.products.add(product);</text>
+      <feedback>
+        <text>❌ Incorrect — products is a private array, not a List.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>D. products.add(product);</text>
+      <feedback>
+        <text>❌ Incorrect — same reason, not accessible outside Store.</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Q6 add method</text>
+    </name>
+    <questiontext format="html">
+      <text>What is returned by the &lt;code&gt;add()&lt;/code&gt; method in &lt;code&gt;Store&lt;/code&gt;?&lt;br&gt;&lt;pre&gt;&lt;code&gt;public boolean add(Product product) {
+    if (isFull()) {
+        return false;
+    } else {
+        products[total] = product;
+        total++;
+        return true;
+    }
+}&lt;/code&gt;&lt;/pre&gt;</text>
+    </questiontext>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <answer fraction="0">
+      <text>A. The number of products in the store</text>
+      <feedback>
+        <text>❌ Incorrect — total stores that count, not return value.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>B. Nothing (void)</text>
+      <feedback>
+        <text>❌ Incorrect — method has a boolean return type.</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>C. A boolean showing if the add succeeded</text>
+      <feedback>
+        <text>✅ Correct — It returns true if added successfully and false if full.</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>D. The newly added Product</text>
+      <feedback>
+        <text>❌ Incorrect — doesn’t return the Product itself.</text>
+      </feedback>
+    </answer>
+  </question>
+</quiz>
